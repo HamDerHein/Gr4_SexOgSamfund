@@ -5,8 +5,11 @@ $(window).on("load", skolegaarden);
 
 
 function skolegaarden() {
-    $("#baggrund").addClass("baggrund")
-    $("#offer_sprite").addClass("gaa")
+
+    console.log("start");
+
+
+    $("#offer_sprite").addClass("gaa");
 
 
 
