@@ -17,11 +17,14 @@ function skolegaarden() {
 
 
 
-    //    $("#").on("animationend", ....);
+    $(".knap").on("click", gangen);
 
 }
 
 function gangen() {
+
+    console.log("Klik på knap")
+
     $("baggrund").addClass("hide")
     $("#gangen").addClass("")
 
