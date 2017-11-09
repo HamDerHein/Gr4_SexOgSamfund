@@ -15,7 +15,7 @@ function skolegaarden() {
     $("#offer_sprite").addClass("gaa");
     $("#offer_container").addClass("gaa_til_venstre");
 
-
+    $("#gangen").addClass("hide")
 
     $(".knap").on("click", gangen);
 
@@ -25,8 +25,8 @@ function gangen() {
 
     console.log("Klik på knap")
 
-    $("baggrund").addClass("hide")
-    $("#gangen").addClass("")
+    $("#baggrund").addClass("hide")
+    $("#gangen").removeClass("hide")
 
 
 }
