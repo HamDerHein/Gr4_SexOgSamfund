@@ -7,6 +7,10 @@ $(window).on("load", skolegaarden);
 function skolegaarden() {
     $("#").addClass("")
 
+
+
+    $("#").on("animationend", ....);
+
 }
 //$("#valgkarakter").on("click", valgAfKarakter);
 
