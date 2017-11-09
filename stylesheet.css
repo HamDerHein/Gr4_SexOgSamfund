@@ -90,7 +90,7 @@ body {
 }
 
 
-gaa_til_venstre {
+.gaa_til_venstre {
 
     animation-name: gaa_til_venstre_kf;
     animation-duration: 3s;
