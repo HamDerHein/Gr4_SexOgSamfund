@@ -70,6 +70,8 @@ function mobilUd() {
 
 function karinaOgVeninderKommerInd() {
 
+    $("#mobber_sprite").addClass("mobber_gaa");
+    $("#mobber_container").addClass("mobber_gaa_til_venstre");
 
 
 }
