@@ -22,8 +22,16 @@ body {
     background-repeat: no-repeat;
     width: 100vw;
     height: 56.25vw;
+}
 
 
+.plakat {
+
+    background-image: url(img/plakat.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 30vw;
 
 }
 
@@ -36,12 +44,12 @@ body {
         transform: scale();
     }
     100% {
-        transform: scale(0.2);
+        transform: scale(1.1);
     }
 }
 
 .hide {
-    display: none
+    display: none;
 }
 
 
