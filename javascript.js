@@ -5,7 +5,7 @@ $(window).on("load", skolegaarden);
 
 
 function skolegaarden() {
-    $("#").addClass("")
+    $("#baggrund").addClass("baggrund")
 
 
 

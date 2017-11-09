@@ -1,12 +1,11 @@
 /******** STARTSIDE START  ********/
 
-.baggrund {
+#baggrund {
 
     background-image: url(img/titel-01.svg);
-    background-size: cover;
-    position: relative;
+    background-size: 100%;
+    position: absolute;
     background-repeat: no-repeat;
-    height: 100%;
 }
 
 
