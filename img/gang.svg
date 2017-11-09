@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1600 900" style="enable-background:new 0 0 1600 900;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#89CCE5;}
+	.st1{fill:#253F66;}
+	.st2{fill:#383C3D;stroke:#2A2C2D;stroke-miterlimit:10;}
+	.st3{fill:#777D7F;}
+	.st4{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:#383C3D;}
+	.st6{fill:#484B4C;}
+	.st7{fill:none;stroke:#2A2C2D;stroke-miterlimit:10;}
+	.st8{fill:#303233;stroke:#2A2C2D;stroke-miterlimit:10;}
+	.st9{fill:#A5A9AA;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#E9ECED;stroke-width:5;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#E9ECED;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st12{fill:#D8D8CE;stroke:#CACCCC;stroke-miterlimit:10;}
+	.st13{fill:#725320;stroke:#CACCCC;stroke-miterlimit:10;}
+	.st14{fill:#DDD433;stroke:#CACCCC;stroke-miterlimit:10;}
+	.st15{fill:#CACCB0;}
+	.st16{fill:#E0E0D3;}
+	.st17{fill:#AF1036;}
+	.st18{fill:#664A19;}
+</style>
+<title>baggrund</title>
+<g id="væg_og_gulv">
+	<rect x="-99" y="-33" class="st0" width="1768" height="647"/>
+	<rect x="-99" y="602" class="st1" width="1768" height="401"/>
+</g>
+<g id="skab">
+	<rect x="119.2" y="71" class="st2" width="363" height="600.5"/>
+	<rect x="131.6" y="83.3" class="st3" width="154.4" height="362.2"/>
+	<rect x="313.9" y="83.3" class="st3" width="154.4" height="362.2"/>
+	<rect x="131.6" y="455.6" class="st3" width="154.4" height="201"/>
+	<rect x="313.9" y="455.6" class="st3" width="154.4" height="201"/>
+	<line class="st4" x1="164.6" y1="134.2" x2="250.3" y2="134.2"/>
+	<line class="st4" x1="165.1" y1="155.8" x2="250.7" y2="155.8"/>
+	<line class="st4" x1="164.2" y1="177" x2="249.9" y2="177"/>
+	<line class="st4" x1="348.3" y1="177.9" x2="433.9" y2="177.9"/>
+	<line class="st4" x1="348.3" y1="155.8" x2="433.9" y2="155.8"/>
+	<line class="st4" x1="348.3" y1="133.8" x2="433.9" y2="133.8"/>
+	<circle class="st5" cx="206.2" cy="403.9" r="19.5"/>
+	<circle class="st6" cx="206.6" cy="404.3" r="8.9"/>
+	<circle class="st5" cx="391.1" cy="404.8" r="19.5"/>
+	<circle class="st6" cx="390.7" cy="404.3" r="8.9"/>
+	<rect x="324.1" y="465.8" class="st7" width="134" height="181.5"/>
+	<rect x="142.1" y="466.2" class="st7" width="134" height="181.5"/>
+	<rect x="323.7" y="93.9" class="st7" width="134" height="341"/>
+	<rect x="142.1" y="93.9" class="st7" width="134" height="341"/>
+	<polygon class="st8" points="482.3,671.5 513.7,614.7 514.5,43 151.5,43 119.2,71 482.3,71 	"/>
+</g>
+<g id="plakat">
+
+		<image style="overflow:visible;opacity:0.8;enable-background:new    ;" width="461" height="631" xlink:href="30AAF5513D8FAA47.jpeg"  transform="matrix(0.48 0 0 0.48 1203 83)">
+	</image>
+</g>
+<g id="skraldespand">
+	<ellipse class="st9" cx="642" cy="630.5" rx="68" ry="16.5"/>
+	<ellipse class="st10" cx="639" cy="453.5" rx="87" ry="18.5"/>
+	<line class="st11" x1="552" y1="454" x2="576" y2="631"/>
+	<line class="st11" x1="726" y1="454" x2="708" y2="631"/>
+	<line class="st11" x1="702.5" y1="468.8" x2="689.6" y2="642.3"/>
+	<line class="st11" x1="564" y1="444.1" x2="584.2" y2="621.8"/>
+	<line class="st11" x1="579.4" y1="440" x2="600.8" y2="617.4"/>
+	<line class="st11" x1="600.8" y1="436.9" x2="612" y2="614"/>
+	<line class="st11" x1="622.2" y1="434.9" x2="629.1" y2="613.8"/>
+	<line class="st11" x1="644.8" y1="434.9" x2="646.7" y2="613.8"/>
+	<line class="st11" x1="669.1" y1="436.9" x2="663.8" y2="614.9"/>
+	<line class="st11" x1="694.2" y1="439.2" x2="683.2" y2="617.4"/>
+	<line class="st11" x1="714" y1="444.1" x2="699.8" y2="621.8"/>
+	<polygon class="st12" points="602.4,597.8 582.5,603.1 588.7,618.4 599.3,613.6 610.5,630.5 631,619.4 629.8,603.6 623.5,583 	"/>
+	<polygon class="st13" points="621.5,577.5 625.5,565.5 632.5,571.5 	"/>
+	<path class="st14" d="M624.5,576.5c-7-2-11,4-11,4s-5,6-24,8s-14,21-14,21s4-12,16-11s19-3,19-3l11-11c0,0-9,23-4,36s13,7,13,7
+		s-13-21-4-39c0,0,16,2,15,35c0,0,19-11-3-39L624.5,576.5z"/>
+	<line class="st11" x1="612" y1="471.1" x2="620.1" y2="644.8"/>
+	<line class="st11" x1="590.3" y1="468.8" x2="607.7" y2="644.8"/>
+	<line class="st11" x1="590.3" y1="641.2" x2="568.4" y2="465.8"/>
+	<polygon class="st15" points="638.4,606.4 636.2,637 667,624.6 667,642 691.2,623.8 675.8,601.4 661.1,611.4 659.7,589 	"/>
+	<path class="st16" d="M676,605c-5-1-6-10-6-10l3-4v-4l3-3v-5c3-5,9-4,9-4c-6.6-16.4-18.5-9.9-22.6-7.1c-0.9,0.6-1.4,1.1-1.4,1.1
+		s7,5,5,8l-2,3l1,5l-4,3v5c0,0-2,8-8,8c0,0,3,20,21,8L676,605z"/>
+	<path class="st17" d="M666,572l-5-3l4-2.7c0,0,7.9-3.5,12.4-0.9s7.6,9.6,7.6,9.6h-5.2l-1.8-2l-4,2l-2-3l-4,1L666,572z"/>
+	<path class="st17" d="M653,601c0,0,3,20,21,8l2-4l-5,1l-2-2l-5,1v-2h-6L653,601z"/>
+	<ellipse transform="matrix(0.2944 -0.9557 0.9557 0.2944 -84.2604 1047.9149)" class="st18" cx="667.5" cy="581" rx="2" ry="0.5"/>
+	<ellipse class="st18" cx="668" cy="592.5" rx="1" ry="2.5"/>
+	<path class="st18" d="M674,566c0,0,2-14,6-6L674,566z"/>
+	<line class="st11" x1="633.6" y1="472" x2="636.1" y2="646.9"/>
+	<line class="st11" x1="655.2" y1="472" x2="655.2" y2="646.7"/>
+	<line class="st11" x1="678.5" y1="472" x2="672.4" y2="644.8"/>
+</g>
+</svg>
