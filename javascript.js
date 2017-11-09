@@ -1,3 +1,7 @@
+//starten
+
+$(window).on("load", skolegaarden);
+
 function skolegaarden() {
 
 
