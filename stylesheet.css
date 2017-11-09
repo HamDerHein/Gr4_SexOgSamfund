@@ -3,9 +3,10 @@
 #baggrund {
 
     background-image: url(img/titel-01.svg);
-    background-size: 100%;
-    position: absolute;
+    position: relative;
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 56.25vw;
 }
 
 
