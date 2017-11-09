@@ -1,8 +1,23 @@
 /******** STARTSIDE START  ********/
 
+.baggrund {
+
+    background-image: url(img/titel-01.svg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+
+
 .start {
 
     background-image: url(start_knap.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
 }
 
 
@@ -14,3 +29,30 @@
 
 
 /********* STARTSIDE SLUT ********/
+
+/******** OFFER START ******/
+
+.offer {
+
+    background-image: url(img/offer_spritesheet-02.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+
+
+
+/******* OFFER SLUT *******/
+
+/****** LAERER START ******/
+
+.laerer {
+
+    background-image: url(img/skolelaerer-01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+
+}
