@@ -2,6 +2,7 @@
 
 $(window).on("load", skolegaarden);
 
+
 function skolegaarden() {
 
     console.log("start");
@@ -9,11 +10,12 @@ function skolegaarden() {
 
     $(".knap").addClass("start");
     $(".start").addClass("puls");
+    $("#offer_sprite").hide();
 
 
 
-    $("#offer_sprite").addClass("gaa");
-    $("#offer_container").addClass("gaa_til_venstre");
+    //    $("#offer_sprite").addClass("gaa");
+    //    $("#offer_container").addClass("gaa_til_venstre");
 
     $("#gangen").addClass("hide");
 
@@ -31,6 +33,8 @@ function valgAfKarakter() {
 function gangen() {
 
     console.log("gangen")
+
+    $("#offer_sprite").show();
 
     $("#gangen").addClass("")
     $("#offer_sprite").removeClass("gaa")
