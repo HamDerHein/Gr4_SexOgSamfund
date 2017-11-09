@@ -10,6 +10,7 @@ function skolegaarden() {
 
 
     $("#offer_sprite").addClass("gaa");
+    $("#offer_container").addClass("gaa_til_venstre");
 
 
 

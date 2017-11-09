@@ -1,3 +1,9 @@
+body {
+
+    margin: 0;
+}
+
+
 /******** STARTSIDE START  ********/
 
 #baggrund {
@@ -38,7 +44,7 @@
 
     position: absolute;
     bottom: 20vw;
-    left: 20vw;
+    left: 80vw;
     z-index: 11;
 }
 
@@ -68,6 +74,31 @@
     100% {
         background-position: -500% -200%;
     }
+}
+
+
+gaa_til_venstre {
+
+    animation-name: gaa_til_venstre_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes gaa_til_venstre_kf {
+
+    0% {
+        left: 80vw;
+    }
+    100% {
+
+        left: 20vw;
+    }
+
+
 }
 
 /******* OFFER SLUT *******/
