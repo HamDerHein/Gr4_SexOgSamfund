@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="33" viewBox="0 0 77 33">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #f4912d;
+      }
+
+      .c {
+        fill: #202532;
+      }
+
+      .d {
+        mask: url(#a);
+      }
+
+      .e {
+        opacity: 0.75;
+        mix-blend-mode: color-burn;
+      }
+
+      .f {
+        font-size: 12px;
+        font-family: ModernSans, Modern Sans;
+      }
+
+      .g {
+        filter: url(#b);
+      }
+    </style>
+    <filter id="b" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="a" x="-2" y="-2" width="81" height="37" maskUnits="userSpaceOnUse">
+      <g class="g">
+        <g transform="translate(-10 -70)">
+          <image width="81" height="37" transform="translate(8 68)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAAAlCAIAAAC1XpK2AAAACXBIWXMAAAsSAAALEgHS3X78AAADJklEQVRoQ+2ZXY+yOhCASylFikYwUbMXZv//P9ssyTZA+SiF6XsxWlnE5FydgO5zgQYKycMwhc4Q8sc74OFPFEVJksRxLITgnDPGfN/3fZ9S6nkeIQS3S8Zai1tr7TAMAND3fd/3Wuu2bZVSeZ63bUsIYXhCkiSXy+V0OqVputvtNpsN5zwIgrVoT4SHYei6ruu6uq6VUlLKLMsIIb+c4zg+nU6fn5/n8/lwOGy32yiKOOfoTCklK3EGgGEYMLx1XRdFIaX8+vqy1kopcfDVWQiRpun5fL5cLsfjcb/fx3EchuFKnY0xbdtWVSWlFEJYa8uyjKIIB1+dOee73e5wOByPx4+PD8xtF2e0RfNlAgDk9mwDgDFGa10UBeccAJRSqIODr86Msc1ms91u9/t9kiRpmgohGGNOeEVgSmutGWPW2rquMVUZu8nij+/7nPMoiuI4xtk7DMPnl100nudhtABAay2EcHMTDrg+rr7vB0HAOQ/DEN9Vz6+5Diil6OKMXG5SN8IfseTU/e9QShljQRDg58bU2fM8OmJ1OTyLCyT+mTqTkfZrCBNCvBso5bzucX5+7orxRridv+Ls7src6etjVpiMnd+H13f2bgskb5LPb8Wf83vw+s7jcgLueX3nR+7O9gauRV8AO2K8n7rDc2etnlntmTi/jL99APfT8WEAAIBXcsbyGOJy9u48PvYa2lgAfZSi7jCOMMYYY4ZheH6pdWCtRRettTGm7/tpnAGg6zos+Wuttdarnr1RWGvdNA3qjJ2vda++77HqX1VVURSMMQAIw3BcRfAWvMa2v/sYrtarlCrLEs3dw3t3dlV/zrm1VmvtGlezq1Dk/78Rs3ONm5mxTWWMaZpGKfXz81MUBWobY3Dw1VlrjX0dIQQA1HWN5V5sWT1bfC+BcYTdTIzPc1mWRVF8f39LKauqmjq3bev6Okop16/CEumknrQccxfzxzhjMpdliQ26PM+bpsHBV2elVJZl1tqyLOM4dsJYN1ymMDLRHn53YZumqaoqz/Msy6bOeZ4TQqSUY9vH0u/ShJGxNr6H8eMKJzPM7aZp0PGPt+EfCxvfwMVjc1YAAAAASUVORK5CYII="/>
+        </g>
+      </g>
+    </mask>
+  </defs>
+  <title>start_knap</title>
+  <g class="a">
+    <g>
+      <g>
+        <g>
+          <rect class="b" x="0.5" y="0.5" width="76" height="32"/>
+          <path class="c" d="M86,71v31H11V71H86m1-1H10v33H87V70Z" transform="translate(-10 -70)"/>
+        </g>
+        <g class="d">
+          <g class="e">
+            <rect class="c" x="0.5" y="0.5" width="76" height="32"/>
+            <path class="c" d="M86,71v31H11V71H86m1-1H10v33H87V70Z" transform="translate(-10 -70)"/>
+          </g>
+        </g>
+      </g>
+      <text class="f" transform="translate(19.4 19.9)">START</text>
+    </g>
+  </g>
+</svg>
