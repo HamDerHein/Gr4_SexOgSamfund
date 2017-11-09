@@ -15,7 +15,20 @@ body {
     height: 56.25vw;
 }
 
+#gangen {
+    background-image: url(img/gang.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 56.25vw;
 
+
+
+}
+
+.hide {
+    display: none
+}
 
 .start {
 
@@ -61,7 +74,7 @@ body {
 
 .gaa {
     animation-name: gaa_kf;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-timing-function: steps(5);
     animation-iteration-count: infinite;
 

@@ -17,6 +17,13 @@ function skolegaarden() {
     //    $("#").on("animationend", ....);
 
 }
+
+function gangen() {
+    $("baggrund").addClass("hide")
+    $("#gangen").addClass("")
+
+
+}
 //$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
