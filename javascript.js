@@ -12,8 +12,8 @@ function skolegaarden() {
 
 
 
-    //    $("#offer_sprite").addClass("gaa");
-    //    $("#offer_container").addClass("gaa_til_venstre");
+    $("#offer_sprite").addClass("gaa");
+    $("#offer_container").addClass("gaa_til_venstre");
 
     $("#gangen").addClass("hide");
 
@@ -39,7 +39,8 @@ function gangen() {
     $("#baggrund").addClass("hide")
     $("#gangen").removeClass("hide")
 
-
+    $("#offer_sprite").addClass("gaa");
+    $("#offer_container").addClass("gaa_til_venstre");
 }
 
 function sofiaKommerInd() {
