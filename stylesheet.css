@@ -33,14 +33,23 @@
 
 /******** OFFER START ******/
 
-.offer {
+#offer_container {
+
+    position: absolute;
+    bottom: 20vw;
+    left: 20vw;
+}
+
+#offer_sprite {
 
     background-image: url(img/offer_spritesheet-02.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-}
+    background-size: 900% 300%;
+    width: 10vw;
+    height: 20vw;
 
+
+}
 
 
 
