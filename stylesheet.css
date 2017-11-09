@@ -27,6 +27,19 @@ body {
 
 }
 
+.puls {
+    animation: puls_kf 0.5s infinite alternate linear;
+}
+
+@keyframes puls_kf {
+    0% {
+        transform: scale();
+    }
+    100% {
+        transform: scale(0.2);
+    }
+}
+
 .hide {
     display: none
 }
@@ -37,8 +50,8 @@ body {
     background-repeat: no-repeat;
 
     position: absolute;
-    height: 50vw;
-    width: 50vw;
+    height: 7vw;
+    width: 17vw;
 
     top: 25vw;
     left: 65vw;

@@ -10,12 +10,14 @@ function skolegaarden() {
 
 
     $(".knap").addClass("start");
+    $(".start").addClass("puls");
+
 
 
     $("#offer_sprite").addClass("gaa");
     $("#offer_container").addClass("gaa_til_venstre");
 
-    $("#gangen").addClass("hide")
+    $("#gangen").addClass("hide");
 
     $(".knap").on("click", gangen);
 
@@ -24,7 +26,8 @@ function skolegaarden() {
 function gangen() {
 
     console.log("Klik på knap")
-
+    $("#offer_sprite").removeClass("gaa")
+    $("#offer_container").removeClass("gaa_til_venstre")
     $("#baggrund").addClass("hide")
     $("#gangen").removeClass("hide")
 
