@@ -13,6 +13,7 @@ body {
     background-repeat: no-repeat;
     width: 100vw;
     height: 56.25vw;
+    background-size: cover;
 }
 
 #gangen {
@@ -21,23 +22,52 @@ body {
     background-repeat: no-repeat;
     width: 100vw;
     height: 56.25vw;
+}
 
 
+#plakat {
 
+    background-image: url(img/plakat.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 12vw;
+    height: 15vw;
+    background-size: 100%;
+    top: 10%;
+    right: -70%;
+}
+
+.puls {
+    animation: puls_kf 0.5s infinite alternate linear;
+}
+
+@keyframes puls_kf {
+    0% {
+        transform: scale();
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 .hide {
-    display: none
+    display: none;
 }
+
+
+
 
 .start {
 
     background-image: url("img/start_knap.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+
     position: absolute;
-    height: 50vw;
-    width: 50vw;
+    height: 7vw;
+    width: 17vw;
+
+    top: 25vw;
+    left: 65vw;
 
 }
 
@@ -56,9 +86,9 @@ body {
 #offer_container {
 
     position: absolute;
-    bottom: 20vw;
+    top: 20vw;
     left: 80vw;
-    z-index: 11;
+
 }
 
 #offer_sprite {
@@ -90,7 +120,7 @@ body {
 }
 
 
-gaa_til_venstre {
+.gaa_til_venstre {
 
     animation-name: gaa_til_venstre_kf;
     animation-duration: 3s;
@@ -115,6 +145,122 @@ gaa_til_venstre {
 }
 
 /******* OFFER SLUT *******/
+
+/****** MOBBER START ******/
+
+#mobber_container {
+
+    position: absolute;
+    top: 20vw;
+    left: 80vw;
+}
+
+#mobber_sprite {
+
+    background-image: url(img/mobber_walkcycle-02.svg);
+    background-size: 400% 200%;
+    width: 10vw;
+    height: 20vw;
+}
+
+.mobber_gaa {
+    animation-name: gaa_mobber_kf;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+
+@keyframes gaa_mobber_kf {
+    0% {
+        background-position: 0% -100%;
+    }
+    100% {
+        background-position: -400% -100%;
+    }
+}
+
+.mobber_gaa_til_venstre {
+
+    animation-name: mobber_gaa_til_venstre_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes mobber_gaa_til_venstre_kf {
+
+    0% {
+        left: 80vw;
+    }
+    100% {
+
+        left: 20vw;
+    }
+}
+
+
+#mobber_mobil_container {
+
+    position: absolute;
+    top: 20vw;
+    right: -10vw;
+}
+
+#mobber_mobil_sprite {
+
+    background-image: url(img/mobber_mobil_sprite.svg);
+    background-size: 500% 300%;
+    width: 10vw;
+    height: 20vw;
+}
+
+.mobber_mobil_walkcycle {
+    animation-name: mobber_mobil_walkcycle_kf;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mobber_mobil_walkcycle_kf {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -400% 0%;
+    }
+}
+
+
+
+.mobber_mobil_ind {
+    animation-name: mobber_mobil_ind_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mobber_mobil_ind_kf {
+    0% {
+        right: -10vw;
+    }
+    100% {
+        right: 20vw;
+    }
+}
+
+
+
+
+
+
+
+
 
 /****** LAERER START ******/
 

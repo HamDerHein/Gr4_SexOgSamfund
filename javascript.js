@@ -2,32 +2,42 @@
 
 $(window).on("load", skolegaarden);
 
-
-
 function skolegaarden() {
 
     console.log("start");
 
 
+    $(".knap").addClass("start");
+    $(".start").addClass("puls");
+
+
+
     $("#offer_sprite").addClass("gaa");
     $("#offer_container").addClass("gaa_til_venstre");
 
+    $("#gangen").addClass("hide");
 
-
-    //    $("#").on("animationend", ....);
-
-}
-
-function gangen() {
-    $("baggrund").addClass("hide")
-    $("#gangen").addClass("")
-
+    $(".knap").on("click", gangen);
 
 }
 //$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
 
+
+
+}
+
+function gangen() {
+
+    console.log("gangen")
+
+    $("#gangen").addClass("")
+    $("#offer_sprite").removeClass("gaa")
+    $("#offer_container").removeClass("gaa_til_venstre")
+
+    $("#baggrund").addClass("hide")
+    $("#gangen").removeClass("hide")
 
 
 }
@@ -46,6 +56,8 @@ function sofiaBloeder() {
 
 function mobilInd() {
 
+    $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
+    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
 
 }
@@ -64,6 +76,8 @@ function mobilUd() {
 
 function karinaOgVeninderKommerInd() {
 
+    $("#mobber_sprite").addClass("mobber_gaa");
+    $("#mobber_container").addClass("mobber_gaa_til_venstre");
 
 
 }
