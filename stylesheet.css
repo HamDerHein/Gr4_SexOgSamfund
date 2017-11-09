@@ -12,7 +12,7 @@
 
 .start {
 
-    background-image: url(start_knap.svg);
+    background-image: url("img/start_knap.svg");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -52,17 +52,29 @@
 }
 
 
+.gaa {
+    animation-name: gaa_kf;
+    animation-duration: 5s;
+    animation-timing-function: steps(5);
+    animation-fill-mode: forwards;
 
-/******* OFFER SLUT *******/
+    @keyframes gaa_kf {
+        0% {
+            background-position: 0% -200%;
+        }
+        100% {
+            background-position: -500% -200%;
+        }
+    }
 
-/****** LAERER START ******/
+    /******* OFFER SLUT *******/
+    /****** LAERER START ******/
+    .laerer {
 
-.laerer {
-
-    background-image: url(img/skolelaerer-01.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
+        background-image: url(img/skolelaerer-01.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
 
 
-}
+    }

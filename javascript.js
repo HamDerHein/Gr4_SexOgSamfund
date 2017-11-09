@@ -6,10 +6,11 @@ $(window).on("load", skolegaarden);
 
 function skolegaarden() {
     $("#baggrund").addClass("baggrund")
+    $("#offer_sprite").addClass("gaa")
 
 
 
-    $("#").on("animationend", ....);
+    //    $("#").on("animationend", ....);
 
 }
 //$("#valgkarakter").on("click", valgAfKarakter);
