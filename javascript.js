@@ -1,8 +1,30 @@
+//starten
+
+$(window).on("load", skolegaarden);
+
+
+
 function skolegaarden() {
 
+    console.log("start");
+
+
+    $("#offer_sprite").addClass("gaa");
+    $("#offer_container").addClass("gaa_til_venstre");
+
+
+
+    //    $("#").on("animationend", ....);
+
+}
+
+function gangen() {
+    $("baggrund").addClass("hide")
+    $("#gangen").addClass("")
 
 
 }
+//$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
 

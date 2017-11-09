@@ -1,0 +1,129 @@
+body {
+
+    margin: 0;
+}
+
+
+/******** STARTSIDE START  ********/
+
+#baggrund {
+
+    background-image: url(img/titel-01.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#gangen {
+    background-image: url(img/gang.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 56.25vw;
+
+
+
+}
+
+.hide {
+    display: none
+}
+
+.start {
+
+    background-image: url("img/start_knap.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 50vw;
+    width: 50vw;
+
+}
+
+
+
+
+
+
+
+
+
+/********* STARTSIDE SLUT ********/
+
+/******** OFFER START ******/
+
+#offer_container {
+
+    position: absolute;
+    bottom: 20vw;
+    left: 80vw;
+    z-index: 11;
+}
+
+#offer_sprite {
+
+    background-image: url(img/offer_spritesheet-02.svg);
+    background-size: 900% 300%;
+    width: 10vw;
+    height: 20vw;
+
+
+}
+
+
+.gaa {
+    animation-name: gaa_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(5);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes gaa_kf {
+    0% {
+        background-position: 0% -200%;
+    }
+    100% {
+        background-position: -500% -200%;
+    }
+}
+
+
+gaa_til_venstre {
+
+    animation-name: gaa_til_venstre_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes gaa_til_venstre_kf {
+
+    0% {
+        left: 80vw;
+    }
+    100% {
+
+        left: 20vw;
+    }
+
+
+}
+
+/******* OFFER SLUT *******/
+
+/****** LAERER START ******/
+
+.laerer {
+
+    background-image: url(img/skolelaerer-01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+
+}
