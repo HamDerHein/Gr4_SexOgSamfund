@@ -13,6 +13,7 @@ body {
     background-repeat: no-repeat;
     width: 100vw;
     height: 56.25vw;
+    background-size: cover;
 }
 
 #gangen {
@@ -34,10 +35,13 @@ body {
 
     background-image: url("img/start_knap.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+
     position: absolute;
     height: 50vw;
     width: 50vw;
+
+    top: 25vw;
+    left: 65vw;
 
 }
 
@@ -56,7 +60,7 @@ body {
 #offer_container {
 
     position: absolute;
-    bottom: 20vw;
+    top: 20vw;
     left: 80vw;
     z-index: 11;
 }

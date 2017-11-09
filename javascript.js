@@ -9,6 +9,9 @@ function skolegaarden() {
     console.log("start");
 
 
+    $(".knap").addClass("start");
+
+
     $("#offer_sprite").addClass("gaa");
     $("#offer_container").addClass("gaa_til_venstre");
 
