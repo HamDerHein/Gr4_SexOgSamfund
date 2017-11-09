@@ -6,7 +6,7 @@
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-
+    height: 100%;
 }
 
 
@@ -17,6 +17,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    height: 50vw;
+    width: 50vw;
 
 }
 
