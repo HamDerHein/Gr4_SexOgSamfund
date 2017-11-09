@@ -2,11 +2,13 @@
 
 $(window).on("load", skolegaarden);
 
+
+
 function skolegaarden() {
-
-
+    $("#").addClass("")
 
 }
+//$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
 
