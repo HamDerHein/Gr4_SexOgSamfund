@@ -28,6 +28,7 @@ function gangen() {
     console.log("Klik på knap")
     $("#offer_sprite").removeClass("gaa")
     $("#offer_container").removeClass("gaa_til_venstre")
+
     $("#baggrund").addClass("hide")
     $("#gangen").removeClass("hide")
 
