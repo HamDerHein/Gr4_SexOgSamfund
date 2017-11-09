@@ -199,9 +199,62 @@ body {
 
         left: 20vw;
     }
+}
 
+
+#mobber_mobil_container {
+
+    position: absolute;
+    top: 20vw;
+    right: -10vw;
+}
+
+#mobber_mobil_sprite {
+
+    background-image: url(img/mobber_mobil_sprite.svg);
+    background-size: 500% 300%;
+    width: 10vw;
+    height: 20vw;
+}
+
+.mobber_mobil_walkcycle {
+    animation-name: mobber_mobil_walkcycle_kf;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
 
 }
+
+@keyframes mobber_mobil_walkcycle_kf {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -400% 0%;
+    }
+}
+
+
+
+.mobber_mobil_ind {
+    animation-name: mobber_mobil_ind_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mobber_mobil_ind_kf {
+    0% {
+        right: -10vw;
+    }
+    100% {
+        right: 20vw;
+    }
+}
+
+
+
+
 
 
 

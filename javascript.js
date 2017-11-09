@@ -57,6 +57,8 @@ function sofiaBloeder() {
 
 function mobilInd() {
 
+    $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
+    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
 
 }
