@@ -25,14 +25,16 @@ body {
 }
 
 
-.plakat {
+#plakat {
 
     background-image: url(img/plakat.jpg);
     position: relative;
     background-repeat: no-repeat;
-    width: 22vw;
-    height: 30vw;
-
+    width: 12vw;
+    height: 15vw;
+    background-size: 100%;
+    top: 10%;
+    right: -70%;
 }
 
 .puls {

@@ -2,8 +2,6 @@
 
 $(window).on("load", skolegaarden);
 
-
-
 function skolegaarden() {
 
     console.log("start");
@@ -22,24 +20,24 @@ function skolegaarden() {
     $(".knap").on("click", gangen);
 
 }
+//$("#valgkarakter").on("click", valgAfKarakter);
+
+function valgAfKarakter() {
+
+
+
+}
 
 function gangen() {
 
     console.log("gangen")
 
-    $("#gangen").addClass("plakat")
+    $("#gangen").addClass("")
     $("#offer_sprite").removeClass("gaa")
     $("#offer_container").removeClass("gaa_til_venstre")
 
     $("#baggrund").addClass("hide")
     $("#gangen").removeClass("hide")
-
-
-}
-//$("#valgkarakter").on("click", valgAfKarakter);
-
-function valgAfKarakter() {
-
 
 
 }
