@@ -25,7 +25,9 @@ function skolegaarden() {
 
 function gangen() {
 
-    console.log("Klik på knap")
+    console.log("gangen")
+
+    $("#gangen").addClass("plakat")
     $("#offer_sprite").removeClass("gaa")
     $("#offer_container").removeClass("gaa_til_venstre")
 
@@ -74,6 +76,8 @@ function mobilUd() {
 
 function karinaOgVeninderKommerInd() {
 
+    $("#mobber_sprite").addClass("mobber_gaa");
+    $("#mobber_container").addClass("mobber_gaa_til_venstre");
 
 
 }
