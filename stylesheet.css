@@ -62,7 +62,7 @@ body {
     position: absolute;
     top: 20vw;
     left: 80vw;
-    z-index: 11;
+
 }
 
 #offer_sprite {
@@ -119,6 +119,30 @@ body {
 }
 
 /******* OFFER SLUT *******/
+
+/****** MOBBER START ******/
+
+#mobber_container {
+
+    position: absolute;
+    top: 20vw;
+    left: 80vw;
+}
+
+#mobber_sprite {
+
+    background-image: url(img/mobber_walkcycle-02.svg);
+    background-size: 400% 200%;
+    width: 20vw;
+    height: 20vw;
+
+
+
+}
+
+
+
+
 
 /****** LAERER START ******/
 
