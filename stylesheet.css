@@ -86,8 +86,7 @@ body {
 #offer_container {
 
     position: absolute;
-    top: 10vw;
-    right: -10vw;
+
 
 }
 
@@ -100,6 +99,11 @@ body {
     z-index: 9;
 
 
+}
+
+.offer_position {
+    top: 10vw;
+    right: -10vw;
 }
 
 .postionOffer1 {
@@ -353,10 +357,7 @@ body {
 }
 
 
-.offer_position {
-    top: 2vw;
-    right: -40vw;
-}
+
 
 offer_mobil_notifikation_walkcycle {
     animation-name: offer_mobil_notifikation_walkcycle_kf;
