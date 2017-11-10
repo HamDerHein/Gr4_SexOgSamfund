@@ -194,6 +194,12 @@ body {
 
 }
 
+.mobber_position {
+
+    top: 9vw;
+    left: 80vw;
+}
+
 .mobber_gaa {
     animation-name: gaa_mobber_kf;
     animation-duration: 1.5s;

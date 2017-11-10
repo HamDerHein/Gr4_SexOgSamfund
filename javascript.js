@@ -114,7 +114,7 @@ function karinaOgVeninderKommerInd() {
 
 
     $("#mobber_sprite").addClass("mobber_gaa");
-    $("#mobber_container").addClass("mobber_gaa_til_venstre");
+    $("#mobber_container").addClass("mobber_gaa_til_venstre mobber_position");
     $("#veninde_red_sprite").addClass("veninde_red_ind_walkcycle");
     $("#veninde_red_container").addClass("veninde_red_move");
     $("#veninde_purple_container").addClass("veninde_purple_move");
