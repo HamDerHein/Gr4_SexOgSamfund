@@ -15,7 +15,7 @@ body {
 #baggrund {
 
     background-image: url(img/titel-01.svg);
-    position: relative;
+    position: absolute;
     background-repeat: no-repeat;
     width: 100vw;
     height: 56.25vw;
@@ -290,7 +290,11 @@ body {
 
 
 
-
+#scene {
+    height: 56.25vw;
+    width: 100vw;
+    position: relative:
+}
 
 
 
