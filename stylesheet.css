@@ -172,8 +172,6 @@ body {
 #mobber_container {
 
     position: absolute;
-    top: 9vw;
-    left: 80vw;
     z-index: 2;
 }
 
@@ -183,6 +181,12 @@ body {
     background-size: 400% 200%;
     width: 22vw;
     height: 44vw;
+}
+
+.mobber_position {
+
+    top: 9vw;
+    left: 80vw;
 }
 
 .mobber_gaa {
