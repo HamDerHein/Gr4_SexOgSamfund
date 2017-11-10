@@ -93,10 +93,11 @@ body {
 
 #offer_sprite {
 
-    background-image: url(img/offer_spritesheet-02.svg);
+    background-image: url(img/offer_spritesheet.svg);
     background-size: 900% 300%;
     width: 10vw;
     height: 20vw;
+    z-index: 9;
 
 
 }

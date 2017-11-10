@@ -2,6 +2,7 @@
 
 $(window).on("load", skolegaarden);
 
+
 function skolegaarden() {
 
     console.log("start");
@@ -9,6 +10,7 @@ function skolegaarden() {
 
     $(".knap").addClass("start");
     $(".start").addClass("puls");
+    $("#offer_sprite").hide();
 
 
 
@@ -32,6 +34,8 @@ function gangen() {
 
     console.log("gangen")
 
+    $("#offer_sprite").show();
+
     $("#gangen").addClass("")
     $("#offer_sprite").removeClass("gaa")
     $("#offer_container").removeClass("gaa_til_venstre")
@@ -39,7 +43,8 @@ function gangen() {
     $("#baggrund").addClass("hide")
     $("#gangen").removeClass("hide")
 
-
+    $("#offer_sprite").addClass("gaa");
+    $("#offer_container").addClass("gaa_til_venstre");
 }
 
 function sofiaKommerInd() {
