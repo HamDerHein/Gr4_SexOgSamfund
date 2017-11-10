@@ -11,6 +11,9 @@ function skolegaarden() {
     $(".knap").addClass("start");
     $(".start").addClass("puls");
     $("#offer_sprite").hide();
+    $("#mobber_sprite").addClass("mobber_gaa");
+    $("#mobber_container").addClass("mobber_gaa_til_venstre");
+    $("#veninde_red_sprite").addClass("veninde_red_ind_walkcycle");
 
 
 
@@ -83,9 +86,7 @@ function karinaOgVeninderKommerInd() {
 
     $("#mobber_sprite").addClass("mobber_gaa");
     $("#mobber_container").addClass("mobber_gaa_til_venstre");
-    $("#veninde_red_container").addClass("veninde_red_ind");
-
-
+    $("#veninde_red_sprite").addClass("veninde_red_ind_walkcycle");
 
 }
 

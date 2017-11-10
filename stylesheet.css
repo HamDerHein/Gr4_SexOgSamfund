@@ -292,22 +292,35 @@ body {
 
 .veninde_purple_ind {
 
-    animation-name: veninde_purple_ind_kf;
+    animation-name: veninde_purple_ind_walkcycle_kf;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-timing-function: steps(4);
 }
 
 
-veninde_red_ind {
+@keyframes veninde_purple_ind_walkcycle_kf {
 
-    animation-name: veninde_red_ind_kf;
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -300% 0%;
+    }
+}
+
+veninde_red_ind_walkcycle {
+
+    animation-name: veninde_red_ind_walkcycle_kf;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+    /*    animation-fill-mode: forwards;*/
+    animation-timing-function: steps(4);
+
 }
 
-@keyframes veninde_red_ind_kf {
+@keyframes veninde_red_ind_walkcycle_kf {
 
     0% {
         background-position: 0% 0%;
@@ -318,6 +331,7 @@ veninde_red_ind {
 
 
 }
+
 
 
 
