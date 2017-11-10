@@ -104,7 +104,7 @@ body {
 
 .postionOffer1 {
     right: 70%;
-    top: 40%;
+    top: 20%;
 }
 
 .postionOffer2 {
@@ -220,13 +220,14 @@ body {
 }
 
 .postion1 {
-    background-position: 0% -100%;
+    background-position: 500% 0%;
+    transform: scale(0.5);
 
 }
 
 .postion2 {
     right: 10%;
-    top: 40%;
+    top: 26%;
 }
 
 
