@@ -1,6 +1,6 @@
 //starten
 
-$(window).on("load", gangen);
+$(window).on("load", skolegaarden);
 
 
 function skolegaarden() {
