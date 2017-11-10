@@ -6,6 +6,12 @@ body {
 
 /******** STARTSIDE START  ********/
 
+#scenen {
+
+    height: 56.25vw;
+    width: 100vw;
+}
+
 #baggrund {
 
     background-image: url(img/titel-01.svg);
@@ -107,13 +113,13 @@ body {
 }
 
 .postionOffer1 {
-    right: 70%;
-    top: 40%;
+    right: 68%;
+    top: 25vw;
 }
 
 .postionOffer2 {
     background-position: 0% 0%;
-
+    transform: scale(0.5)
 }
 
 .offer_walkcycle {
@@ -224,13 +230,14 @@ body {
 }
 
 .postion1 {
-    background-position: 0% -100%;
+    background-position: 500% 0%;
+    transform: scale(0.5);
 
 }
 
 .postion2 {
     right: 10%;
-    top: 40%;
+    top: 23vw;
 }
 
 

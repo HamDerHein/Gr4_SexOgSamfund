@@ -27,7 +27,7 @@ function valgAfKarakter() {
     console.log("valg");
     $(".knap").hide();
     $("#mobber_container").removeClass();
-    $("#offer_sprite").show();
+    $("#offer_container").show();
 
     $("#offer_sprite").addClass("postionOffer2");
     $("#offer_container").addClass("postionOffer1");
