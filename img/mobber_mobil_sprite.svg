@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 600" style="enable-background:new 0 0 500 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#D3A671;}
+	.st2{fill:#BC64AF;}
+	.st3{fill:#D12FCA;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#020202;}
+	.st6{fill:#FCFCFC;}
+	.st7{fill:none;stroke:#020202;stroke-width:0.5;stroke-miterlimit:10;}
+	.st8{enable-background:new    ;}
+	.st9{fill:#FFC715;}
+	.st10{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+	.st11{opacity:0.7;fill:#FFFFFF;enable-background:new    ;}
+	.st12{fill:none;stroke:#FCFCFC;stroke-width:0.2;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#020202;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st14{opacity:0.6;fill:#253F66;enable-background:new    ;}
+	.st15{opacity:0.5;fill:#89CCE5;enable-background:new    ;}
+	.st16{fill:none;stroke:#9A9D9E;stroke-width:0.5;stroke-miterlimit:10;}
+	.st17{fill:#D3A671;stroke:#C18F4D;stroke-width:0.5;stroke-miterlimit:10;}
+	.st18{fill:#E26FC9;}
+	.st19{fill:#C4628A;}
+	.st20{fill:#EF8EE6;}
+	.st21{fill:#D27C9D;}
+	.st22{fill:#0C508F;}
+	.st23{fill:#3785BF;}
+	.st24{fill:#FAFCFC;}
+	.st25{fill:#F3912E;}
+	.st26{fill:#DB761B;}
+	.st27{fill:#89CDE5;}
+	.st28{fill:url(#SVGID_1_);}
+	.st29{fill:#253F66;}
+	.st30{fill:url(#SVGID_2_);}
+	.st31{fill:url(#SVGID_3_);}
+	.st32{fill:url(#SVGID_4_);}
+	.st33{fill:url(#SVGID_5_);}
+	.st34{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st35{fill:url(#SVGID_6_);}
+	.st36{fill:none;stroke:#3C6EAA;stroke-width:0.5;stroke-miterlimit:10;}
+	.st37{fill:#3C6EAA;}
+	.st38{fill:url(#SVGID_7_);}
+	.st39{opacity:0.2;fill:#253F66;enable-background:new    ;}
+	.st40{opacity:0.2;fill:#C4628A;enable-background:new    ;}
+	.st41{opacity:0.2;fill:#EF8EE6;enable-background:new    ;}
+	.st42{opacity:0.2;fill:#0C508F;enable-background:new    ;}
+	.st43{opacity:0.2;fill:#3785BF;enable-background:new    ;}
+	.st44{opacity:0.5;fill:#FAFCFC;enable-background:new    ;}
+	.st45{opacity:0.2;fill:#F3912E;enable-background:new    ;}
+	.st46{opacity:0.2;fill:#DB761B;enable-background:new    ;}
+	.st47{opacity:0.2;fill:#89CDE5;enable-background:new    ;}
+	.st48{opacity:0.2;fill:url(#SVGID_8_);enable-background:new    ;}
+	.st49{fill:none;stroke:#39D853;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st50{fill:none;stroke:#FCFCFC;stroke-width:0.5;stroke-miterlimit:10;}
+	.st51{fill:#020202;stroke:#FCFCFC;stroke-width:0.5;stroke-miterlimit:10;}
+	.st52{fill:#F7931E;}
+	.st53{font-family:'ModernSans';}
+	.st54{font-size:6px;}
+</style>
+<symbol  id="_1" viewBox="-50 -100 100 200">
+	<g id="baggrund_copy_1_">
+		<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	</g>
+	<g id="hånd_copy_1_">
+		<path class="st1" d="M50,46c0,0-19.5-15.5-19.5-17.5c0,0-3.7-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.8-12.3-9.7-18
+			c0,0,1-3-19-11l-10,33c0,0,16,14,22,15s7,4,7,4L50,76V46z"/>
+		<path class="st2" d="M-37.9,26l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S-37.9,26-37.9,26z"/>
+		<path class="st2" d="M-44,15l-1,1c0,0-2,3,2,2S-44,15-44,15z"/>
+		<path class="st2" d="M-46,6l-2,1c0,0-3,3,1,3s5-1,5-1L-46,6z"/>
+		<path class="st2" d="M-46-5l-3,1c0,0-2,2,1,3h4L-46-5z"/>
+		<path class="st1" d="M-39-8l-6,2c0,0-5,4,1,5h6L-39-8z"/>
+		<path class="st1" d="M-40,3l-6,2c0,0-3,5,2,5l6-2L-40,3z"/>
+		<path class="st1" d="M-40,12l-4,3c0,0-2,3,2,3l3-2L-40,12z"/>
+		<path class="st1" d="M-32,22l-5,2c0,0-6,5,2,4s20-6,20-6H-32z"/>
+	</g>
+	<g id="mobil_copy_1_">
+		<path class="st3" d="M-35-55h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C-41-52.3-38.3-55-35-55z"/>
+		<rect x="-38" y="-47" class="st4" width="33" height="60.5"/>
+		<rect x="-38" y="-47" class="st5" width="33" height="7"/>
+		<rect x="-38" y="2" class="st5" width="33" height="12"/>
+		<circle class="st6" cx="-21.5" cy="9.5" r="3.5"/>
+		<circle class="st7" cx="-21.5" cy="9.5" r="3"/>
+		<text transform="matrix(1 0 0 1 -38 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">S</text>
+		<text transform="matrix(1 0 0 1 -37.3599 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">L</text>
+		<text transform="matrix(1 0 0 1 -36.7998 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">O</text>
+		<text transform="matrix(1 0 0 1 -35.8799 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">-MO              </text>
+		<text transform="matrix(1 0 0 1 -29.6899 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;"> </text>
+		<text transform="matrix(1 0 0 1 -29.46 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">VIDEO          </text>
+		<text transform="matrix(1 0 0 1 -23.27 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">F</text>
+		<text transform="matrix(1 0 0 1 -22.6299 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">OT</text>
+		<text transform="matrix(1 0 0 1 -21.1602 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">O      </text>
+		<text transform="matrix(1 0 0 1 -18.6099 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">K</text>
+		<text transform="matrix(1 0 0 1 -17.8901 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">V</text>
+		<text transform="matrix(1 0 0 1 -17.2402 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">ARD</text>
+		<text transform="matrix(1 0 0 1 -14.8799 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">R</text>
+		<text transform="matrix(1 0 0 1 -14.1699 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+		<text transform="matrix(1 0 0 1 -13.4702 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">T    </text>
+		<text transform="matrix(1 0 0 1 -11.73 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">P</text>
+		<text transform="matrix(1 0 0 1 -11.1401 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">ANO</text>
+		<text transform="matrix(1 0 0 1 -8.6001 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">R</text>
+		<text transform="matrix(1 0 0 1 -7.8901 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+		<text transform="matrix(1 0 0 1 -7.1001 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">M</text>
+		<text transform="matrix(1 0 0 1 -6.0698 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+		<circle class="st10" cx="-9" cy="-43.7" r="0.7"/>
+		<ellipse transform="matrix(0.9543 -0.2987 0.2987 0.9543 12.6944 -4.2871)" class="st4" cx="-7.7" cy="-43.7" rx="0.7" ry="0.7"/>
+		<circle class="st11" cx="-8.3" cy="-44.3" r="0.7"/>
+		<polygon class="st4" points="-35,-44 -34.3,-44 -35,-42.7 -33.7,-44 -33,-44.7 -33.7,-44.7 -33,-46 		"/>
+		<text transform="matrix(1 0 0 1 -28.3599 -43.3203)" class="st6" style="font-family:'ArialMT'; font-size:2px;">HDR</text>
+		<text transform="matrix(1 0 0 1 -24.6499 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">L</text>
+		<text transform="matrix(1 0 0 1 -23.73 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">o</text>
+		<text transform="matrix(1 0 0 1 -22.6299 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">-</text>
+		<text transform="matrix(1 0 0 1 -26.8398 -40.9199)" style="font-family:'ArialMT'; font-size:2px;">r</text>
+		<text transform="matrix(1 0 0 1 -26.21 -40.9199)" style="font-family:'ArialMT'; font-size:2px;">em</text>
+		<path class="st12" d="M-17.5-44c0,0.6,0.4,1,1,1s1-0.4,1-1s-0.4-1-1-1v1l-1-1"/>
+		<line class="st13" x1="-25.5" y1="-48.5" x2="-17.5" y2="-48.5"/>
+		<circle class="st5" cx="-27.5" cy="-48.5" r="0.5"/>
+		<circle class="st5" cx="-21.5" cy="-50.5" r="0.5"/>
+		<rect x="-38" y="-12" class="st14" width="33" height="14"/>
+		<rect x="-38" y="-40" class="st15" width="33" height="28"/>
+		<circle class="st16" cx="-21.5" cy="18.5" r="3"/>
+	</g>
+	<g id="tommelfinger_copy_1_">
+		<path class="st17" d="M-2,16.8c0,0-2.5-9.6,2.4-16c-3.2-2.8-6-6-8.4-9.5c0,0-11.3-4.3-8.3-9.5l3.1,0.7l5.2,3c0,0,4.8,1.7,7.9,2.3
+			c0,0,1.4-0.4,5.4,6.6L10.7,1"/>
+		<path class="st18" d="M-14.2-15.8c0,0,5.5,4.4,5.3,0.8l-6.9-4C-15.8-19-20.3-19.3-14.2-15.8z"/>
+	</g>
+</symbol>
+<symbol  id="_1_2" viewBox="-50 -100 100 200">
+	<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	<path class="st1" d="M50,46c0,0-19.5-15.5-19.5-17.5c0,0-3.7-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.8-12.3-9.7-18
+		c0,0,1-3-19-11l-10,33c0,0,16,14,22,15s7,4,7,4L50,76V46z"/>
+	<path class="st2" d="M-37.9,26l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S-37.9,26-37.9,26z"/>
+	<path class="st2" d="M-44,15l-1,1c0,0-2,3,2,2S-44,15-44,15z"/>
+	<path class="st2" d="M-46,6l-2,1c0,0-3,3,1,3s5-1,5-1L-46,6z"/>
+	<path class="st2" d="M-46-5l-3,1c0,0-2,2,1,3h4L-46-5z"/>
+	<path class="st1" d="M-39-8l-6,2c0,0-5,4,1,5h6L-39-8z"/>
+	<path class="st1" d="M-40,3l-6,2c0,0-3,5,2,5l6-2L-40,3z"/>
+	<path class="st1" d="M-40,12l-4,3c0,0-2,3,2,3l3-2L-40,12z"/>
+	<path class="st1" d="M-32,22l-5,2c0,0-6,5,2,4s20-6,20-6H-32z"/>
+	<path class="st3" d="M-35-55h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C-41-52.3-38.3-55-35-55z"/>
+	<rect x="-38" y="-47" class="st4" width="33" height="60.5"/>
+	<rect x="-38" y="-47" class="st5" width="33" height="7"/>
+	<rect x="-38" y="2" class="st5" width="33" height="12"/>
+	<circle class="st6" cx="-21.5" cy="9.5" r="3.5"/>
+	<circle class="st7" cx="-21.5" cy="9.5" r="3"/>
+	<text transform="matrix(1 0 0 1 -38 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">S</text>
+	<text transform="matrix(1 0 0 1 -37.3599 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">L</text>
+	<text transform="matrix(1 0 0 1 -36.7998 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">O</text>
+	<text transform="matrix(1 0 0 1 -35.8799 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">-MO              </text>
+	<text transform="matrix(1 0 0 1 -29.6899 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;"> </text>
+	<text transform="matrix(1 0 0 1 -29.46 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">VIDEO          </text>
+	<text transform="matrix(1 0 0 1 -23.27 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">F</text>
+	<text transform="matrix(1 0 0 1 -22.6299 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">OT</text>
+	<text transform="matrix(1 0 0 1 -21.1602 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">O      </text>
+	<text transform="matrix(1 0 0 1 -18.6099 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">K</text>
+	<text transform="matrix(1 0 0 1 -17.8901 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">V</text>
+	<text transform="matrix(1 0 0 1 -17.2402 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">ARD</text>
+	<text transform="matrix(1 0 0 1 -14.8799 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">R</text>
+	<text transform="matrix(1 0 0 1 -14.1699 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+	<text transform="matrix(1 0 0 1 -13.4702 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">T    </text>
+	<text transform="matrix(1 0 0 1 -11.73 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">P</text>
+	<text transform="matrix(1 0 0 1 -11.1401 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">ANO</text>
+	<text transform="matrix(1 0 0 1 -8.6001 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">R</text>
+	<text transform="matrix(1 0 0 1 -7.8901 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+	<text transform="matrix(1 0 0 1 -7.1001 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">M</text>
+	<text transform="matrix(1 0 0 1 -6.0698 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+	<circle class="st10" cx="-9" cy="-43.7" r="0.7"/>
+	<ellipse transform="matrix(0.9543 -0.2987 0.2987 0.9543 12.6944 -4.2871)" class="st4" cx="-7.7" cy="-43.7" rx="0.7" ry="0.7"/>
+	<circle class="st11" cx="-8.3" cy="-44.3" r="0.7"/>
+	<polygon class="st4" points="-35,-44 -34.3,-44 -35,-42.7 -33.7,-44 -33,-44.7 -33.7,-44.7 -33,-46 	"/>
+	<text transform="matrix(1 0 0 1 -28.3599 -43.3203)" class="st6" style="font-family:'ArialMT'; font-size:2px;">HDR</text>
+	<text transform="matrix(1 0 0 1 -24.6499 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">L</text>
+	<text transform="matrix(1 0 0 1 -23.73 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">o</text>
+	<text transform="matrix(1 0 0 1 -22.6299 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">-</text>
+	<text transform="matrix(1 0 0 1 -26.8398 -40.9199)" style="font-family:'ArialMT'; font-size:2px;">r</text>
+	<text transform="matrix(1 0 0 1 -26.21 -40.9199)" style="font-family:'ArialMT'; font-size:2px;">em</text>
+	<path class="st12" d="M-17.5-44c0,0.6,0.4,1,1,1s1-0.4,1-1s-0.4-1-1-1v1l-1-1"/>
+	<line class="st13" x1="-25.5" y1="-48.5" x2="-17.5" y2="-48.5"/>
+	<circle class="st5" cx="-27.5" cy="-48.5" r="0.5"/>
+	<circle class="st5" cx="-21.5" cy="-50.5" r="0.5"/>
+	<rect x="-38" y="-12" class="st14" width="33" height="14"/>
+	<rect x="-38" y="-40" class="st15" width="33" height="28"/>
+	<circle class="st16" cx="-21.5" cy="18.5" r="3"/>
+	<path class="st17" d="M4.8,25.2c0,0-6.1-7.8-4.1-15.6c-4-1.3-7.9-3.1-11.4-5.5c0,0-12.2,0.5-11.4-5.5L-19-2l6,0.8
+		c0,0,5.1-0.4,8.2-1c0,0,1.1-0.9,7.6,4l7.6,4"/>
+	<path class="st18" d="M-19.3,0c0,0,6.8,1.9,5.2-1.4l-7.9-1C-22-2.4-26.2-0.9-19.3,0z"/>
+	<path class="st19" d="M-25.5-29.1l-1.3-2.7c0,0-0.6,0.2-0.6,0l0.1,1.6c0,0-0.3,0.9-0.9,1.2H-25.5z"/>
+	<path class="st20" d="M-33-36.2v3.3l0.6,1v0.6c0,0-0.2,0.7,0.3,0.7c0,0,0.2,0,0,0.2s0.1,0.5,0.5,0.5c0,0-0.4,0.2,0,0.4h3.6
+		c0,0,0.7-0.2,0.6-1.3l0.1-1.2c0.2,0.1,0.4,0,0.5-0.1c0,0,0-0.1,0-0.1c0.1-0.3,0.3-0.7,0.5-0.9c0.3-0.3-0.3-1.2-0.8-0.3
+		c0,0-4.1-1.2-4.3-1.6C-31.8-35.3-32.4-35.8-33-36.2z"/>
+	<path class="st21" d="M-34-35.8"/>
+	<path class="st22" d="M-27.1,0.3c0,0-1.1-2.5,0-2.4S-27.1,0.3-27.1,0.3z"/>
+	<path class="st22" d="M-29.8,0.3c0,0-1.1-2.5,0-2.4S-29.8,0.3-29.8,0.3z"/>
+	<path class="st20" d="M-30.3-10.9c0.2,0.8,0.2,1.5,0,2.3c0,0-0.6,1.2,0.4,4.8c0,0.1,0.1,0.3,0.1,0.4c0,0.8,0.1,1.6,0.2,2.3
+		c0.2,0.8,1.3,0.6,1,0c-0.1-1.1-0.1-2.2,0-3.3c0.2-1.3,0.3-2.7,0.3-4c-0.1-0.4-0.1-0.7-0.1-1.1c0-0.5,0.1-1,0.2-1.5
+		C-28-11.5-30.3-10.9-30.3-10.9z"/>
+	<path class="st23" d="M-29.4-0.7c0.1,0.1,0.3,0.2,0.8-0.1c0,0,0.1,0,0.1,0c0.1,0.3,0.6,1.3-0.3,1.3c-1.2,0-1,0.1-0.7-1.3
+		C-29.5-0.7-29.5-0.7-29.4-0.7C-29.4-0.7-29.4-0.7-29.4-0.7z"/>
+	<path class="st20" d="M-25.3-10.9c-0.2,0.8-0.2,1.5,0,2.3c0,0,0.6,1.2-0.3,4.8c0,0.2-0.1,0.4-0.1,0.5c0,0.8-0.1,1.5-0.2,2.2
+		c-0.2,0.8-1.2,0.6-1,0c0.1-1.1,0.1-2.2,0-3.3c-0.2-1.3-0.3-2.7-0.3-4c0.1-0.2,0.1-0.4,0.1-0.6c0-0.6-0.1-1.2-0.2-1.8
+		C-27.6-11.5-25.3-10.9-25.3-10.9z"/>
+	<path class="st23" d="M-26.6-0.7c0.2,0,0.5-0.1,0.7-0.2c0.1,0.3,0.7,1.5-0.2,1.5c-1.2,0-1.2,0-0.8-1.3C-27-0.7-26.8-0.6-26.6-0.7z"
+		/>
+	<path class="st24" d="M-31.2-19.3c0,0-1-0.4-1.3,8.6h9.4c0,0-0.6-6.3-2.1-8.6L-31.2-19.3z"/>
+	<path class="st25" d="M-33-36.2c0,0,0.8-2.1,4.2-1.9s3.6,4.4,3.6,4.4s0.2,2.1-1,2.9l-0.5-1.2c0.1-0.3,0.2-0.6,0.4-0.8
+		c0.2-0.1,0.3-0.3,0.2-0.5c-0.1-0.3-0.3-0.5-0.8,0c0,0-3.6-0.5-4.3-1.1c-0.1-0.1-0.3-0.2-0.5-0.3C-32.2-34.9-32.7-35.5-33-36.2z"/>
+	<path class="st26" d="M-31.5-29.2c0,0-0.8,0.2-0.7,2.6c0,0.2,0,0.4,0,0.6l-1.5,3.8L-34-33.4c0,0,0-2.1,1-2.7v3.3l0.6,1v0.6
+		c0,0-0.2,0.6,0.2,0.6c0.4,0,0.2,0.2,0.2,0.2s-0.2,0.6,0.4,0.6C-31.5-29.7-31.9-29.4-31.5-29.2z"/>
+	<path class="st27" d="M-23.4-27.9c-0.1-0.5-0.5-1.6-1.7-1.5h-6.1c0,0-1.1-0.2-1.2,2c0.1,0.8-0.1,1.6-0.4,2.3
+		c-0.4,0.8-0.7,1.7-0.9,2.6c-0.2,0.4-0.3,0.9-0.2,1.4c0.1,0.3,0.2,0.6,0.2,0.8c0,0,0.2,0.4,0.8,0c0.6-0.4,1.3-0.6,1.3-1.7
+		c0.1-0.4,0.2-0.9,0.4-1.3c0,0,0.4,2.7-0.2,3.6s0.6,0.4,0.6,0.4s4.8,0.2,5-0.2c0,0,1.3,0.4,0.6-0.6c-0.3-0.4-0.5-0.9-0.6-1.5
+		C-25.8-21.4-23.4-27.7-23.4-27.9z"/>
+	<path class="st22" d="M-23.4-27.9c-0.1,1.8,0,3.6,0.3,5.3c0,0,0.2,0.6-0.2,0.6c-0.4,0.8-1,1.5-1.7,2.1c-0.3-0.4-0.5-0.9-0.6-1.5
+		l1-1.5l-0.4-0.8c0.3-1,0.5-2,0.5-3L-23.4-27.9z"/>
+	<radialGradient id="SVGID_1_" cx="-28.0627" cy="-15.683" r="1.2912" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.27" style="stop-color:#B83917"/>
+		<stop  offset="0.64" style="stop-color:#CC7158"/>
+		<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</radialGradient>
+	<path class="st28" d="M-28.1-16.4c0,0-1.9,0-0.9,0.8s0,0.8,0,0.8s0,0.8,0.9,0s0.9,0,0.9,0s0.9,0,0-0.8
+		C-27.2-15.6-27.2-18.1-28.1-16.4z"/>
+	<g id="sefoto_1_">
+		<rect x="-36.5" y="6.5" class="st29" width="6" height="6"/>
+		<path class="st19" d="M-34.1,8.1l-0.2-0.4h-0.1V8c0,0,0,0.1-0.1,0.2L-34.1,8.1z"/>
+		<path class="st20" d="M-35.1,7.2v0.4l0.1,0.1v0.1V8l0,0c0,0,0,0.1,0.1,0.1s0,0,0,0.1h0.5c0,0,0.1,0,0.1-0.2V7.7c0,0,0-0.1,0.1-0.1
+			c0,0,0-0.2-0.1,0c-0.2-0.1-0.4-0.1-0.6-0.2C-35,7.3-35,7.3-35.1,7.2z"/>
+		<path class="st21" d="M-8-28.8"/>
+		<path class="st22" d="M-34.3,12c0,0-0.1-0.3,0-0.3S-34.3,12-34.3,12z"/>
+		<path class="st22" d="M-34.7,12c0,0-0.1-0.3,0-0.3C-34.5,11.7-34.7,12-34.7,12z"/>
+		<path class="st20" d="M-34.7,10.5c0,0.1,0,0.2,0,0.3c0,0-0.1,0.2,0,0.6c0,0,0,0,0,0.1c0,0.1,0,0.2,0,0.3c0,0.1,0.2,0.1,0.1,0
+			c0-0.1,0-0.3,0-0.4c0-0.2,0-0.3,0-0.5c0,0,0-0.1,0-0.1c0-0.1,0-0.1,0-0.2C-34.4,10.4-34.7,10.5-34.7,10.5z"/>
+		<path class="st23" d="M-34.6,11.8C-34.6,11.8-34.6,11.8-34.6,11.8L-34.6,11.8c0.1,0,0.2,0.2,0.1,0.2C-34.6,12-34.7,12-34.6,11.8
+			L-34.6,11.8z"/>
+		<path class="st20" d="M-34.1,10.5c0,0.1,0,0.2,0,0.3c0,0,0.1,0.2,0,0.6c0,0,0,0,0,0.1c0,0.1,0,0.2,0,0.3c0,0.1-0.2,0.1-0.1,0
+			c0-0.1,0-0.3,0-0.4c0-0.2,0-0.4,0-0.5c0,0,0-0.1,0-0.1c0-0.1,0-0.2,0-0.2C-34.4,10.4-34.1,10.5-34.1,10.5z"/>
+		<path class="st23" d="M-34.3,11.8C-34.2,11.8-34.2,11.8-34.3,11.8c0.1,0,0.2,0.2,0.1,0.2C-34.3,12-34.3,12-34.3,11.8
+			C-34.3,11.8-34.3,11.8-34.3,11.8z"/>
+		<path class="st24" d="M-34.8,9.4c0,0-0.1-0.1-0.2,1.1h1.2c0-0.4-0.1-0.8-0.3-1.1H-34.8z"/>
+		<path class="st25" d="M-35.1,7.2c0,0,0.1-0.3,0.6-0.2c0.4,0,0.5,0.6,0.5,0.6s0,0.3-0.1,0.4l-0.1-0.2c0,0,0-0.1,0-0.1
+			c0,0,0,0,0-0.1c0,0,0-0.1-0.1,0c-0.2,0-0.4-0.1-0.6-0.1h-0.1C-35,7.4-35.1,7.3-35.1,7.2z"/>
+		<path class="st26" d="M-34.9,8.1c0,0-0.1,0-0.1,0.3c0,0,0,0.1,0,0.1L-35.2,9V7.5c0,0,0-0.3,0.1-0.4v0.4l0.1,0.1v0.1v0.1l0,0
+			C-35,7.9-35,8-34.9,8.1C-34.9,8-35,8.1-34.9,8.1z"/>
+		<path class="st27" d="M-33.8,8.3c0-0.1-0.1-0.2-0.2-0.2h-0.8c0,0-0.1,0-0.2,0.3c0,0.1,0,0.2,0,0.3c-0.1,0.1-0.1,0.2-0.1,0.3
+			c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1c0,0,0,0.1,0.1,0c0.1-0.1,0.2-0.1,0.2-0.2c0-0.1,0-0.1,0.1-0.2c0,0,0,0.4,0,0.5
+			c-0.1,0.1,0.1,0.1,0.1,0.1c0.2,0,0.4,0,0.7,0c0,0,0.2,0.1,0.1-0.1c0-0.1-0.1-0.1-0.1-0.2C-34.1,9.2-33.8,8.3-33.8,8.3z"/>
+		<path class="st22" d="M-33.8,8.3c0,0.2,0,0.5,0,0.7v0.1c-0.1,0.1-0.1,0.2-0.2,0.3c0-0.1-0.1-0.1-0.1-0.2l0.1-0.2l0-0.1
+			c0-0.1,0.1-0.3,0.1-0.4L-33.8,8.3z"/>
+		<radialGradient id="SVGID_2_" cx="-34.4421" cy="9.8596" r="0.1725" gradientUnits="userSpaceOnUse">
+			<stop  offset="0.27" style="stop-color:#B83917"/>
+			<stop  offset="0.64" style="stop-color:#CC7158"/>
+			<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</radialGradient>
+		<path class="st30" d="M-34.5,9.8c0,0-0.2,0-0.1,0.1s0,0.1,0,0.1s0,0.1,0.1,0s0.1,0,0.1,0s0.1,0,0-0.1C-34.5,9.8-34.3,9.6-34.5,9.8
+			z"/>
+	</g>
+</symbol>
+<symbol  id="_2" viewBox="-50 -100 100 200">
+	<g id="baggrund_copy_3_3_">
+		<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	</g>
+	<g id="hånd_copy_3_3_">
+		<path class="st1" d="M49.8-47.3c0,0-19.5,15.6-19.5,17.6c0,0-3.7,6.7-5.3,8.6c-0.7,0.8-1.4,1.6-2,2.5c-2.5,3.9-7.8,12.4-9.7,18.1
+			c0,0,1,3-19,11.1l-10-33.3c0,0,16-14.1,22-15.1s7-4,7-4l36.5-35.8V-47.3z"/>
+		<path class="st2" d="M-38.1-27.1l-1.4-0.7c0,0-2.7-2.1,2.7-1.4S-38.1-27.1-38.1-27.1z"/>
+		<path class="st2" d="M-44.2-16l-1-1c0,0-2-3,2-2S-44.2-16-44.2-16z"/>
+		<path class="st2" d="M-46.2-7l-2-1c0,0-3-3,1-3s5,1,5,1L-46.2-7z"/>
+		<path class="st2" d="M-46.2,4.1l-3-1c0,0-2-2,1-3h4L-46.2,4.1z"/>
+		<path class="st1" d="M-39.2,7.1l-6-2c0,0-5-4,1-5h6L-39.2,7.1z"/>
+		<path class="st1" d="M-40.2-4l-6-2c0,0-3-5,2-5l6,2L-40.2-4z"/>
+		<path class="st1" d="M-40.2-13l-4-3c0,0-2-3,2-3l3,2L-40.2-13z"/>
+		<path class="st1" d="M-32.2-23.1l-5-2c0,0-6-5,2-4s20,6,20,6H-32.2z"/>
+	</g>
+	<g id="mobil_copy_3_3_">
+		<path class="st3" d="M-35.2,54.5h27c3.3,0,6-2.7,6-6v-66.5c0-3.3-2.7-6-6-6h-27c-3.3,0-6,2.7-6,6v66.5
+			C-41.2,51.8-38.5,54.5-35.2,54.5z"/>
+		<rect x="-38.2" y="-14.5" class="st4" width="33" height="61"/>
+		<rect x="-38.2" y="39.4" class="st5" width="33" height="7.1"/>
+		<rect x="-38.2" y="-15" class="st5" width="33" height="12.1"/>
+		<ellipse class="st6" cx="-21.7" cy="-10.5" rx="3.5" ry="3.5"/>
+		<ellipse class="st7" cx="-21.7" cy="-10.5" rx="3" ry="3"/>
+		<text transform="matrix(0.9921 0 0 -1 -38.1733 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">S</text>
+		<text transform="matrix(0.9921 0 0 -1 -37.5332 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">L</text>
+		<text transform="matrix(0.9921 0 0 -1 -36.9731 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">O</text>
+		<text transform="matrix(0.9921 0 0 -1 -36.0532 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">-MO              </text>
+		<text transform="matrix(0.9921 0 0 -1 -29.8633 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;"> </text>
+		<text transform="matrix(0.9921 0 0 -1 -29.6333 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">VIDEO          </text>
+		<text transform="matrix(0.9921 0 0 -1 -23.4434 -4.4248)" class="st9" style="font-family:'ArialMT'; font-size:1.3104px;">F</text>
+		<text transform="matrix(0.9921 0 0 -1 -22.8032 -4.4248)" class="st9" style="font-family:'ArialMT'; font-size:1.3104px;">OT</text>
+		<text transform="matrix(0.9921 0 0 -1 -21.3335 -4.4248)" class="st9" style="font-family:'ArialMT'; font-size:1.3104px;">O      </text>
+		<text transform="matrix(0.9921 0 0 -1 -18.7832 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">K</text>
+		<text transform="matrix(0.9921 0 0 -1 -18.0635 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">V</text>
+		<text transform="matrix(0.9921 0 0 -1 -17.4136 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">ARD</text>
+		<text transform="matrix(0.9921 0 0 -1 -15.0532 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">R</text>
+		<text transform="matrix(0.9921 0 0 -1 -14.3433 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">A</text>
+		<text transform="matrix(0.9921 0 0 -1 -13.6436 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">T    </text>
+		<text transform="matrix(0.9921 0 0 -1 -11.9033 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">P</text>
+		<text transform="matrix(0.9921 0 0 -1 -11.3135 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">ANO</text>
+		<text transform="matrix(0.9921 0 0 -1 -8.7734 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">R</text>
+		<text transform="matrix(0.9921 0 0 -1 -8.0635 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">A</text>
+		<text transform="matrix(0.9921 0 0 -1 -7.2734 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">M</text>
+		<text transform="matrix(0.9921 0 0 -1 -6.2432 -4.4248)" class="st4" style="font-family:'ArialMT'; font-size:1.3104px;">A</text>
+		<ellipse class="st10" cx="-9.2" cy="43.1" rx="0.7" ry="0.7"/>
+		<ellipse transform="matrix(0.3009 -0.9537 0.9537 0.3009 -46.5857 22.6407)" class="st4" cx="-7.9" cy="43.1" rx="0.7" ry="0.7"/>
+		<ellipse class="st11" cx="-8.5" cy="43.8" rx="0.7" ry="0.7"/>
+		<polygon class="st4" points="-35.2,43.4 -34.5,43.4 -35.2,42.1 -33.8,43.4 -33.2,44.1 -33.8,44.1 -33.2,45.4 		"/>
+		<text transform="matrix(0.9921 0 0 -1 -28.5332 42.7407)" class="st6" style="font-family:'ArialMT'; font-size:2.016px;">HDR</text>
+		<text transform="matrix(0.9921 0 0 -1 -24.8232 42.7407)" style="font-family:'ArialMT'; font-size:2.016px;">L</text>
+		<text transform="matrix(0.9921 0 0 -1 -23.9033 42.7407)" style="font-family:'ArialMT'; font-size:2.016px;">o</text>
+		<text transform="matrix(0.9921 0 0 -1 -22.8032 42.7407)" style="font-family:'ArialMT'; font-size:2.016px;">-</text>
+		<text transform="matrix(0.9921 0 0 -1 -27.0132 40.3198)" style="font-family:'ArialMT'; font-size:2.016px;">r</text>
+		<text transform="matrix(0.9921 0 0 -1 -26.3833 40.3198)" style="font-family:'ArialMT'; font-size:2.016px;">em</text>
+		<path class="st12" d="M-17.7,43.4c0-0.6,0.4-1,1-1s1,0.5,1,1s-0.4,1-1,1v-1l-1,1"/>
+		<line class="st13" x1="-25.7" y1="48" x2="-17.7" y2="48"/>
+		<ellipse class="st5" cx="-27.7" cy="48" rx="0.5" ry="0.5"/>
+		<ellipse class="st5" cx="-21.7" cy="50" rx="0.5" ry="0.5"/>
+		<rect x="-38.2" y="-2.9" class="st14" width="33" height="14.1"/>
+		<rect x="-38.2" y="11.2" class="st15" width="33" height="28.2"/>
+		<ellipse class="st16" cx="-21.7" cy="-19.6" rx="3" ry="3"/>
+	</g>
+	<g id="tommelfinger_copy_3_3_">
+		<path class="st17" d="M4.6-26.3c0,0-6.1,7.9-4.1,15.8c-4,1.3-7.9,3.2-11.4,5.5c0,0-12.2-0.5-11.4,5.5l3.1,0.6l6-0.8
+			c0,0,5.1,0.4,8.2,1c0,0,1.1,0.9,7.6-4l7.6-4"/>
+		<path class="st18" d="M-19.5-0.9c0,0,6.8-1.9,5.2,1.4l-7.9,1C-22.2,1.5-26.4,0-19.5-0.9z"/>
+	</g>
+	<g id="pige_3_">
+		<path class="st19" d="M-25.7,28.4l-1.3,2.7c0,0-0.6-0.2-0.6,0l0.1-1.6c0,0-0.3-0.9-0.9-1.2H-25.7z"/>
+		<path class="st20" d="M-33.2,35.5v-3.4l0.6-1v-0.6c0,0-0.2-0.7,0.3-0.7c0,0,0.2,0,0-0.2s0.1-0.5,0.5-0.5c0,0-0.4-0.2,0-0.4h3.6
+			c0,0,0.7,0.2,0.6,1.3l0.1,1.2c0.2-0.1,0.4,0,0.5,0.1c0,0,0,0.1,0,0.1c0.1,0.3,0.3,0.7,0.5,0.9c0.3,0.3-0.3,1.2-0.8,0.3
+			c0,0-4.1,1.2-4.3,1.6C-32,34.7-32.5,35.1-33.2,35.5z"/>
+		<path class="st21" d="M-34.2,35.2"/>
+		<path class="st22" d="M-27.3-1.3c0,0-1.1,2.6,0,2.4S-27.3-1.3-27.3-1.3z"/>
+		<path class="st22" d="M-30-1.3c0,0-1.1,2.6,0,2.4S-30-1.3-30-1.3z"/>
+		<path class="st20" d="M-30.5,10.1c0.2-0.8,0.2-1.6,0-2.3c0,0-0.6-1.2,0.4-4.9c0-0.1,0.1-0.3,0.1-0.4c0-0.8,0.1-1.6,0.2-2.3
+			c0.2-0.8,1.3-0.6,1,0c-0.1,1.1-0.1,2.3,0,3.4c0.2,1.3,0.3,2.7,0.3,4c-0.1,0.4-0.1,0.7-0.1,1.1c0,0.5,0.1,1,0.2,1.5
+			C-28.2,10.7-30.5,10.1-30.5,10.1z"/>
+		<path class="st23" d="M-29.6-0.2c0.1-0.1,0.3-0.2,0.8,0.1c0,0,0.1,0,0.1,0c0.1-0.3,0.6-1.4-0.3-1.4c-1.2,0-1-0.1-0.7,1.3
+			C-29.7-0.2-29.7-0.2-29.6-0.2C-29.6-0.2-29.6-0.2-29.6-0.2z"/>
+		<path class="st20" d="M-25.5,10.1c-0.2-0.8-0.2-1.6,0-2.3c0,0,0.6-1.2-0.3-4.8c0-0.2-0.1-0.4-0.1-0.5c0-0.8-0.1-1.5-0.2-2.3
+			c-0.2-0.8-1.2-0.6-1,0c0.1,1.1,0.1,2.3,0,3.4c-0.2,1.3-0.3,2.7-0.3,4c0.1,0.2,0.1,0.4,0.1,0.6c0,0.6-0.1,1.2-0.2,1.9
+			C-27.8,10.7-25.5,10.1-25.5,10.1z"/>
+		<path class="st23" d="M-26.8-0.3c0.2,0,0.5,0.1,0.7,0.2c0.1-0.3,0.7-1.5-0.2-1.5c-1.2,0-1.2,0-0.8,1.3
+			C-27.2-0.2-26.9-0.3-26.8-0.3z"/>
+		<path class="st24" d="M-31.3,18.5c0,0-1,0.4-1.3-8.7h9.4c0,0-0.6,6.3-2.1,8.7L-31.3,18.5z"/>
+		<path class="st25" d="M-33.2,35.5c0,0,0.8,2.1,4.2,1.9c3.4-0.2,3.6-4.4,3.6-4.4s0.2-2.1-1-3l-0.5,1.2c0.1,0.3,0.2,0.6,0.4,0.8
+			c0.2,0.1,0.3,0.3,0.2,0.5c-0.1,0.3-0.3,0.5-0.8,0c0,0-3.6,0.5-4.3,1.1c-0.1,0.1-0.3,0.2-0.5,0.3C-32.4,34.3-32.9,34.8-33.2,35.5z"
+			/>
+		<path class="st26" d="M-31.7,28.5c0,0-0.8-0.2-0.7-2.6c0-0.2,0-0.4,0-0.6l-1.5-3.8l-0.3,11.3c0,0,0,2.1,1,2.7v-3.4l0.6-1v-0.6
+			c0,0-0.2-0.6,0.2-0.6c0.4,0,0.2-0.2,0.2-0.2s-0.2-0.6,0.4-0.6C-31.7,29-32.1,28.8-31.7,28.5z"/>
+		<path class="st27" d="M-23.6,27.2c-0.1,0.5-0.5,1.6-1.7,1.5h-6.1c0,0-1.1,0.2-1.2-2c0.1-0.8-0.1-1.6-0.4-2.3
+			c-0.4-0.9-0.7-1.7-0.9-2.7c-0.2-0.4-0.3-0.9-0.2-1.4c0.1-0.3,0.2-0.6,0.2-0.8c0,0,0.2-0.4,0.8,0s1.3,0.6,1.3,1.7
+			c0.1,0.4,0.2,0.9,0.4,1.3c0,0,0.4-2.7-0.2-3.6c-0.6-0.8,0.6-0.4,0.6-0.4s4.8-0.2,5,0.2c0,0,1.3-0.4,0.6,0.6
+			c-0.3,0.4-0.5,0.9-0.6,1.5C-25.9,20.7-23.5,27-23.6,27.2z"/>
+		<path class="st22" d="M-23.6,27.2c-0.1-1.8,0-3.6,0.3-5.4c0,0,0.2-0.6-0.2-0.6c-0.4-0.8-1-1.5-1.7-2.1c-0.3,0.4-0.5,0.9-0.6,1.5
+			l1,1.5l-0.4,0.8c0.3,1,0.5,2,0.5,3L-23.6,27.2z"/>
+
+			<radialGradient id="SVGID_3_" cx="7327.147" cy="-9936.1211" r="0.76" gradientTransform="matrix(1.81 0 0 -1.6229 -13306.7695 -16111.0059)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0.27" style="stop-color:#B83917"/>
+			<stop  offset="0.64" style="stop-color:#CC7158"/>
+			<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</radialGradient>
+		<path class="st31" d="M-28.3,15.6c0,0-1.9,0-0.9-0.8s0-0.8,0-0.8s0-0.8,0.9,0s0.9,0,0.9,0s0.9,0,0,0.8
+			C-27.4,14.8-27.4,17.3-28.3,15.6z"/>
+	</g>
+</symbol>
+<symbol  id="_2_2" viewBox="-50 -100 100 200">
+	<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	<path class="st1" d="M50,46c0,0-19.5-15.5-19.5-17.5c0,0-3.7-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.8-12.3-9.7-18
+		c0,0,1-3-19-11l-10,33c0,0,16,14,22,15s7,4,7,4L50,76V46z"/>
+	<path class="st2" d="M-37.9,26l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S-37.9,26-37.9,26z"/>
+	<path class="st2" d="M-44,15l-1,1c0,0-2,3,2,2S-44,15-44,15z"/>
+	<path class="st2" d="M-46,6l-2,1c0,0-3,3,1,3s5-1,5-1L-46,6z"/>
+	<path class="st2" d="M-46-5l-3,1c0,0-2,2,1,3h4L-46-5z"/>
+	<path class="st1" d="M-39-8l-6,2c0,0-5,4,1,5h6L-39-8z"/>
+	<path class="st1" d="M-40,3l-6,2c0,0-3,5,2,5l6-2L-40,3z"/>
+	<path class="st1" d="M-40,12l-4,3c0,0-2,3,2,3l3-2L-40,12z"/>
+	<path class="st1" d="M-32,22l-5,2c0,0-6,5,2,4s20-6,20-6H-32z"/>
+	<path class="st3" d="M-35-55h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C-41-52.3-38.3-55-35-55z"/>
+	<rect x="-38" y="-47" class="st4" width="33" height="60.5"/>
+	<rect x="-38" y="-47" class="st5" width="33" height="7"/>
+	<rect x="-38" y="2" class="st5" width="33" height="12"/>
+	<circle class="st6" cx="-21.5" cy="9.5" r="3.5"/>
+	<circle class="st7" cx="-21.5" cy="9.5" r="3"/>
+	<text transform="matrix(1 0 0 1 -38 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">S</text>
+	<text transform="matrix(1 0 0 1 -37.3599 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">L</text>
+	<text transform="matrix(1 0 0 1 -36.7998 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">O</text>
+	<text transform="matrix(1 0 0 1 -35.8799 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">-MO              </text>
+	<text transform="matrix(1 0 0 1 -29.6899 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;"> </text>
+	<text transform="matrix(1 0 0 1 -29.46 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">VIDEO          </text>
+	<text transform="matrix(1 0 0 1 -23.27 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">F</text>
+	<text transform="matrix(1 0 0 1 -22.6299 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">OT</text>
+	<text transform="matrix(1 0 0 1 -21.1602 3.4707)" class="st9" style="font-family:'ArialMT'; font-size:1.3px;">O      </text>
+	<text transform="matrix(1 0 0 1 -18.6099 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">K</text>
+	<text transform="matrix(1 0 0 1 -17.8901 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">V</text>
+	<text transform="matrix(1 0 0 1 -17.2402 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">ARD</text>
+	<text transform="matrix(1 0 0 1 -14.8799 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">R</text>
+	<text transform="matrix(1 0 0 1 -14.1699 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+	<text transform="matrix(1 0 0 1 -13.4702 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">T    </text>
+	<text transform="matrix(1 0 0 1 -11.73 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">P</text>
+	<text transform="matrix(1 0 0 1 -11.1401 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">ANO</text>
+	<text transform="matrix(1 0 0 1 -8.6001 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">R</text>
+	<text transform="matrix(1 0 0 1 -7.8901 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+	<text transform="matrix(1 0 0 1 -7.1001 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">M</text>
+	<text transform="matrix(1 0 0 1 -6.0698 3.4707)" class="st4" style="font-family:'ArialMT'; font-size:1.3px;">A</text>
+	<circle class="st10" cx="-9" cy="-43.7" r="0.7"/>
+	<ellipse transform="matrix(0.9543 -0.2987 0.2987 0.9543 12.6944 -4.2871)" class="st4" cx="-7.7" cy="-43.7" rx="0.7" ry="0.7"/>
+	<circle class="st11" cx="-8.3" cy="-44.3" r="0.7"/>
+	<polygon class="st4" points="-35,-44 -34.3,-44 -35,-42.7 -33.7,-44 -33,-44.7 -33.7,-44.7 -33,-46 	"/>
+	<text transform="matrix(1 0 0 1 -28.3599 -43.3203)" class="st6" style="font-family:'ArialMT'; font-size:2px;">HDR</text>
+	<text transform="matrix(1 0 0 1 -24.6499 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">L</text>
+	<text transform="matrix(1 0 0 1 -23.73 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">o</text>
+	<text transform="matrix(1 0 0 1 -22.6299 -43.3203)" style="font-family:'ArialMT'; font-size:2px;">-</text>
+	<text transform="matrix(1 0 0 1 -26.8398 -40.9199)" style="font-family:'ArialMT'; font-size:2px;">r</text>
+	<text transform="matrix(1 0 0 1 -26.21 -40.9199)" style="font-family:'ArialMT'; font-size:2px;">em</text>
+	<path class="st12" d="M-17.5-44c0,0.6,0.4,1,1,1s1-0.4,1-1s-0.4-1-1-1v1l-1-1"/>
+	<line class="st13" x1="-25.5" y1="-48.5" x2="-17.5" y2="-48.5"/>
+	<circle class="st5" cx="-27.5" cy="-48.5" r="0.5"/>
+	<circle class="st5" cx="-21.5" cy="-50.5" r="0.5"/>
+	<rect x="-38" y="-12" class="st14" width="33" height="14"/>
+	<rect x="-38" y="-40" class="st15" width="33" height="28"/>
+	<circle class="st16" cx="-21.5" cy="18.5" r="3"/>
+	<path class="st19" d="M-25.5-29.1l-1.3-2.7c0,0-0.6,0.2-0.6,0l0.1,1.6c0,0-0.3,0.9-0.9,1.2H-25.5z"/>
+	<path class="st20" d="M-33-36.2v3.3l0.6,1v0.6c0,0-0.2,0.7,0.3,0.7c0,0,0.2,0,0,0.2s0.1,0.5,0.5,0.5c0,0-0.4,0.2,0,0.4h3.6
+		c0,0,0.7-0.2,0.6-1.3l0.1-1.2c0.2,0.1,0.4,0,0.5-0.1c0,0,0-0.1,0-0.1c0.1-0.3,0.3-0.7,0.5-0.9c0.3-0.3-0.3-1.2-0.8-0.3
+		c0,0-4.1-1.2-4.3-1.6C-31.8-35.3-32.4-35.8-33-36.2z"/>
+	<path class="st21" d="M-34-35.8"/>
+	<path class="st22" d="M-27.1,0.3c0,0-1.1-2.5,0-2.4S-27.1,0.3-27.1,0.3z"/>
+	<path class="st22" d="M-29.8,0.3c0,0-1.1-2.5,0-2.4S-29.8,0.3-29.8,0.3z"/>
+	<path class="st20" d="M-30.3-10.9c0.2,0.8,0.2,1.5,0,2.3c0,0-0.6,1.2,0.4,4.8c0,0.1,0.1,0.3,0.1,0.4c0,0.8,0.1,1.6,0.2,2.3
+		c0.2,0.8,1.3,0.6,1,0c-0.1-1.1-0.1-2.2,0-3.3c0.2-1.3,0.3-2.7,0.3-4c-0.1-0.4-0.1-0.7-0.1-1.1c0-0.5,0.1-1,0.2-1.5
+		C-28-11.5-30.3-10.9-30.3-10.9z"/>
+	<path class="st23" d="M-29.4-0.7c0.1,0.1,0.3,0.2,0.8-0.1c0,0,0.1,0,0.1,0c0.1,0.3,0.6,1.3-0.3,1.3c-1.2,0-1,0.1-0.7-1.3
+		C-29.5-0.7-29.5-0.7-29.4-0.7C-29.4-0.7-29.4-0.7-29.4-0.7z"/>
+	<path class="st20" d="M-25.3-10.9c-0.2,0.8-0.2,1.5,0,2.3c0,0,0.6,1.2-0.3,4.8c0,0.2-0.1,0.4-0.1,0.5c0,0.8-0.1,1.5-0.2,2.2
+		c-0.2,0.8-1.2,0.6-1,0c0.1-1.1,0.1-2.2,0-3.3c-0.2-1.3-0.3-2.7-0.3-4c0.1-0.2,0.1-0.4,0.1-0.6c0-0.6-0.1-1.2-0.2-1.8
+		C-27.6-11.5-25.3-10.9-25.3-10.9z"/>
+	<path class="st23" d="M-26.6-0.7c0.2,0,0.5-0.1,0.7-0.2c0.1,0.3,0.7,1.5-0.2,1.5c-1.2,0-1.2,0-0.8-1.3C-27-0.7-26.8-0.6-26.6-0.7z"
+		/>
+	<path class="st24" d="M-31.2-19.3c0,0-1-0.4-1.3,8.6h9.4c0,0-0.6-6.3-2.1-8.6L-31.2-19.3z"/>
+	<path class="st25" d="M-33-36.2c0,0,0.8-2.1,4.2-1.9s3.6,4.4,3.6,4.4s0.2,2.1-1,2.9l-0.5-1.2c0.1-0.3,0.2-0.6,0.4-0.8
+		c0.2-0.1,0.3-0.3,0.2-0.5c-0.1-0.3-0.3-0.5-0.8,0c0,0-3.6-0.5-4.3-1.1c-0.1-0.1-0.3-0.2-0.5-0.3C-32.2-34.9-32.7-35.5-33-36.2z"/>
+	<path class="st26" d="M-31.5-29.2c0,0-0.8,0.2-0.7,2.6c0,0.2,0,0.4,0,0.6l-1.5,3.8L-34-33.4c0,0,0-2.1,1-2.7v3.3l0.6,1v0.6
+		c0,0-0.2,0.6,0.2,0.6c0.4,0,0.2,0.2,0.2,0.2s-0.2,0.6,0.4,0.6C-31.5-29.7-31.9-29.4-31.5-29.2z"/>
+	<path class="st27" d="M-23.4-27.9c-0.1-0.5-0.5-1.6-1.7-1.5h-6.1c0,0-1.1-0.2-1.2,2c0.1,0.8-0.1,1.6-0.4,2.3
+		c-0.4,0.8-0.7,1.7-0.9,2.6c-0.2,0.4-0.3,0.9-0.2,1.4c0.1,0.3,0.2,0.6,0.2,0.8c0,0,0.2,0.4,0.8,0c0.6-0.4,1.3-0.6,1.3-1.7
+		c0.1-0.4,0.2-0.9,0.4-1.3c0,0,0.4,2.7-0.2,3.6s0.6,0.4,0.6,0.4s4.8,0.2,5-0.2c0,0,1.3,0.4,0.6-0.6c-0.3-0.4-0.5-0.9-0.6-1.5
+		C-25.8-21.4-23.4-27.7-23.4-27.9z"/>
+	<path class="st22" d="M-23.4-27.9c-0.1,1.8,0,3.6,0.3,5.3c0,0,0.2,0.6-0.2,0.6c-0.4,0.8-1,1.5-1.7,2.1c-0.3-0.4-0.5-0.9-0.6-1.5
+		l1-1.5l-0.4-0.8c0.3-1,0.5-2,0.5-3L-23.4-27.9z"/>
+	<radialGradient id="SVGID_4_" cx="-28.0627" cy="-15.683" r="1.2912" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.27" style="stop-color:#B83917"/>
+		<stop  offset="0.64" style="stop-color:#CC7158"/>
+		<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</radialGradient>
+	<path class="st32" d="M-28.1-16.4c0,0-1.9,0-0.9,0.8s0,0.8,0,0.8s0,0.8,0.9,0s0.9,0,0.9,0s0.9,0,0-0.8
+		C-27.2-15.6-27.2-18.1-28.1-16.4z"/>
+	<g id="sefoto_copy_1_">
+		<rect x="-36.5" y="6.5" class="st29" width="6" height="6"/>
+		<path class="st19" d="M-34.1,8.1l-0.2-0.4h-0.1V8c0,0,0,0.1-0.1,0.2L-34.1,8.1z"/>
+		<path class="st20" d="M-35.1,7.2v0.4l0.1,0.1v0.1V8l0,0c0,0,0,0.1,0.1,0.1s0,0,0,0.1h0.5c0,0,0.1,0,0.1-0.2V7.7c0,0,0-0.1,0.1-0.1
+			c0,0,0-0.2-0.1,0c-0.2-0.1-0.4-0.1-0.6-0.2C-35,7.3-35,7.3-35.1,7.2z"/>
+		<path class="st21" d="M-8-28.8"/>
+		<path class="st22" d="M-34.3,12c0,0-0.1-0.3,0-0.3S-34.3,12-34.3,12z"/>
+		<path class="st22" d="M-34.7,12c0,0-0.1-0.3,0-0.3C-34.5,11.7-34.7,12-34.7,12z"/>
+		<path class="st20" d="M-34.7,10.5c0,0.1,0,0.2,0,0.3c0,0-0.1,0.2,0,0.6c0,0,0,0,0,0.1c0,0.1,0,0.2,0,0.3c0,0.1,0.2,0.1,0.1,0
+			c0-0.1,0-0.3,0-0.4c0-0.2,0-0.3,0-0.5c0,0,0-0.1,0-0.1c0-0.1,0-0.1,0-0.2C-34.4,10.4-34.7,10.5-34.7,10.5z"/>
+		<path class="st23" d="M-34.6,11.8C-34.6,11.8-34.6,11.8-34.6,11.8L-34.6,11.8c0.1,0,0.2,0.2,0.1,0.2C-34.6,12-34.7,12-34.6,11.8
+			L-34.6,11.8z"/>
+		<path class="st20" d="M-34.1,10.5c0,0.1,0,0.2,0,0.3c0,0,0.1,0.2,0,0.6c0,0,0,0,0,0.1c0,0.1,0,0.2,0,0.3c0,0.1-0.2,0.1-0.1,0
+			c0-0.1,0-0.3,0-0.4c0-0.2,0-0.4,0-0.5c0,0,0-0.1,0-0.1c0-0.1,0-0.2,0-0.2C-34.4,10.4-34.1,10.5-34.1,10.5z"/>
+		<path class="st23" d="M-34.3,11.8C-34.2,11.8-34.2,11.8-34.3,11.8c0.1,0,0.2,0.2,0.1,0.2C-34.3,12-34.3,12-34.3,11.8
+			C-34.3,11.8-34.3,11.8-34.3,11.8z"/>
+		<path class="st24" d="M-34.8,9.4c0,0-0.1-0.1-0.2,1.1h1.2c0-0.4-0.1-0.8-0.3-1.1H-34.8z"/>
+		<path class="st25" d="M-35.1,7.2c0,0,0.1-0.3,0.6-0.2c0.4,0,0.5,0.6,0.5,0.6s0,0.3-0.1,0.4l-0.1-0.2c0,0,0-0.1,0-0.1
+			c0,0,0,0,0-0.1c0,0,0-0.1-0.1,0c-0.2,0-0.4-0.1-0.6-0.1h-0.1C-35,7.4-35.1,7.3-35.1,7.2z"/>
+		<path class="st26" d="M-34.9,8.1c0,0-0.1,0-0.1,0.3c0,0,0,0.1,0,0.1L-35.2,9V7.5c0,0,0-0.3,0.1-0.4v0.4l0.1,0.1v0.1v0.1l0,0
+			C-35,7.9-35,8-34.9,8.1C-34.9,8-35,8.1-34.9,8.1z"/>
+		<path class="st27" d="M-33.8,8.3c0-0.1-0.1-0.2-0.2-0.2h-0.8c0,0-0.1,0-0.2,0.3c0,0.1,0,0.2,0,0.3c-0.1,0.1-0.1,0.2-0.1,0.3
+			c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1c0,0,0,0.1,0.1,0c0.1-0.1,0.2-0.1,0.2-0.2c0-0.1,0-0.1,0.1-0.2c0,0,0,0.4,0,0.5
+			c-0.1,0.1,0.1,0.1,0.1,0.1c0.2,0,0.4,0,0.7,0c0,0,0.2,0.1,0.1-0.1c0-0.1-0.1-0.1-0.1-0.2C-34.1,9.2-33.8,8.3-33.8,8.3z"/>
+		<path class="st22" d="M-33.8,8.3c0,0.2,0,0.5,0,0.7v0.1c-0.1,0.1-0.1,0.2-0.2,0.3c0-0.1-0.1-0.1-0.1-0.2l0.1-0.2l0-0.1
+			c0-0.1,0.1-0.3,0.1-0.4L-33.8,8.3z"/>
+		<radialGradient id="SVGID_5_" cx="-34.4421" cy="9.8596" r="0.1725" gradientUnits="userSpaceOnUse">
+			<stop  offset="0.27" style="stop-color:#B83917"/>
+			<stop  offset="0.64" style="stop-color:#CC7158"/>
+			<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</radialGradient>
+		<path class="st33" d="M-34.5,9.8c0,0-0.2,0-0.1,0.1s0,0.1,0,0.1s0,0.1,0.1,0s0.1,0,0.1,0s0.1,0,0-0.1C-34.5,9.8-34.3,9.6-34.5,9.8
+			z"/>
+	</g>
+	<path class="st17" d="M0.1,21c0,0-8.4-5.2-9.2-13.3c-4.2,0.2-8.5-0.3-12.6-1.2c0,0-11.3,4.7-12.6-1.2l2.7-1.7l5.9-1.3
+		c0,0,4.6-2.1,7.4-3.7c0,0,0.8-1.2,8.5,1.1l8.5,1.1"/>
+	<path class="st18" d="M-31.2,5.6c0,0,7-0.6,4.4-3.1l-7.8,1.8C-34.6,4.3-38,7.2-31.2,5.6z"/>
+</symbol>
+<symbol  id="_3" viewBox="-50 -100 100 200">
+	<g id="baggrund_2_">
+		<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	</g>
+	<g id="hånd_2_">
+		<path class="st1" d="M49.8-46.7c0,0-19.5,15.6-19.5,17.6c0,0-3.7,6.7-5.3,8.6c-0.7,0.8-1.4,1.6-2,2.5c-2.5,3.9-7.8,12.4-9.7,18.1
+			c0,0,1,3-19,11.1l-10-33.2c0,0,16-14.1,22-15.1s7-4,7-4l36.5-35.7V-46.7z"/>
+		<path class="st2" d="M-38.1-26.6l-1.4-0.7c0,0-2.7-2.1,2.7-1.4C-31.3-28-38.1-26.6-38.1-26.6z"/>
+		<path class="st2" d="M-44.2-15.5l-1-1c0,0-2-3,2-2S-44.2-15.5-44.2-15.5z"/>
+		<path class="st2" d="M-46.2-6.5l-2-1c0,0-3-3,1-3s5,1,5,1L-46.2-6.5z"/>
+		<path class="st2" d="M-46.2,4.6l-3-1c0,0-2-2,1-3h4L-46.2,4.6z"/>
+		<path class="st1" d="M-39.2,7.6l-6-2c0,0-5-4,1-5h6L-39.2,7.6z"/>
+		<path class="st1" d="M-40.2-3.5l-6-2c0,0-3-5,2-5l6,2L-40.2-3.5z"/>
+		<path class="st1" d="M-40.2-12.5l-4-3c0,0-2-3,2-3l3,2L-40.2-12.5z"/>
+		<path class="st1" d="M-32.2-22.6l-5-2c0,0-6-5,2-4s20,6,20,6H-32.2z"/>
+	</g>
+	<g id="mobil_2_">
+		<path class="st3" d="M-35.2,54.9h27c3.3,0,6-2.7,6-6v-66.4c0-3.3-2.7-6-6-6h-27c-3.3,0-6,2.7-6,6v66.4
+			C-41.2,52.2-38.5,54.9-35.2,54.9z"/>
+		<rect x="-38.2" y="-14" class="st4" width="33" height="60.9"/>
+		<rect x="-38.2" y="39.8" class="st5" width="33" height="7"/>
+		<rect x="-38.2" y="-14.5" class="st5" width="33" height="12.1"/>
+		<ellipse class="st6" cx="-21.7" cy="-10" rx="3.5" ry="3.5"/>
+		<ellipse class="st7" cx="-21.7" cy="-10" rx="3" ry="3"/>
+		<text transform="matrix(0.9939 0 0 -1 -38.1733 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">S</text>
+		<text transform="matrix(0.9939 0 0 -1 -37.5332 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">L</text>
+		<text transform="matrix(0.9939 0 0 -1 -36.9731 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">O</text>
+		<text transform="matrix(0.9939 0 0 -1 -36.0532 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">-MO              </text>
+		<text transform="matrix(0.9939 0 0 -1 -29.8633 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;"> </text>
+		<text transform="matrix(0.9939 0 0 -1 -29.6333 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">VIDEO          </text>
+		<text transform="matrix(0.9939 0 0 -1 -23.4434 -3.9341)" class="st9" style="font-family:'ArialMT'; font-size:1.3079px;">F</text>
+		<text transform="matrix(0.9939 0 0 -1 -22.8032 -3.9341)" class="st9" style="font-family:'ArialMT'; font-size:1.3079px;">OT</text>
+		<text transform="matrix(0.9939 0 0 -1 -21.3335 -3.9341)" class="st9" style="font-family:'ArialMT'; font-size:1.3079px;">O      </text>
+		<text transform="matrix(0.9939 0 0 -1 -18.7832 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">K</text>
+		<text transform="matrix(0.9939 0 0 -1 -18.0635 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">V</text>
+		<text transform="matrix(0.9939 0 0 -1 -17.4136 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">ARD</text>
+		<text transform="matrix(0.9939 0 0 -1 -15.0532 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">R</text>
+		<text transform="matrix(0.9939 0 0 -1 -14.3433 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">A</text>
+		<text transform="matrix(0.9939 0 0 -1 -13.6436 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">T    </text>
+		<text transform="matrix(0.9939 0 0 -1 -11.9033 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">P</text>
+		<text transform="matrix(0.9939 0 0 -1 -11.3135 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">ANO</text>
+		<text transform="matrix(0.9939 0 0 -1 -8.7734 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">R</text>
+		<text transform="matrix(0.9939 0 0 -1 -8.0635 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">A</text>
+		<text transform="matrix(0.9939 0 0 -1 -7.2734 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">M</text>
+		<text transform="matrix(0.9939 0 0 -1 -6.2432 -3.9341)" class="st4" style="font-family:'ArialMT'; font-size:1.3079px;">A</text>
+		<line class="st13" x1="-25.7" y1="48.4" x2="-17.7" y2="48.4"/>
+		<ellipse class="st5" cx="-27.7" cy="48.4" rx="0.5" ry="0.5"/>
+		<ellipse class="st5" cx="-21.7" cy="50.4" rx="0.5" ry="0.5"/>
+		<rect x="-38.2" y="-2.5" class="st5" width="33" height="14.1"/>
+		<rect x="-38.2" y="11.6" class="st5" width="33" height="28.2"/>
+		<ellipse class="st16" cx="-21.7" cy="-19.1" rx="3" ry="3"/>
+	</g>
+	<g id="tommelfinger_2_">
+		<path class="st17" d="M10.2-17.8c0,0-9.1,3.9-11.2,11.7c-4.2-0.8-8.4-1.1-12.6-0.8c0,0-10.4-6.4-12.6-0.8l2.4,2.1l5.6,2.3
+			c0,0,4.2,2.8,6.7,4.9c0,0,0.5,1.3,8.5,0.3L5.4,2"/>
+		<path class="st18" d="M-23.1-7.5c0,0,6.9,1.7,3.9,3.8l-7.4-3C-26.6-6.8-29.6-10.2-23.1-7.5z"/>
+	</g>
+	<path class="st34" d="M-30.6,43.8"/>
+</symbol>
+<symbol  id="_3_2" viewBox="-50 -100 100 200">
+	<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	<path class="st1" d="M50,46c0,0-19.5-15.5-19.5-17.5c0,0-3.7-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.8-12.3-9.7-18
+		c0,0,1-3-19-11l-10,33c0,0,16,14,22,15s7,4,7,4L50,76V46z"/>
+	<path class="st2" d="M-37.9,26l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S-37.9,26-37.9,26z"/>
+	<path class="st2" d="M-44,15l-1,1c0,0-2,3,2,2S-44,15-44,15z"/>
+	<path class="st2" d="M-46,6l-2,1c0,0-3,3,1,3s5-1,5-1L-46,6z"/>
+	<path class="st2" d="M-46-5l-3,1c0,0-2,2,1,3h4L-46-5z"/>
+	<path class="st1" d="M-39-8l-6,2c0,0-5,4,1,5h6L-39-8z"/>
+	<path class="st1" d="M-40,3l-6,2c0,0-3,5,2,5l6-2L-40,3z"/>
+	<path class="st1" d="M-40,12l-4,3c0,0-2,3,2,3l3-2L-40,12z"/>
+	<path class="st1" d="M-32,22l-5,2c0,0-6,5,2,4s20-6,20-6H-32z"/>
+	<path class="st3" d="M-35-55h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C-41-52.3-38.3-55-35-55z"/>
+	<rect x="-38" y="-47" class="st4" width="33" height="60.5"/>
+	<rect x="-38" y="1" class="st0" width="33" height="12"/>
+	<line class="st13" x1="-25.5" y1="-48.5" x2="-17.5" y2="-48.5"/>
+	<circle class="st5" cx="-27.5" cy="-48.5" r="0.5"/>
+	<circle class="st5" cx="-21.5" cy="-50.5" r="0.5"/>
+	<rect x="-38" y="-12" class="st14" width="33" height="14"/>
+	<rect x="-38" y="-40" class="st15" width="33" height="28"/>
+	<circle class="st16" cx="-21.5" cy="18.5" r="3"/>
+	<path class="st17" d="M4.8,25.2c0,0-6.1-7.8-4.1-15.6c-4-1.3-7.9-3.1-11.4-5.5c0,0-12.2,0.5-11.4-5.5L-19-2l6,0.8
+		c0,0,5.1-0.4,8.2-1c0,0,1.1-0.9,7.6,4l7.6,4"/>
+	<path class="st18" d="M-19.3,0c0,0,6.8,1.9,5.2-1.4l-7.9-1C-22-2.4-26.2-0.9-19.3,0z"/>
+	<path class="st19" d="M-25.5-29.1l-1.3-2.7c0,0-0.6,0.2-0.6,0l0.1,1.6c0,0-0.3,0.9-0.9,1.2H-25.5z"/>
+	<path class="st20" d="M-33-36.2v3.3l0.6,1v0.6c0,0-0.2,0.7,0.3,0.7c0,0,0.2,0,0,0.2s0.1,0.5,0.5,0.5c0,0-0.4,0.2,0,0.4h3.6
+		c0,0,0.7-0.2,0.6-1.3l0.1-1.2c0.2,0.1,0.4,0,0.5-0.1c0,0,0-0.1,0-0.1c0.1-0.3,0.3-0.7,0.5-0.9c0.3-0.3-0.3-1.2-0.8-0.3
+		c0,0-4.1-1.2-4.3-1.6C-31.8-35.3-32.4-35.8-33-36.2z"/>
+	<path class="st21" d="M-34-35.8"/>
+	<path class="st22" d="M-27.1,0.3c0,0-1.1-2.5,0-2.4S-27.1,0.3-27.1,0.3z"/>
+	<path class="st22" d="M-29.8,0.3c0,0-1.1-2.5,0-2.4S-29.8,0.3-29.8,0.3z"/>
+	<path class="st20" d="M-30.3-10.9c0.2,0.8,0.2,1.5,0,2.3c0,0-0.6,1.2,0.4,4.8c0,0.1,0.1,0.3,0.1,0.4c0,0.8,0.1,1.6,0.2,2.3
+		c0.2,0.8,1.3,0.6,1,0c-0.1-1.1-0.1-2.2,0-3.3c0.2-1.3,0.3-2.7,0.3-4c-0.1-0.4-0.1-0.7-0.1-1.1c0-0.5,0.1-1,0.2-1.5
+		C-28-11.5-30.3-10.9-30.3-10.9z"/>
+	<path class="st23" d="M-29.4-0.7c0.1,0.1,0.3,0.2,0.8-0.1c0,0,0.1,0,0.1,0c0.1,0.3,0.6,1.3-0.3,1.3c-1.2,0-1,0.1-0.7-1.3
+		C-29.5-0.7-29.5-0.7-29.4-0.7C-29.4-0.7-29.4-0.7-29.4-0.7z"/>
+	<path class="st20" d="M-25.3-10.9c-0.2,0.8-0.2,1.5,0,2.3c0,0,0.6,1.2-0.3,4.8c0,0.2-0.1,0.4-0.1,0.5c0,0.8-0.1,1.5-0.2,2.2
+		c-0.2,0.8-1.2,0.6-1,0c0.1-1.1,0.1-2.2,0-3.3c-0.2-1.3-0.3-2.7-0.3-4c0.1-0.2,0.1-0.4,0.1-0.6c0-0.6-0.1-1.2-0.2-1.8
+		C-27.6-11.5-25.3-10.9-25.3-10.9z"/>
+	<path class="st23" d="M-26.6-0.7c0.2,0,0.5-0.1,0.7-0.2c0.1,0.3,0.7,1.5-0.2,1.5c-1.2,0-1.2,0-0.8-1.3C-27-0.7-26.8-0.6-26.6-0.7z"
+		/>
+	<path class="st24" d="M-31.2-19.3c0,0-1-0.4-1.3,8.6h9.4c0,0-0.6-6.3-2.1-8.6L-31.2-19.3z"/>
+	<path class="st25" d="M-33-36.2c0,0,0.8-2.1,4.2-1.9s3.6,4.4,3.6,4.4s0.2,2.1-1,2.9l-0.5-1.2c0.1-0.3,0.2-0.6,0.4-0.8
+		c0.2-0.1,0.3-0.3,0.2-0.5c-0.1-0.3-0.3-0.5-0.8,0c0,0-3.6-0.5-4.3-1.1c-0.1-0.1-0.3-0.2-0.5-0.3C-32.2-34.9-32.7-35.5-33-36.2z"/>
+	<path class="st26" d="M-31.5-29.2c0,0-0.8,0.2-0.7,2.6c0,0.2,0,0.4,0,0.6l-1.5,3.8L-34-33.4c0,0,0-2.1,1-2.7v3.3l0.6,1v0.6
+		c0,0-0.2,0.6,0.2,0.6c0.4,0,0.2,0.2,0.2,0.2s-0.2,0.6,0.4,0.6C-31.5-29.7-31.9-29.4-31.5-29.2z"/>
+	<path class="st27" d="M-23.4-27.9c-0.1-0.5-0.5-1.6-1.7-1.5h-6.1c0,0-1.1-0.2-1.2,2c0.1,0.8-0.1,1.6-0.4,2.3
+		c-0.4,0.8-0.7,1.7-0.9,2.6c-0.2,0.4-0.3,0.9-0.2,1.4c0.1,0.3,0.2,0.6,0.2,0.8c0,0,0.2,0.4,0.8,0c0.6-0.4,1.3-0.6,1.3-1.7
+		c0.1-0.4,0.2-0.9,0.4-1.3c0,0,0.4,2.7-0.2,3.6s0.6,0.4,0.6,0.4s4.8,0.2,5-0.2c0,0,1.3,0.4,0.6-0.6c-0.3-0.4-0.5-0.9-0.6-1.5
+		C-25.8-21.4-23.4-27.7-23.4-27.9z"/>
+	<path class="st22" d="M-23.4-27.9c-0.1,1.8,0,3.6,0.3,5.3c0,0,0.2,0.6-0.2,0.6c-0.4,0.8-1,1.5-1.7,2.1c-0.3-0.4-0.5-0.9-0.6-1.5
+		l1-1.5l-0.4-0.8c0.3-1,0.5-2,0.5-3L-23.4-27.9z"/>
+	<radialGradient id="SVGID_6_" cx="-28.0627" cy="-15.683" r="1.2912" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.27" style="stop-color:#B83917"/>
+		<stop  offset="0.64" style="stop-color:#CC7158"/>
+		<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</radialGradient>
+	<path class="st35" d="M-28.1-16.4c0,0-1.9,0-0.9,0.8s0,0.8,0,0.8s0,0.8,0.9,0s0.9,0,0.9,0s0.9,0,0-0.8
+		C-27.2-15.6-27.2-18.1-28.1-16.4z"/>
+	<g id="sefoto_copy_2_1_">
+		<path class="st21" d="M-8-28.8"/>
+	</g>
+	<rect x="-34.5" y="6.5" class="st36" width="6" height="6"/>
+	<line class="st36" x1="-31.5" y1="4" x2="-31.5" y2="9"/>
+	<polyline class="st36" points="-32.5,5.5 -31.5,3.5 -30.5,5.5 	"/>
+	<path class="st36" d="M-17,6c0,0,0.5,4.5,0.5,5.5s4,2,4.1-0.3C-12.3,10-12,6-12,6H-17z"/>
+	<path class="st36" d="M-15,6c0,0-1-1,1-1c0,0,1.4,0,0.7,1"/>
+	<line class="st36" x1="-15.6" y1="6.9" x2="-15.4" y2="11.1"/>
+	<line class="st36" x1="-14.5" y1="7" x2="-14.5" y2="11"/>
+	<line class="st36" x1="-13.5" y1="7" x2="-13.5" y2="11"/>
+	<polyline class="st36" points="-34,-45.6 -36,-43.9 -34,-42.2 	"/>
+	<text transform="matrix(1 0 0 1 -24.8101 -43.4707)" style="font-family:'ArialMT'; font-size:3px;">I dag</text>
+	<text transform="matrix(1 0 0 1 -15.8101 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">A</text>
+	<text transform="matrix(1 0 0 1 -14.29 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">lle </text>
+	<text transform="matrix(1 0 0 1 -11.3301 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">f</text>
+	<text transform="matrix(1 0 0 1 -10.6299 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">o</text>
+	<text transform="matrix(1 0 0 1 -9.2598 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">t</text>
+	<text transform="matrix(1 0 0 1 -8.4399 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">os</text>
+	<text transform="matrix(1 0 0 1 -23.8101 -41.1797)" style="font-family:'ArialMT'; font-size:2px;">12:35</text>
+</symbol>
+<symbol  id="_4_2" viewBox="-50 -100 100 200">
+	<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	<path class="st1" d="M50,46c0,0-19.5-15.5-19.5-17.5c0,0-3.7-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.8-12.3-9.7-18
+		c0,0,1-3-19-11l-10,33c0,0,16,14,22,15s7,4,7,4L50,76V46z"/>
+	<path class="st2" d="M-37.9,26l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S-37.9,26-37.9,26z"/>
+	<path class="st2" d="M-44,15l-1,1c0,0-2,3,2,2S-44,15-44,15z"/>
+	<path class="st2" d="M-46,6l-2,1c0,0-3,3,1,3s5-1,5-1L-46,6z"/>
+	<path class="st2" d="M-46-5l-3,1c0,0-2,2,1,3h4L-46-5z"/>
+	<path class="st1" d="M-39-8l-6,2c0,0-5,4,1,5h6L-39-8z"/>
+	<path class="st1" d="M-40,3l-6,2c0,0-3,5,2,5l6-2L-40,3z"/>
+	<path class="st1" d="M-40,12l-4,3c0,0-2,3,2,3l3-2L-40,12z"/>
+	<path class="st1" d="M-32,22l-5,2c0,0-6,5,2,4s20-6,20-6H-32z"/>
+	<path class="st3" d="M-35-55h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C-41-52.3-38.3-55-35-55z"/>
+	<rect x="-38" y="-47" class="st4" width="33" height="60.5"/>
+	<rect x="-38" y="1" class="st0" width="33" height="12"/>
+	<line class="st13" x1="-25.5" y1="-48.5" x2="-17.5" y2="-48.5"/>
+	<circle class="st5" cx="-27.5" cy="-48.5" r="0.5"/>
+	<circle class="st5" cx="-21.5" cy="-50.5" r="0.5"/>
+	<rect x="-38" y="-12" class="st14" width="33" height="14"/>
+	<rect x="-38" y="-40" class="st15" width="33" height="28"/>
+	<circle class="st16" cx="-21.5" cy="18.5" r="3"/>
+	<path class="st19" d="M-25.5-29.1l-1.3-2.7c0,0-0.6,0.2-0.6,0l0.1,1.6c0,0-0.3,0.9-0.9,1.2H-25.5z"/>
+	<path class="st20" d="M-33-36.2v3.3l0.6,1v0.6c0,0-0.2,0.7,0.3,0.7c0,0,0.2,0,0,0.2s0.1,0.5,0.5,0.5c0,0-0.4,0.2,0,0.4h3.6
+		c0,0,0.7-0.2,0.6-1.3l0.1-1.2c0.2,0.1,0.4,0,0.5-0.1c0,0,0-0.1,0-0.1c0.1-0.3,0.3-0.7,0.5-0.9c0.3-0.3-0.3-1.2-0.8-0.3
+		c0,0-4.1-1.2-4.3-1.6C-31.8-35.3-32.4-35.8-33-36.2z"/>
+	<path class="st21" d="M-34-35.8"/>
+	<path class="st22" d="M-27.1,0.3c0,0-1.1-2.5,0-2.4S-27.1,0.3-27.1,0.3z"/>
+	<path class="st22" d="M-29.8,0.3c0,0-1.1-2.5,0-2.4S-29.8,0.3-29.8,0.3z"/>
+	<path class="st20" d="M-30.3-10.9c0.2,0.8,0.2,1.5,0,2.3c0,0-0.6,1.2,0.4,4.8c0,0.1,0.1,0.3,0.1,0.4c0,0.8,0.1,1.6,0.2,2.3
+		c0.2,0.8,1.3,0.6,1,0c-0.1-1.1-0.1-2.2,0-3.3c0.2-1.3,0.3-2.7,0.3-4c-0.1-0.4-0.1-0.7-0.1-1.1c0-0.5,0.1-1,0.2-1.5
+		C-28-11.5-30.3-10.9-30.3-10.9z"/>
+	<path class="st23" d="M-29.4-0.7c0.1,0.1,0.3,0.2,0.8-0.1c0,0,0.1,0,0.1,0c0.1,0.3,0.6,1.3-0.3,1.3c-1.2,0-1,0.1-0.7-1.3
+		C-29.5-0.7-29.5-0.7-29.4-0.7C-29.4-0.7-29.4-0.7-29.4-0.7z"/>
+	<path class="st20" d="M-25.3-10.9c-0.2,0.8-0.2,1.5,0,2.3c0,0,0.6,1.2-0.3,4.8c0,0.2-0.1,0.4-0.1,0.5c0,0.8-0.1,1.5-0.2,2.2
+		c-0.2,0.8-1.2,0.6-1,0c0.1-1.1,0.1-2.2,0-3.3c-0.2-1.3-0.3-2.7-0.3-4c0.1-0.2,0.1-0.4,0.1-0.6c0-0.6-0.1-1.2-0.2-1.8
+		C-27.6-11.5-25.3-10.9-25.3-10.9z"/>
+	<path class="st23" d="M-26.6-0.7c0.2,0,0.5-0.1,0.7-0.2c0.1,0.3,0.7,1.5-0.2,1.5c-1.2,0-1.2,0-0.8-1.3C-27-0.7-26.8-0.6-26.6-0.7z"
+		/>
+	<path class="st24" d="M-31.2-19.3c0,0-1-0.4-1.3,8.6h9.4c0,0-0.6-6.3-2.1-8.6L-31.2-19.3z"/>
+	<path class="st25" d="M-33-36.2c0,0,0.8-2.1,4.2-1.9s3.6,4.4,3.6,4.4s0.2,2.1-1,2.9l-0.5-1.2c0.1-0.3,0.2-0.6,0.4-0.8
+		c0.2-0.1,0.3-0.3,0.2-0.5c-0.1-0.3-0.3-0.5-0.8,0c0,0-3.6-0.5-4.3-1.1c-0.1-0.1-0.3-0.2-0.5-0.3C-32.2-34.9-32.7-35.5-33-36.2z"/>
+	<path class="st26" d="M-31.5-29.2c0,0-0.8,0.2-0.7,2.6c0,0.2,0,0.4,0,0.6l-1.5,3.8L-34-33.4c0,0,0-2.1,1-2.7v3.3l0.6,1v0.6
+		c0,0-0.2,0.6,0.2,0.6c0.4,0,0.2,0.2,0.2,0.2s-0.2,0.6,0.4,0.6C-31.5-29.7-31.9-29.4-31.5-29.2z"/>
+	<path class="st27" d="M-23.4-27.9c-0.1-0.5-0.5-1.6-1.7-1.5h-6.1c0,0-1.1-0.2-1.2,2c0.1,0.8-0.1,1.6-0.4,2.3
+		c-0.4,0.8-0.7,1.7-0.9,2.6c-0.2,0.4-0.3,0.9-0.2,1.4c0.1,0.3,0.2,0.6,0.2,0.8c0,0,0.2,0.4,0.8,0c0.6-0.4,1.3-0.6,1.3-1.7
+		c0.1-0.4,0.2-0.9,0.4-1.3c0,0,0.4,2.7-0.2,3.6s0.6,0.4,0.6,0.4s4.8,0.2,5-0.2c0,0,1.3,0.4,0.6-0.6c-0.3-0.4-0.5-0.9-0.6-1.5
+		C-25.8-21.4-23.4-27.7-23.4-27.9z"/>
+	<path class="st22" d="M-23.4-27.9c-0.1,1.8,0,3.6,0.3,5.3c0,0,0.2,0.6-0.2,0.6c-0.4,0.8-1,1.5-1.7,2.1c-0.3-0.4-0.5-0.9-0.6-1.5
+		l1-1.5l-0.4-0.8c0.3-1,0.5-2,0.5-3L-23.4-27.9z"/>
+	<radialGradient id="SVGID_7_" cx="-28.0627" cy="-15.683" r="1.2912" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.27" style="stop-color:#B83917"/>
+		<stop  offset="0.64" style="stop-color:#CC7158"/>
+		<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</radialGradient>
+	<path class="st38" d="M-28.1-16.4c0,0-1.9,0-0.9,0.8s0,0.8,0,0.8s0,0.8,0.9,0s0.9,0,0.9,0s0.9,0,0-0.8
+		C-27.2-15.6-27.2-18.1-28.1-16.4z"/>
+	<g id="sefoto_copy_3_1_">
+		<path class="st21" d="M-8-28.8"/>
+	</g>
+	<rect x="-34.5" y="6.5" class="st36" width="6" height="6"/>
+	<line class="st36" x1="-31.5" y1="4" x2="-31.5" y2="9"/>
+	<polyline class="st36" points="-32.5,5.5 -31.5,3.5 -30.5,5.5 	"/>
+	<path class="st36" d="M-17,6c0,0,0.5,4.5,0.5,5.5s4,2,4.1-0.3C-12.3,10-12,6-12,6H-17z"/>
+	<path class="st36" d="M-15,6c0,0-1-1,1-1c0,0,1.4,0,0.7,1"/>
+	<line class="st36" x1="-15.6" y1="6.9" x2="-15.4" y2="11.1"/>
+	<line class="st36" x1="-14.5" y1="7" x2="-14.5" y2="11"/>
+	<line class="st36" x1="-13.5" y1="7" x2="-13.5" y2="11"/>
+	<polyline class="st36" points="-34,-45.6 -36,-43.9 -34,-42.2 	"/>
+	<text transform="matrix(1 0 0 1 -24.8101 -43.4707)" style="font-family:'ArialMT'; font-size:3px;">I dag</text>
+	<text transform="matrix(1 0 0 1 -15.8101 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">A</text>
+	<text transform="matrix(1 0 0 1 -14.29 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">lle </text>
+	<text transform="matrix(1 0 0 1 -11.3301 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">f</text>
+	<text transform="matrix(1 0 0 1 -10.6299 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">o</text>
+	<text transform="matrix(1 0 0 1 -9.2598 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">t</text>
+	<text transform="matrix(1 0 0 1 -8.4399 -43.8203)" class="st37" style="font-family:'ArialMT'; font-size:2.5px;">os</text>
+	<text transform="matrix(1 0 0 1 -23.8101 -41.1797)" style="font-family:'ArialMT'; font-size:2px;">12:35</text>
+	<path class="st17" d="M-0.3,21.6c0,0-8.2-5.6-8.7-13.6c-4.2,0-8.5-0.5-12.5-1.6c0,0-11.4,4.3-12.5-1.6l2.8-1.6l5.9-1.2
+		c0,0,4.7-1.9,7.5-3.5c0,0,0.8-1.2,8.4,1.4l8.4,1.4"/>
+	<path class="st18" d="M-31,5.1c0,0,7.1-0.4,4.5-2.9l-7.9,1.5C-34.3,3.8-37.8,6.5-31,5.1z"/>
+</symbol>
+<symbol  id="_5" viewBox="-50 -100 100 200">
+	<rect x="-50" y="-100" class="st0" width="100" height="200"/>
+	<path class="st1" d="M50,46c0,0-19.5-15.5-19.5-17.5c0,0-3.7-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.8-12.3-9.7-18
+		c0,0,1-3-19-11l-10,33c0,0,16,14,22,15s7,4,7,4L50,76V46z"/>
+	<path class="st2" d="M-37.9,26l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S-37.9,26-37.9,26z"/>
+	<path class="st2" d="M-44,15l-1,1c0,0-2,3,2,2S-44,15-44,15z"/>
+	<path class="st2" d="M-46,6l-2,1c0,0-3,3,1,3s5-1,5-1L-46,6z"/>
+	<path class="st2" d="M-46-5l-3,1c0,0-2,2,1,3h4L-46-5z"/>
+	<path class="st1" d="M-39-8l-6,2c0,0-5,4,1,5h6L-39-8z"/>
+	<path class="st1" d="M-40,3l-6,2c0,0-3,5,2,5l6-2L-40,3z"/>
+	<path class="st1" d="M-40,12l-4,3c0,0-2,3,2,3l3-2L-40,12z"/>
+	<path class="st1" d="M-32,22l-5,2c0,0-6,5,2,4s20-6,20-6H-32z"/>
+	<path class="st3" d="M-35-55h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C-41-52.3-38.3-55-35-55z"/>
+	<rect x="-38" y="-47" class="st4" width="33" height="60.5"/>
+	<rect x="-38" y="1" class="st0" width="33" height="12"/>
+	<line class="st13" x1="-25.5" y1="-48.5" x2="-17.5" y2="-48.5"/>
+	<circle class="st5" cx="-27.5" cy="-48.5" r="0.5"/>
+	<circle class="st5" cx="-21.5" cy="-50.5" r="0.5"/>
+	<rect x="-38" y="-12" class="st39" width="33" height="14"/>
+	<text transform="matrix(1 0 0 1 -31.0498 -29.0605)" class="st53" style="font-size:8px;">DELT</text>
+	<circle class="st16" cx="-21.5" cy="18.5" r="3"/>
+	<path class="st40" d="M-25.5-29.1l-1.3-2.7c0,0-0.6,0.2-0.6,0l0.1,1.6c0,0-0.3,0.9-0.9,1.2H-25.5z"/>
+	<path class="st41" d="M-33-36.2v3.3l0.6,1v0.6c0,0-0.2,0.7,0.3,0.7c0,0,0.2,0,0,0.2s0.1,0.5,0.5,0.5c0,0-0.4,0.2,0,0.4h3.6
+		c0,0,0.7-0.2,0.6-1.3l0.1-1.2c0.2,0.1,0.4,0,0.5-0.1c0,0,0-0.1,0-0.1c0.1-0.3,0.3-0.7,0.5-0.9c0.3-0.3-0.3-1.2-0.8-0.3
+		c0,0-4.1-1.2-4.3-1.6C-31.8-35.3-32.4-35.8-33-36.2z"/>
+	<path class="st21" d="M-34-35.8"/>
+	<path class="st42" d="M-27.1,0.3c0,0-1.1-2.5,0-2.4S-27.1,0.3-27.1,0.3z"/>
+	<path class="st42" d="M-29.8,0.3c0,0-1.1-2.5,0-2.4S-29.8,0.3-29.8,0.3z"/>
+	<path class="st41" d="M-30.3-10.9c0.2,0.8,0.2,1.5,0,2.3c0,0-0.6,1.2,0.4,4.8c0,0.1,0.1,0.3,0.1,0.4c0,0.8,0.1,1.6,0.2,2.3
+		c0.2,0.8,1.3,0.6,1,0c-0.1-1.1-0.1-2.2,0-3.3c0.2-1.3,0.3-2.7,0.3-4c-0.1-0.4-0.1-0.7-0.1-1.1c0-0.5,0.1-1,0.2-1.5
+		C-28-11.5-30.3-10.9-30.3-10.9z"/>
+	<path class="st43" d="M-29.4-0.7c0.1,0.1,0.3,0.2,0.8-0.1c0,0,0.1,0,0.1,0c0.1,0.3,0.6,1.3-0.3,1.3c-1.2,0-1,0.1-0.7-1.3
+		C-29.5-0.7-29.5-0.7-29.4-0.7C-29.4-0.7-29.4-0.7-29.4-0.7z"/>
+	<path class="st41" d="M-25.3-10.9c-0.2,0.8-0.2,1.5,0,2.3c0,0,0.6,1.2-0.3,4.8c0,0.2-0.1,0.4-0.1,0.5c0,0.8-0.1,1.5-0.2,2.2
+		c-0.2,0.8-1.2,0.6-1,0c0.1-1.1,0.1-2.2,0-3.3c-0.2-1.3-0.3-2.7-0.3-4c0.1-0.2,0.1-0.4,0.1-0.6c0-0.6-0.1-1.2-0.2-1.8
+		C-27.6-11.5-25.3-10.9-25.3-10.9z"/>
+	<path class="st43" d="M-26.6-0.7c0.2,0,0.5-0.1,0.7-0.2c0.1,0.3,0.7,1.5-0.2,1.5c-1.2,0-1.2,0-0.8-1.3C-27-0.7-26.8-0.6-26.6-0.7z"
+		/>
+	<path class="st44" d="M-31.2-19.3c0,0-1-0.4-1.3,8.6h9.4c0,0-0.6-6.3-2.1-8.6L-31.2-19.3z"/>
+	<path class="st45" d="M-33-36.2c0,0,0.8-2.1,4.2-1.9s3.6,4.4,3.6,4.4s0.2,2.1-1,2.9l-0.5-1.2c0.1-0.3,0.2-0.6,0.4-0.8
+		c0.2-0.1,0.3-0.3,0.2-0.5c-0.1-0.3-0.3-0.5-0.8,0c0,0-3.6-0.5-4.3-1.1c-0.1-0.1-0.3-0.2-0.5-0.3C-32.2-34.9-32.7-35.5-33-36.2z"/>
+	<path class="st46" d="M-31.5-29.2c0,0-0.8,0.2-0.7,2.6c0,0.2,0,0.4,0,0.6l-1.5,3.8L-34-33.4c0,0,0-2.1,1-2.7v3.3l0.6,1v0.6
+		c0,0-0.2,0.6,0.2,0.6c0.4,0,0.2,0.2,0.2,0.2s-0.2,0.6,0.4,0.6C-31.5-29.7-31.9-29.4-31.5-29.2z"/>
+	<path class="st47" d="M-23.4-27.9c-0.1-0.5-0.5-1.6-1.7-1.5h-6.1c0,0-1.1-0.2-1.2,2c0.1,0.8-0.1,1.6-0.4,2.3
+		c-0.4,0.8-0.7,1.7-0.9,2.6c-0.2,0.4-0.3,0.9-0.2,1.4c0.1,0.3,0.2,0.6,0.2,0.8c0,0,0.2,0.4,0.8,0c0.6-0.4,1.3-0.6,1.3-1.7
+		c0.1-0.4,0.2-0.9,0.4-1.3c0,0,0.4,2.7-0.2,3.6s0.6,0.4,0.6,0.4s4.8,0.2,5-0.2c0,0,1.3,0.4,0.6-0.6c-0.3-0.4-0.5-0.9-0.6-1.5
+		C-25.8-21.4-23.4-27.7-23.4-27.9z"/>
+	<path class="st42" d="M-23.4-27.9c-0.1,1.8,0,3.6,0.3,5.3c0,0,0.2,0.6-0.2,0.6c-0.4,0.8-1,1.5-1.7,2.1c-0.3-0.4-0.5-0.9-0.6-1.5
+		l1-1.5l-0.4-0.8c0.3-1,0.5-2,0.5-3L-23.4-27.9z"/>
+
+		<radialGradient id="SVGID_8_" cx="7422.0322" cy="-1303.4594" r="0.76" gradientTransform="matrix(1.8 -0.23 0.2 1.6 -13136.3691 3784.9104)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.27" style="stop-color:#B83917"/>
+		<stop  offset="0.64" style="stop-color:#CC7158"/>
+		<stop  offset="0.91" style="stop-color:#EBC7BD"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</radialGradient>
+	<path class="st48" d="M-28.2-16.4c0,0-1.9,0.2-0.8,0.9s0.1,0.8,0.1,0.8s0.1,0.8,0.9-0.1s0.9-0.1,0.9-0.1s0.9-0.1-0.1-0.8
+		C-27.2-15.7-27.5-18.2-28.2-16.4z"/>
+	<g id="sefoto_copy_4_1_">
+		<path class="st21" d="M-8-28.8"/>
+	</g>
+	<path class="st17" d="M2.2,19.8c0,0-6.8-7.2-5.6-15.1c-4.1-0.9-8.1-2.3-11.9-4.3c0,0-12,1.7-11.9-4.3l3-0.9l6,0.2c0,0,5-0.9,8-1.8
+		c0,0,1-1,7.9,3.2l7.9,3.2"/>
+	<path class="st18" d="M-25.3-2.8c0,0,7,1.2,5-1.9l-8-0.2C-28.3-4.9-32.3-3-25.3-2.8z"/>
+	<polyline class="st49" points="-29,-22 -21,-10 -10,-33 	"/>
+</symbol>
+<title>mobil</title>
+<g id="hånd1">
+	<use xlink:href="#_1"  width="100" height="200" x="-50" y="-100" transform="matrix(1 0 0 1 50 100)" style="overflow:visible;"/>
+
+		<use xlink:href="#_2"  width="100" height="200" id="XMLID_1_" x="-50" y="-100" transform="matrix(1 0 0 -1 150 100)" style="overflow:visible;"/>
+
+		<use xlink:href="#_3"  width="100" height="200" id="XMLID_2_" x="-50" y="-100" transform="matrix(1 0 0 -1 250 100)" style="overflow:visible;"/>
+
+		<use xlink:href="#_2"  width="100" height="200" x="-50" y="-100" transform="matrix(1 0 0 -1 350 100)" style="overflow:visible;"/>
+</g>
+<g id="hånd4">
+
+		<use xlink:href="#_1_2"  width="100" height="200" x="-50" y="-100" transform="matrix(1 0 0 1 50 300)" style="overflow:visible;"/>
+
+		<use xlink:href="#_2_2"  width="100" height="200" x="-50" y="-100" transform="matrix(1 0 0 1 150.5 300)" style="overflow:visible;"/>
+
+		<use xlink:href="#_3_2"  width="100" height="200" id="_3_2-3" x="-50" y="-100" transform="matrix(1 0 0 1 251.5 300)" style="overflow:visible;"/>
+
+		<use xlink:href="#_4_2"  width="100" height="200" x="-50" y="-100" transform="matrix(1 0 0 1 351.5 300)" style="overflow:visible;"/>
+
+		<use xlink:href="#_5"  width="100" height="200" x="-50" y="-100" transform="matrix(1 0 0 1 451.5 300)" style="overflow:visible;"/>
+	<rect y="400" class="st0" width="100" height="200"/>
+	<path class="st1" d="M100,546c0,0-19.2-15.5-19.2-17.5c0,0-3.6-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-1.9-2.5c-2.4-3.8-7.7-12.3-9.5-18
+		c0,0,1-3-18.7-11l-9.8,33c0,0,15.8,14,21.7,15s6.9,4,6.9,4L100,576V546z"/>
+	<path class="st2" d="M13.1,526l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S13.1,526,13.1,526z"/>
+	<path class="st2" d="M7,515l-1,1c0,0-2,3,2,2S7,515,7,515z"/>
+	<path class="st2" d="M5,506l-2,1c0,0-3,3,1,3s5-1,5-1L5,506z"/>
+	<path class="st2" d="M5,495l-3,1c0,0-2,2,1,3h4L5,495z"/>
+	<path class="st1" d="M12,492l-6,2c0,0-5,4,1,5h6L12,492z"/>
+	<path class="st1" d="M11,503l-6,2c0,0-3,5,2,5l6-2L11,503z"/>
+	<path class="st1" d="M11,512l-4,3c0,0-2,3,2,3l3-2L11,512z"/>
+	<path class="st1" d="M19,522l-5,2c0,0-6,5,2,4s20-6,20-6H19z"/>
+	<path class="st3" d="M16,467h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6H16c-3.3,0-6-2.7-6-6v-66C10,469.7,12.7,467,16,467z"/>
+	<rect x="13" y="475" class="st5" width="33" height="60.5"/>
+	<line class="st13" x1="25.5" y1="473.5" x2="33.5" y2="473.5"/>
+	<circle class="st5" cx="23.5" cy="473.5" r="0.5"/>
+	<circle class="st5" cx="29.5" cy="471.5" r="0.5"/>
+	<circle class="st16" cx="29.5" cy="540.5" r="3"/>
+	<g transform="translate(13 475) scale(0.04)">
+
+			<image style="overflow:visible;enable-background:new    ;" width="738" height="1176" id="image" xlink:href="7696E63F76F7FE75.png"  transform="matrix(4.444333e-02 0 0 4.430581e-02 13.0999 475.0004)">
+		</image>
+	</g>
+	<path class="st17" d="M55.8,525.2c0,0-6.1-7.8-4.1-15.6c-4-1.3-7.9-3.1-11.4-5.5c0,0-12.2,0.5-11.4-5.5L32,498l6,0.8
+		c0,0,5.1-0.4,8.2-1c0,0,1.1-0.9,7.6,4l7.6,4"/>
+	<path class="st18" d="M31.7,500c0,0,6.8,1.9,5.2-1.4l-7.9-1C29,497.6,24.8,499.1,31.7,500z"/>
+	<polyline class="st50" points="17,531 15,532 17,533 	"/>
+	<polyline class="st50" points="21,531 23,532 21,533 	"/>
+	<rect x="41.5" y="529.5" class="st50" width="3" height="3"/>
+	<rect x="40.5" y="530.5" class="st51" width="3" height="3"/>
+	<path class="st50" d="M35,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C36.5,529.4,35.6,529.4,35,530C35,530,35,530,35,530z"/>
+	<path class="st50" d="M32.5,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C34,529.4,33.1,529.4,32.5,530C32.5,530,32.5,530,32.5,530z"
+		/>
+	<rect x="26" y="530.2" class="st50" width="2.8" height="2.8"/>
+	<line class="st50" x1="27.5" y1="528.5" x2="27.4" y2="531.3"/>
+	<polyline class="st50" points="28.5,529.5 27.5,528.5 26.5,529.5 	"/>
+	<rect x="100" y="400" class="st0" width="100" height="200"/>
+	<path class="st1" d="M200,546c0,0-19.2-15.5-19.2-17.5c0,0-3.6-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-1.9-2.5c-2.4-3.8-7.7-12.3-9.5-18
+		c0,0,1-3-18.7-11l-9.9,33c0,0,15.8,14,21.7,15s6.9,4,6.9,4L200,576V546z"/>
+	<path class="st2" d="M113.1,526l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S113.1,526,113.1,526z"/>
+	<path class="st2" d="M107,515l-1,1c0,0-2,3,2,2S107,515,107,515z"/>
+	<path class="st2" d="M105,506l-2,1c0,0-3,3,1,3s5-1,5-1L105,506z"/>
+	<path class="st2" d="M105,495l-3,1c0,0-2,2,1,3h4L105,495z"/>
+	<path class="st1" d="M112,492l-6,2c0,0-5,4,1,5h6L112,492z"/>
+	<path class="st1" d="M111,503l-6,2c0,0-3,5,2,5l6-2L111,503z"/>
+	<path class="st1" d="M111,512l-4,3c0,0-2,3,2,3l3-2L111,512z"/>
+	<path class="st1" d="M119,522l-5,2c0,0-6,5,2,4s20-6,20-6H119z"/>
+	<path class="st3" d="M116,467h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C110,469.7,112.7,467,116,467z"/>
+	<rect x="113" y="475" class="st5" width="33" height="60.5"/>
+	<line class="st13" x1="125.5" y1="473.5" x2="133.5" y2="473.5"/>
+	<circle class="st5" cx="123.5" cy="473.5" r="0.5"/>
+	<circle class="st5" cx="129.5" cy="471.5" r="0.5"/>
+	<circle class="st16" cx="129.5" cy="540.5" r="3"/>
+	<g transform="translate(113 475) scale(0.04)">
+
+			<image style="overflow:visible;enable-background:new    ;" width="738" height="1176" id="image_2_" xlink:href="7696E63F76F7FE77.png"  transform="matrix(4.471545e-02 0 0 4.430599e-02 113 475)">
+		</image>
+	</g>
+	<path class="st17" d="M152.5,522.5c0,0-13.4-18.5-9-25.2c-3.4-2.5-6.4-5.5-9-8.9c0,0-11.7-3.5-9-8.9l3.1,0.4l5.4,2.6
+		c0,0,4.9,1.3,8.1,1.7c0,0,1.3-0.5,5.9,6.2l5.9,6.2"/>
+	<path class="st18" d="M127.8,481.7c0,0,5.8,4,5.4,0.4l-7.2-3.5C126,478.6,121.5,478.6,127.8,481.7z"/>
+	<polyline class="st50" points="117,531 115,532 117,533 	"/>
+	<polyline class="st50" points="121,531 123,532 121,533 	"/>
+	<rect x="141.5" y="529.5" class="st50" width="3" height="3"/>
+	<rect x="140.5" y="530.5" class="st51" width="3" height="3"/>
+	<path class="st50" d="M135,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C136.5,529.4,135.6,529.4,135,530C135,530,135,530,135,530z"/>
+	<path class="st50" d="M132.5,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C134,529.4,133.1,529.4,132.5,530
+		C132.5,530,132.5,530,132.5,530z"/>
+	<rect x="126" y="530.2" class="st50" width="2.8" height="2.8"/>
+	<line class="st50" x1="127.5" y1="528.5" x2="127.4" y2="531.3"/>
+	<polyline class="st50" points="128.5,529.5 127.5,528.5 126.5,529.5 	"/>
+	<rect x="200" y="400" class="st0" width="100" height="200"/>
+	<path class="st1" d="M300,546c0,0-19.2-15.5-19.2-17.5c0,0-3.6-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.7-12.3-9.5-18
+		c0,0,1-3-18.7-11l-9.9,33c0,0,15.8,14,21.7,15c5.9,1,6.9,4,6.9,4L300,576V546z"/>
+	<path class="st2" d="M213.1,526l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S213.1,526,213.1,526z"/>
+	<path class="st2" d="M207,515l-1,1c0,0-2,3,2,2S207,515,207,515z"/>
+	<path class="st2" d="M205,506l-2,1c0,0-3,3,1,3s5-1,5-1L205,506z"/>
+	<path class="st2" d="M205,495l-3,1c0,0-2,2,1,3h4L205,495z"/>
+	<path class="st1" d="M212,492l-6,2c0,0-5,4,1,5h6L212,492z"/>
+	<path class="st1" d="M211,503l-6,2c0,0-3,5,2,5l6-2L211,503z"/>
+	<path class="st1" d="M211,512l-4,3c0,0-2,3,2,3l3-2L211,512z"/>
+	<path class="st1" d="M219,522l-5,2c0,0-6,5,2,4s20-6,20-6H219z"/>
+	<path class="st3" d="M216,467h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C210,469.7,212.7,467,216,467z"/>
+	<rect x="213" y="475" class="st5" width="33" height="60.5"/>
+	<line class="st13" x1="225.5" y1="473.5" x2="233.5" y2="473.5"/>
+	<circle class="st5" cx="223.5" cy="473.5" r="0.5"/>
+	<circle class="st5" cx="229.5" cy="471.5" r="0.5"/>
+	<circle class="st16" cx="229.5" cy="540.5" r="3"/>
+	<polyline class="st50" points="217,531 215,532 217,533 	"/>
+	<polyline class="st50" points="221,531 223,532 221,533 	"/>
+	<rect x="241.5" y="529.5" class="st50" width="3" height="3"/>
+	<rect x="240.5" y="530.5" class="st51" width="3" height="3"/>
+	<path class="st50" d="M235,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C236.5,529.4,235.6,529.4,235,530C235,530,235,530,235,530z"/>
+	<path class="st50" d="M232.5,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C234,529.4,233.1,529.4,232.5,530
+		C232.5,530,232.5,530,232.5,530z"/>
+	<rect x="226" y="530.2" class="st50" width="2.8" height="2.8"/>
+	<line class="st50" x1="227.5" y1="528.5" x2="227.4" y2="531.3"/>
+	<polyline class="st50" points="228.5,529.5 227.5,528.5 226.5,529.5 	"/>
+	<g transform="translate(213 481) scale(0.05)">
+
+			<image style="overflow:visible;enable-background:new    ;" width="722" height="848" id="image-2" xlink:href="7696E63F76F7FE72.png"  transform="matrix(4.570637e-02 0 0 5.070755e-02 213 475)">
+		</image>
+	</g>
+	<text transform="matrix(1 0 0 1 215.9998 524.8802)" class="st52 st53 st54">70202281</text>
+	<path class="st17" d="M253.5,520.5c0,0-13.4-18.5-9-25.2c-3.4-2.5-6.4-5.5-9-8.9c0,0-11.7-3.5-9-8.9l3.1,0.4l5.4,2.6
+		c0,0,4.9,1.3,8.1,1.7c0,0,1.3-0.5,5.9,6.2l5.9,6.2"/>
+	<path class="st18" d="M228.8,479.7c0,0,5.9,4,5.4,0.4l-7.2-3.5C226.9,476.6,222.5,476.6,228.8,479.7z"/>
+	<rect x="300" y="400" class="st0" width="100" height="200"/>
+	<path class="st1" d="M400,546c0,0-19.2-15.5-19.2-17.5c0,0-3.6-6.6-5.3-8.5c-0.7-0.8-1.4-1.6-2-2.5c-2.5-3.8-7.7-12.3-9.5-18
+		c0,0,1-3-18.7-11l-9.9,33c0,0,15.8,14,21.7,15s6.9,4,6.9,4L400,576V546z"/>
+	<path class="st2" d="M313.1,526l-1.4,0.7c0,0-2.7,2.1,2.7,1.4S313.1,526,313.1,526z"/>
+	<path class="st2" d="M307,515l-1,1c0,0-2,3,2,2S307,515,307,515z"/>
+	<path class="st2" d="M305,506l-2,1c0,0-3,3,1,3s5-1,5-1L305,506z"/>
+	<path class="st2" d="M305,495l-3,1c0,0-2,2,1,3h4L305,495z"/>
+	<path class="st1" d="M312,492l-6,2c0,0-5,4,1,5h6L312,492z"/>
+	<path class="st1" d="M311,503l-6,2c0,0-3,5,2,5l6-2L311,503z"/>
+	<path class="st1" d="M311,512l-4,3c0,0-2,3,2,3l3-2L311,512z"/>
+	<path class="st1" d="M319,522l-5,2c0,0-6,5,2,4s20-6,20-6H319z"/>
+	<path class="st3" d="M316,467h27c3.3,0,6,2.7,6,6v66c0,3.3-2.7,6-6,6h-27c-3.3,0-6-2.7-6-6v-66C310,469.7,312.7,467,316,467z"/>
+	<rect x="313" y="475" class="st5" width="33" height="60.5"/>
+	<line class="st13" x1="325.5" y1="473.5" x2="333.5" y2="473.5"/>
+	<circle class="st5" cx="323.5" cy="473.5" r="0.5"/>
+	<circle class="st5" cx="329.5" cy="471.5" r="0.5"/>
+	<circle class="st16" cx="329.5" cy="540.5" r="3"/>
+	<polyline class="st50" points="317,531 315,532 317,533 	"/>
+	<polyline class="st50" points="321,531 323,532 321,533 	"/>
+	<rect x="341.5" y="529.5" class="st50" width="3" height="3"/>
+	<rect x="340.5" y="530.5" class="st51" width="3" height="3"/>
+	<path class="st50" d="M335,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C336.5,529.4,335.6,529.4,335,530C335,530,335,530,335,530z"/>
+	<path class="st50" d="M332.5,530v3c0.5-0.6,1.4-0.6,2,0c0,0,0,0,0,0v-3C334,529.4,333.1,529.4,332.5,530
+		C332.5,530,332.5,530,332.5,530z"/>
+	<rect x="326" y="530.2" class="st50" width="2.8" height="2.8"/>
+	<line class="st50" x1="327.5" y1="528.5" x2="327.4" y2="531.3"/>
+	<polyline class="st50" points="328.5,529.5 327.5,528.5 326.5,529.5 	"/>
+	<g transform="translate(313 481) scale(0.05)">
+
+			<image style="overflow:visible;enable-background:new    ;" width="722" height="848" id="image-2_2_" xlink:href="7696E63F76F7FE73.png"  transform="matrix(4.570637e-02 0 0 5.094821e-02 313 475)">
+		</image>
+	</g>
+	<text transform="matrix(1 0 0 1 316.0001 524.8801)" class="st52 st53 st54">70202281</text>
+	<path class="st17" d="M359.5,526.5c0,0-12.1-6.1-11.5-14.1c-4.2-0.6-8.3-1.7-12.2-3.4c0,0-11.9,2.6-12.2-3.4l3-1.1l6-0.3
+		c0,0,4.9-1.2,7.9-2.4c0,0,1-1,8.1,2.6l8.1,2.6"/>
+	<path class="st18" d="M326.6,506.5c0,0,7,0.6,4.9-2.2l-8,0.4C323.5,504.6,319.6,506.8,326.6,506.5z"/>
+</g>
+</svg>
