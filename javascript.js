@@ -1,6 +1,6 @@
 //starten
 
-$(window).on("load", skolegaarden);
+$(window).on("load", gangen);
 
 
 function skolegaarden() {
@@ -37,35 +37,45 @@ function gangen() {
 
     console.log("gangen")
 
-    $("#offer_sprite").show();
 
     $("#gangen").addClass("")
 
     $("#baggrund").addClass("hide")
     $("#gangen").show();
 
-
-
+    $("#offer_container").hide();
+    setTimeout(sofiaKommerInd, 2000);
 
 }
 
 function sofiaKommerInd() {
 
-    $("#offer_sprite").addClass("gaa");
+    $("#offer_container").show();
+    $("#offer_sprite").addClass("offer_walkcycle");
     $("#offer_container").addClass("gaa_til_venstre");
 
+    $("#offer_container").on("animationend", sofiaBloeder)
 }
 
 function sofiaBloeder() {
 
+    console.log("Sofia Bløder");
 
+    $("#offer_sprite").removeClass("offer_walkcycle");
+
+    $("#offer_sprite").addClass("offer_bloder");
+
+    $("#offer_container").on("animationend", mobilInd)
 
 }
 
 function mobilInd() {
 
-    $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
+    console.log("mobil ind")
+
     $("#mobber_mobil_container").addClass("mobber_mobil_ind");
+    $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
+
 
 
 }

@@ -86,8 +86,8 @@ body {
 #offer_container {
 
     position: absolute;
-    top: 20vw;
-    left: 80vw;
+    top: 10vw;
+    right: -10vw;
 
 }
 
@@ -95,23 +95,23 @@ body {
 
     background-image: url(img/offer_spritesheet.svg);
     background-size: 900% 300%;
-    width: 10vw;
-    height: 20vw;
+    width: 20vw;
+    height: 40vw;
     z-index: 9;
 
 
 }
 
 
-.gaa {
-    animation-name: gaa_kf;
+.offer_walkcycle {
+    animation-name: offer_walkcycle_kf;
     animation-duration: 1s;
     animation-timing-function: steps(5);
     animation-iteration-count: infinite;
 
 }
 
-@keyframes gaa_kf {
+@keyframes offer_walkcycle_kf {
     0% {
         background-position: 0% -200%;
     }
@@ -125,7 +125,7 @@ body {
 
     animation-name: gaa_til_venstre_kf;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 
@@ -135,11 +135,31 @@ body {
 @keyframes gaa_til_venstre_kf {
 
     0% {
-        left: 80vw;
+        right: -10vw;
     }
     100% {
 
-        left: 20vw;
+        right: 66vw;
+    }
+}
+
+
+.offer_bloder {
+
+    animation-name: offer_bloder_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes offer_bloder_kf {
+
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -800% 0%;
     }
 
 
@@ -210,6 +230,7 @@ body {
     position: absolute;
     top: 20vw;
     right: -10vw;
+    z-index: 12;
 }
 
 #mobber_mobil_sprite {
