@@ -78,6 +78,8 @@ function karinaOgVeninderKommerInd() {
 
     $("#mobber_sprite").addClass("mobber_gaa");
     $("#mobber_container").addClass("mobber_gaa_til_venstre");
+    $("#veninde_red_container").addClass("veninde_red_ind");
+
 
 
 }
