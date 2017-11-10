@@ -2,6 +2,7 @@
 
 $(window).on("load", skolegaarden);
 
+
 function skolegaarden() {
 
     console.log("start");
@@ -9,21 +10,25 @@ function skolegaarden() {
 
     $(".knap").addClass("start");
     $(".start").addClass("puls");
+    $("#offer_container").hide();
 
 
 
-    $("#offer_sprite").addClass("gaa");
-    $("#offer_container").addClass("gaa_til_venstre");
+
+
+    //    $("#offer_sprite").addClass("gaa");
+    //    $("#offer_container").addClass("gaa_til_venstre");
 
     $("#gangen").addClass("hide");
 
-    $(".knap").on("click", gangen);
+    $(".knap").on("click", valgAfKarakter);
 
 }
 //$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
 
+    console.log("valg Af Karakter")
 
 
 }
@@ -32,19 +37,22 @@ function gangen() {
 
     console.log("gangen")
 
+    $("#offer_sprite").show();
+
     $("#gangen").addClass("")
-    $("#offer_sprite").removeClass("gaa")
-    $("#offer_container").removeClass("gaa_til_venstre")
 
     $("#baggrund").addClass("hide")
-    $("#gangen").removeClass("hide")
+    $("#gangen").show();
+
+
 
 
 }
 
 function sofiaKommerInd() {
 
-
+    $("#offer_sprite").addClass("gaa");
+    $("#offer_container").addClass("gaa_til_venstre");
 
 }
 
@@ -78,8 +86,10 @@ function karinaOgVeninderKommerInd() {
 
     $("#mobber_sprite").addClass("mobber_gaa");
     $("#mobber_container").addClass("mobber_gaa_til_venstre");
-
-
+    $("#veninde_red_sprite").addClass("veninde_red_ind_walkcycle");
+    $("#veninde_red_container").addClass("veninde_red_move");
+    $("#veninde_purple_container").addClass("veninde_purple_move");
+    $("#veninde_purple_sprite").addClass("veninde_purple_ind_walkcycle");
 }
 
 function karinaOgVeninderFniser() {
