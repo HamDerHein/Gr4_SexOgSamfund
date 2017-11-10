@@ -278,6 +278,13 @@ body {
     height: 80vw;
 }
 
+
+
+
+
+
+
+
 .mobber_mobil_walkcycle {
     animation-name: mobber_mobil_walkcycle_kf;
     animation-duration: 4s;
@@ -327,6 +334,51 @@ body {
         right: -40vw;
     }
 }
+
+/****** OFFER START **********/
+
+#offer_mobil_container {
+
+    position: absolute;
+    top: 2vw;
+    right: -40vw;
+    z-index: 12;
+}
+
+#offer_mobil_sprite {
+
+    background-image: url(img/offer_mobil_final@4x.png);
+    background-size: 800% 400%;
+    width: 40vw;
+    height: 80vw;
+}
+
+
+.offer_position {
+    top: 2vw;
+    right: -40vw;
+}
+
+offer_mobil_notifikation_walkcycle {
+    animation-name: offer_mobil_notifikation_walkcycle_kf;
+    animation-duration: 4s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+
+}
+
+@keyframes offer_mobil_notifikation_walkcycle_kf {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -300% 0%;
+    }
+}
+
+
+
 
 
 /****** VENINDER START **********/
