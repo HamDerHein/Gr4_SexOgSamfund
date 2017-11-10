@@ -43,7 +43,7 @@ function valgAfKarakter() {
     $("#mobber_container").on("click", gangen);
     $("#offer_container").on("click", gangen);
 
-    console.log("valg Af Karakter")
+    console.log("valg Af Karakter");
 
 
 }
@@ -51,6 +51,12 @@ function valgAfKarakter() {
 function gangen() {
 
     console.log("gangen")
+
+    $("#offer_sprite").removeClass("postionOffer2");
+    $("#offer_container").removeClass("postionOffer1");
+
+    $("#mobber_sprite").removeClass("postion1");
+    $("#mobber_container").removeClass("postion2");
 
     $("#baggrund").addClass("hide")
     $("#gangen").show();
@@ -114,7 +120,9 @@ function karinaOgVeninderKommerInd() {
 
 
     $("#mobber_sprite").addClass("mobber_gaa");
-    $("#mobber_container").addClass("mobber_gaa_til_venstre mobber_position");
+    $("#mobber_container").addClass("mobber_gaa_til_venstre");
+    $("#mobber_container").addClass("mobber_position");
+
     $("#veninde_red_sprite").addClass("veninde_red_ind_walkcycle");
     $("#veninde_red_container").addClass("veninde_red_move");
     $("#veninde_purple_container").addClass("veninde_purple_move");
