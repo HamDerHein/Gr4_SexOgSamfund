@@ -71,6 +71,7 @@ function sofiaKommerInd() {
     $("#offer_container").show();
     $("#offer_sprite").addClass("offer_walkcycle");
     $("#offer_container").addClass("gaa_til_venstre");
+    $("#offer_container").addClass("offer_position");
 
     $("#offer_container").on("animationend", sofiaBloeder);
 }
@@ -153,7 +154,12 @@ function lydStopper() {
 
 }
 
-// mobilInd funktion skal genbruges her.
+function mobilIndNotifikation() {
+
+
+
+}
+
 
 
 function SofiaHarFaaetNotifikation() {
