@@ -290,7 +290,11 @@ body {
 
 
 
-
+#scene {
+    height: 56.25vw;
+    width: 100vw;
+    position: relative:
+}
 
 
 
