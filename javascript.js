@@ -146,6 +146,7 @@ function karinaOgVeninderFniser() {
     $("#veninde_red_sprite").removeClass("veninde_red_ind_walkcycle");
     $("#mobber_sprite").addClass("mobberStaaStille");
 
+    setTimeout(mobilIndNotifikation, 1500);
 }
 
 function lydStopper() {
@@ -155,6 +156,11 @@ function lydStopper() {
 }
 
 function mobilIndNotifikation() {
+
+    console.log("Mobil ind notifikation")
+
+    $("#offer_mobil_container").addClass("offer_mobil_ind");
+    $("#offer_mobil_sprite").addClass("offer_mobil_notifikation_frame");
 
 
 
