@@ -1,6 +1,6 @@
 //starten
 
-$(window).on("load", karinaOgVeninderKommerInd);
+$(window).on("load", skolegaarden);
 
 
 function skolegaarden() {
@@ -10,9 +10,8 @@ function skolegaarden() {
 
     $(".knap").addClass("start");
     $(".start").addClass("puls");
-    $("#offer_sprite").hide();
-    $("#mobber_sprite").addClass("mobber_gaa");
-    $("#mobber_container").addClass("mobber_gaa_til_venstre");
+    $("#offer_container").hide();
+
 
 
 
@@ -22,13 +21,14 @@ function skolegaarden() {
 
     $("#gangen").addClass("hide");
 
-    $(".knap").on("click", gangen);
+    $(".knap").on("click", valgAfKarakter);
 
 }
 //$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
 
+    console.log("valg Af Karakter")
 
 
 }
@@ -40,19 +40,19 @@ function gangen() {
     $("#offer_sprite").show();
 
     $("#gangen").addClass("")
-    $("#offer_sprite").removeClass("gaa")
-    $("#offer_container").removeClass("gaa_til_venstre")
 
     $("#baggrund").addClass("hide")
-    $("#gangen").removeClass("hide")
+    $("#gangen").show();
 
-    $("#offer_sprite").addClass("gaa");
-    $("#offer_container").addClass("gaa_til_venstre");
+
+
+
 }
 
 function sofiaKommerInd() {
 
-
+    $("#offer_sprite").addClass("gaa");
+    $("#offer_container").addClass("gaa_til_venstre");
 
 }
 
