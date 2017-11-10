@@ -86,8 +86,7 @@ body {
 #offer_container {
 
     position: absolute;
-    top: 20vw;
-    left: 80vw;
+
 
 }
 
@@ -102,6 +101,15 @@ body {
 
 }
 
+.postionOffer1 {
+    right: 70%;
+    top: 40%;
+}
+
+.postionOffer2 {
+    background-position: 0% 0%;
+
+}
 
 .gaa {
     animation-name: gaa_kf;
@@ -152,8 +160,6 @@ body {
 #mobber_container {
 
     position: absolute;
-    top: 20vw;
-    left: 80vw;
 }
 
 #mobber_sprite {
@@ -162,6 +168,7 @@ body {
     background-size: 400% 200%;
     width: 10vw;
     height: 20vw;
+    z-index: 11;
 }
 
 .mobber_gaa {
@@ -173,14 +180,16 @@ body {
 
 }
 
-@keyframes gaa_mobber_kf {
-    0% {
-        background-position: 0% -100%;
-    }
-    100% {
-        background-position: -400% -100%;
-    }
+.postion2 {
+    right: 10%;
+    top: 40%;
 }
+
+.postion1 {
+    background-position: 0% -100%;
+
+}
+
 
 .mobber_gaa_til_venstre {
 

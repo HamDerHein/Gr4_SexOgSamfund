@@ -1,6 +1,6 @@
 //starten
 
-$(window).on("load", karinaOgVeninderKommerInd);
+$(window).on("load", skolegaarden);
 
 
 function skolegaarden() {
@@ -11,8 +11,7 @@ function skolegaarden() {
     $(".knap").addClass("start");
     $(".start").addClass("puls");
     $("#offer_sprite").hide();
-    $("#mobber_sprite").addClass("mobber_gaa");
-    $("#mobber_container").addClass("mobber_gaa_til_venstre");
+    //    $("#mobber_container").addClass("mobber_gaa_til_venstre");
 
 
 
@@ -22,12 +21,30 @@ function skolegaarden() {
 
     $("#gangen").addClass("hide");
 
-    $(".knap").on("click", gangen);
+    $(".knap").on("click", valgAfKarakter);
 
 }
 //$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
+    console.log("valg");
+    $(".knap").hide();
+    $("#mobber_container").removeClass();
+    $("#offer_sprite").show();
+
+    $("#offer_sprite").addClass("postionOffer2");
+    $("#offer_container").addClass("postionOffer1");
+    $("#offer_container").addClass("puls");
+
+
+    $("#mobber_sprite").addClass("postion1");
+    $("#mobber_container").addClass("postion2");
+    $("#mobber_container").addClass("puls");
+
+
+
+    $("#mobber_container").on("click", gangen);
+    $("#offer_container").on("click", gangen);
 
 
 
@@ -36,7 +53,7 @@ function valgAfKarakter() {
 function gangen() {
 
     console.log("gangen")
-
+    $("#mobber_sprite").hide();
     $("#offer_sprite").show();
 
     $("#gangen").addClass("")
