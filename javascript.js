@@ -160,23 +160,25 @@ function mobilIndNotifikation() {
     console.log("Mobil ind notifikation")
 
     $("#offer_mobil_container").addClass("offer_mobil_ind");
-    $("#offer_mobil_sprite").addClass("offer_mobil_notifikation_frame");
 
-
-
+    $("#offer_mobil_container").on("animationend", SofiaHarFaaetNotifikation);
 }
 
 
 
 function SofiaHarFaaetNotifikation() {
 
+    console.log("Sofie har fået notifikation")
 
+    $("#offer_mobil_sprite").addClass("offer_faar_notifikation");
+
+    setTimeout(graeder, 1500)
 
 }
 
 function graeder() {
 
-
+$("#offer_sprite").addClass("offer_graeder");
 
 }
 
