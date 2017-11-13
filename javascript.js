@@ -194,7 +194,6 @@ function graeder() {
     $("#offer_sprite").addClass("offer_graeder");
 
     //dette er er for at teste
-    setTimeout(karinaValget1, 1000)
 
 }
 
@@ -256,7 +255,20 @@ function karinaValget() {
 
 function karinaKontakteLaerer() {
     console.log("valgetlaerer");
+    $("#offer_container").hide();
+    $("#offer_mobil_container").hide();
+
+    $("#mobber_sprite").hide();
+    $("#mobber_container").hide();
+
+    $("#veninde_red_sprite").hide();
+    $("#veninde_purple_sprite").hide();
+
     $("#valgeta").removeClass("valga");
+    $("#valgetb").removeClass("valgb");
+    $("#valgetc").removeClass("valgc");
+
+    $("#Laerer").addClass("laererDukkerOp");
 
 
 
