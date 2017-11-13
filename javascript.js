@@ -9,7 +9,7 @@ $(window).on("load", skolegaarden);
 function skolegaarden() {
 
     console.log("start");
-
+    $("#graa_baggrund").hide();
     $(".knap").addClass("start");
     $(".start").addClass("puls");
     $("#offer_container").hide();
@@ -182,19 +182,34 @@ function SofiaHarFaaetNotifikation() {
 
     $("#offer_mobil_container").show();
     $("#offer_mobil_sprite").addClass("offer_faar_notifikation");
+    $("#graa_baggrund").show();
+
 
     setTimeout(graeder, 1500)
 
 }
 
+
 function graeder() {
     console.log("graeder");
 
-
+    $("#graa_baggrund").hide();
     $("#offer_sprite").addClass("offer_graeder");
 
     //dette er er for at teste
-    setTimeout(sofiaValget, 1000)
+    setTimeout(sofiaLukkerNotifikation, 1000)
+
+}
+
+function sofiaLukkerNotifikation() {
+
+    console.log("sofia lukker notifikation")
+
+    $("#graa_baggrund").hide();
+    $("#offer_mobil_sprite").removeClass("offer_faar_notifikation");
+    $("#offer_mobil_sprite").addClass("offer_luk_notifikation");
+
+    $("#offer_mobil_sprite").on("animationend", sofiaValget);
 
 }
 
@@ -207,12 +222,16 @@ function karinaValget1() {
     $(".valga").on("click", karinaKontakteLaerer);
 
 
+
     $("#valgetb").addClass("valgb");
-    $("valga").on("click", privatSnakPaaMobil);
+    $("#valgetb").addClass("puls");
+    $(".valgb").on("click", privatSnakPaaMobil);
+
 
 
     $("#valgetc").addClass("valgc");
-    $("#valgetc").on("click", karinaHenTilSofia);
+    $("#valgetc").addClass("puls");
+    $(".valgc").on("click", karinaHenTilSofia);
 
 
 
@@ -256,25 +275,50 @@ function karinaValget() {
 
 function karinaKontakteLaerer() {
     console.log("valgetlaerer");
+    $("#offer_container").hide();
+    $("#offer_mobil_container").hide();
+
+    $("#mobber_sprite").hide();
+    $("#mobber_container").hide();
+
+    $("#veninde_red_sprite").hide();
+    $("#veninde_purple_sprite").hide();
+
     $("#valgeta").removeClass("valga");
+    $("#valgetb").removeClass("valgb");
+    $("#valgetc").removeClass("valgc");
+
+    $("#Laerer").addClass("laererDukkerOp");
 
 
 
 }
 
 function laererErKommetInd() {
+    // slet??
 
 
 
 }
 
 function KarinaSporgerLaerer() {
+    //lyd:lydHvadSkalJegGoreKarina
+    $("#")[0].play();
+
+
 
 
 
 }
 
 function laererSvarerKarina() {
+    // Spil lyd: lydKontaktPrivatSnak
+    $("#")[0].play();
+    //Start anim: privatSnakDukkerOp
+    //↺ Stop lyd: lydBaggrund
+    $("#")[0].pause();
+
+
 
 
 
@@ -289,7 +333,7 @@ function laererSvarerKarina() {
 function privatSnakPaaMobil() {
     console.log("valgetlaerer");
     $("#valgetc").removeClass("valgb");
-    $("#valgetc").addClass("puls");
+    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
 }
 //valg 2 (B)
@@ -333,26 +377,43 @@ function sofiaKontaktPrivatSnak() {
 
 function sofiaValget() {
     console.log("valgetsofia");
-    $("#valgeta").addClass("valgsofiaa");
-    $("#valgeta").addClass("puls");
 
-    $(".valga").on("click", karinaKontakteLaerer);
+    $("#graa_baggrund").show();
+    $("#offer_mobil_sprite").addClass("offer_sofia_gor_jeg");
 
-
-    $("#valgetb").addClass("valgsofiab");
-    $("#valgetb").addClass("puls");
-    $("valga").on("click", privatSnakPaaMobil);
-
-
-
-
-
+    $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem1);
+    $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem2);
 
 }
 
+function sofiavaelgemellem1() {
+
+    $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem1);
+    $("#offer_valgB").addClass("offer_valget_privatsnak");
+
+    $("#offer_valgB").on("click", sofiaMobilInd);
+}
+
+function sofiavaelgemellem2() {
+    $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem2);
+
+    $("#offer_valgA").addClass("offer_valget_laerer");
+
+    $("#offer_valgA").on("click", sofiaKontakteLaerer);
+}
+
+
 function sofiaKontakteLaerer() {
 
+    console.log("sofia kontakt lærer");
 
+    $("#graa_baggrund").hide();
+    $("#offer_valgA").removeClass("offer_valget_laerer");
+    $("#offer_valgB").removeClass("offer_valget_privatsnak");
+    $("#offer_mobil_container").hide();
+    $("#mobber_container").hide();
+    $("#veninde_red_container").hide();
+    $("#veninde_purple_container").hide();
 
 }
 
@@ -375,6 +436,7 @@ function laererSvarerSofia() {
 }
 
 function sofiaMobilInd() {
+    console.log("sofia mobil ind igen")
 
 
 
