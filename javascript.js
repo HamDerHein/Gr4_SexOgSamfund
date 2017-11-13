@@ -205,7 +205,7 @@ function karinaValget1() {
 
 
     $("#valgetc").addClass("valgc");
-    $("#valgetc").on("click", karinaKontakteLaerer);
+    $("#valgetc").on("click", karinaHenTilSofia);
 
 
 
@@ -274,21 +274,21 @@ function laererSvarerKarina() {
 }
 
 
-// KARINAS ANDET VALG (B)
+// KARINAS 3 VALG (C)
 
 
 // HER SKAL mobilInd genbruges igen
 
 function privatSnakPaaMobil() {
     console.log("valgetlaerer");
-    $("#valgeta").removeClass("valgb");
-
-
-
+    $("#valgetc").removeClass("valgb");
 
 }
-
+//valg 2 (B)
+//undskyldTilSofia--->
 function karinaHenTilSofia() {
+    console.log("valgetlaerer");
+    $("#valgetb").removeClass("valgb");
 
 
 
