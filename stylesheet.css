@@ -11,8 +11,7 @@ body {
     height: 56.25vw;
     width: 100vw;
     position: relative;
-    /*    overflow: hidden;*/
-}
+        overflow: hidden;}
 
 #baggrund {
 
@@ -635,12 +634,12 @@ body {
     background-image: url(img/skolelaerer-01.svg);
     background-repeat: no-repeat;
     position: relative;
-    width: 25vw;
-    height: 50vw;
+    width: 80vw;
+    height: 160vw;
     background-size: 100%;
     z-index: 99;
-    top: -120%;
-    right: -50%;
+    top: -110vw;
+    right: -17vw;
     animation: fadeinout 4s linear forwards;
 
 
