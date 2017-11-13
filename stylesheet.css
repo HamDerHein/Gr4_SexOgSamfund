@@ -482,7 +482,28 @@ body {
     right: -70%;
 }
 
+#graa_baggrund {
 
+    background-image: url(img/offer_mobil_baggrund-01.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    left: 0;
+
+}
+
+
+.offer_mobil_baggrund {
+
+    background-image: url(img/offer_mobil_baggrund-01.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+
+}
 
 /****** VENINDER START **********/
 

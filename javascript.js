@@ -9,7 +9,7 @@ $(window).on("load", skolegaarden);
 function skolegaarden() {
 
     console.log("start");
-
+    $("#graa_baggrund").hide();
     $(".knap").addClass("start");
     $(".start").addClass("puls");
     $("#offer_container").hide();
@@ -182,6 +182,8 @@ function SofiaHarFaaetNotifikation() {
 
     $("#offer_mobil_container").show();
     $("#offer_mobil_sprite").addClass("offer_faar_notifikation");
+    $("#graa_baggrund").show();
+
 
     setTimeout(graeder, 1500)
 
@@ -191,7 +193,7 @@ function SofiaHarFaaetNotifikation() {
 function graeder() {
     console.log("graeder");
 
-
+    $("#graa_baggrund").hide();
     $("#offer_sprite").addClass("offer_graeder");
 
     //dette er er for at teste
@@ -202,6 +204,8 @@ function graeder() {
 function sofiaLukkerNotifikation() {
 
     console.log("sofia lukker notifikation")
+
+    $("#graa_baggrund").hide();
     $("#offer_mobil_sprite").removeClass("offer_faar_notifikation");
     $("#offer_mobil_sprite").addClass("offer_luk_notifikation");
 
@@ -345,6 +349,7 @@ function sofiaKontaktPrivatSnak() {
 function sofiaValget() {
     console.log("valgetsofia");
 
+    $("#graa_baggrund").show();
     $("#offer_mobil_sprite").addClass("offer_sofia_gor_jeg");
 
     $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem1);
@@ -354,23 +359,32 @@ function sofiaValget() {
 
 function sofiavaelgemellem1() {
 
+    $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem1);
     $("#offer_valgB").addClass("offer_valget_privatsnak");
 
-
+    $("#offer_valgB").on("click", sofiaMobilInd);
 }
 
 function sofiavaelgemellem2() {
+    $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem2);
 
     $("#offer_valgA").addClass("offer_valget_laerer");
 
-
+    $("#offer_valgA").on("click", sofiaKontakteLaerer);
 }
 
 
 function sofiaKontakteLaerer() {
 
+    console.log("sofia kontakt lærer");
 
-
+    $("#graa_baggrund").hide();
+    $("#offer_valgA").removeClass("offer_valget_laerer");
+    $("#offer_valgB").removeClass("offer_valget_privatsnak");
+    $("#offer_mobil_container").hide();
+    $("#mobber_container").hide();
+    $("#veninde_red_container").hide();
+    $("#veninde_purple_container").hide();
 
 }
 
@@ -393,6 +407,7 @@ function laererSvarerSofia() {
 }
 
 function sofiaMobilInd() {
+    console.log("sofia mobil ind igen")
 
 
 
