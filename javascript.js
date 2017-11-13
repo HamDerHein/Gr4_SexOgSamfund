@@ -1,5 +1,8 @@
 //starten
 
+var valgtKarakter = "";
+
+
 $(window).on("load", skolegaarden);
 
 
@@ -10,6 +13,7 @@ function skolegaarden() {
     $(".knap").addClass("start");
     $(".start").addClass("puls");
     $("#offer_container").hide();
+    $("#offer_mobil_container").hide();
 
 
     //    $("#offer_sprite").addClass("gaa");
@@ -39,13 +43,25 @@ function valgAfKarakter() {
 
 
 
-    $("#mobber_container").on("click", gangen);
-    $("#offer_container").on("click", gangen);
+    $("#mobber_container").on("click", mobber);
+    $("#offer_container").on("click", offer);
 
     console.log("valg Af Karakter");
 
 
 }
+
+function mobber() {
+    valgtKarakter = "karina";
+    gangen();
+}
+
+function offer() {
+    valgtKarakter = "sofia";
+    gangen();
+}
+
+
 
 function gangen() {
 
@@ -144,8 +160,12 @@ function karinaOgVeninderFniser() {
     $("#mobber_sprite").removeClass("mobber_gaa");
     $("#veninde_red_sprite").removeClass("veninde_red_ind_walkcycle");
     $("#mobber_sprite").addClass("mobberStaaStille");
-
-    setTimeout(mobilIndNotifikation, 1500);
+    if (valgtKarakter == "sofia") {
+        setTimeout(SofiaHarFaaetNotifikation, 1500);
+    }
+    if (valgtKarakter == "karina") {
+        setTimeout(karinaValget1, 1500);
+    }
 }
 
 function lydStopper() {
@@ -154,21 +174,13 @@ function lydStopper() {
 
 }
 
-function mobilIndNotifikation() {
-
-    console.log("Mobil ind notifikation")
-
-    $("#offer_mobil_container").addClass("offer_mobil_ind");
-
-    $("#offer_mobil_container").on("animationend", SofiaHarFaaetNotifikation);
-}
-
 
 
 function SofiaHarFaaetNotifikation() {
 
     console.log("Sofie har fået notifikation")
 
+    $("#offer_mobil_container").show();
     $("#offer_mobil_sprite").addClass("offer_faar_notifikation");
 
     setTimeout(graeder, 1500)
@@ -186,11 +198,6 @@ function graeder() {
 
 }
 
-function zoomMobil() {
-
-
-
-}
 
 function karinaValget1() {
     console.log("valget");
@@ -205,7 +212,7 @@ function karinaValget1() {
 
 
     $("#valgetc").addClass("valgc");
-    $("#valgetc").on("click", karinaKontakteLaerer);
+    $("#valgetc").on("click", karinaHenTilSofia);
 
 
 
@@ -274,21 +281,23 @@ function laererSvarerKarina() {
 }
 
 
-// KARINAS ANDET VALG (B)
+// KARINAS 3 VALG (C)
 
 
 // HER SKAL mobilInd genbruges igen
 
 function privatSnakPaaMobil() {
     console.log("valgetlaerer");
-    $("#valgeta").removeClass("valgb");
-
-
-
+    $("#valgetc").removeClass("valgb");
+    $("#valgetc").addClass("puls");
 
 }
-
+//valg 2 (B)
+//undskyldTilSofia--->
 function karinaHenTilSofia() {
+    console.log("valgetlaerer");
+    $("#valgetb").removeClass("valgb");
+    $("#valgetb").addClass("puls");
 
 
 
@@ -323,6 +332,19 @@ function sofiaKontaktPrivatSnak() {
 //
 
 function sofiaValget() {
+    console.log("valgetsofia");
+    $("#valgeta").addClass("valgsofiaa");
+    $("#valgeta").addClass("puls");
+
+    $(".valga").on("click", karinaKontakteLaerer);
+
+
+    $("#valgetb").addClass("valgsofiab");
+    $("#valgetb").addClass("puls");
+    $("valga").on("click", privatSnakPaaMobil);
+
+
+
 
 
 
