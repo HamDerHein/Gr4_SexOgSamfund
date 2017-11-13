@@ -275,18 +275,30 @@ function karinaKontakteLaerer() {
 }
 
 function laererErKommetInd() {
+    // slet??
 
 
 
 }
 
 function KarinaSporgerLaerer() {
+    //lyd:lydHvadSkalJegGoreKarina
+    $("#")[0].play();
+
+
 
 
 
 }
 
 function laererSvarerKarina() {
+    // Spil lyd: lydKontaktPrivatSnak
+    $("#")[0].play();
+    //Start anim: privatSnakDukkerOp
+    //↺ Stop lyd: lydBaggrund
+    $("#")[0].pause();
+
+
 
 
 
