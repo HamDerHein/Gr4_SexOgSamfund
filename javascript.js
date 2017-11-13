@@ -333,8 +333,10 @@ function laererSvarerKarina() {
 // HER SKAL mobilInd genbruges igen
 
 function privatSnakPaaMobil() {
-    console.log("valgetlaerer");
-    $("#valgetc").removeClass("valgb");
+    console.log("snakpåmobil");
+    $("#valgeta").removeClass("valga");
+    $("#valgetb").removeClass("valgb");
+    $("#valgetc").removeClass("valgc");
     $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
 }
@@ -342,6 +344,9 @@ function privatSnakPaaMobil() {
 //undskyldTilSofia--->
 function karinaHenTilSofia() {
     console.log("valgetlaerer");
+    $("#valgeta").removeClass("valga");
+    $("#valgetb").removeClass("valgb");
+    $("#valgetc").removeClass("valgc");
     $("#valgetb").removeClass("valgb");
     $("#valgetb").addClass("puls");
 
