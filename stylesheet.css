@@ -197,10 +197,10 @@ body {
 
 @keyframes offer_graeder_kf {
 
-    0%{
+    0% {
         background-position: 00% -100%;
     }
-    100%{
+    100% {
         background-position: -200% -100%;
 
     }
