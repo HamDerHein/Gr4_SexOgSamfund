@@ -184,6 +184,32 @@ body {
 
 }
 
+<<<<<<< HEAD
+=======
+.offer_graeder {
+
+    animation-name: offer_graeder_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes offer_graeder_kf {
+
+    0% {
+        background-position: 00% -100%;
+    }
+    100% {
+        background-position: -200% -100%;
+
+    }
+}
+
+
+>>>>>>> origin/master
 /******* OFFER SLUT *******/
 
 /****** MOBBER START ******/
