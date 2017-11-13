@@ -27,6 +27,7 @@ function skolegaarden() {
 //$("#valgkarakter").on("click", valgAfKarakter);
 
 function valgAfKarakter() {
+
     console.log("valg");
     $(".knap").hide();
     $("#mobber_container").removeClass();
@@ -66,6 +67,9 @@ function offer() {
 function gangen() {
 
     console.log("gangen")
+
+    $("#mobber_container").off("click", mobber);
+    $("#offer_container").off("click", offer);
 
     $("#offer_sprite").removeClass("postionOffer2");
     $("#offer_container").removeClass("postionOffer1");
