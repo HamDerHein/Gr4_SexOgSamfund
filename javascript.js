@@ -222,12 +222,16 @@ function karinaValget1() {
     $(".valga").on("click", karinaKontakteLaerer);
 
 
+
     $("#valgetb").addClass("valgb");
-    $("valga").on("click", privatSnakPaaMobil);
+    $("#valgetb").addClass("puls");
+    $(".valgb").on("click", privatSnakPaaMobil);
+
 
 
     $("#valgetc").addClass("valgc");
-    $("#valgetc").on("click", karinaHenTilSofia);
+    $("#valgetc").addClass("puls");
+    $(".valgc").on("click", karinaHenTilSofia);
 
 
 
@@ -271,25 +275,50 @@ function karinaValget() {
 
 function karinaKontakteLaerer() {
     console.log("valgetlaerer");
+    $("#offer_container").hide();
+    $("#offer_mobil_container").hide();
+
+    $("#mobber_sprite").hide();
+    $("#mobber_container").hide();
+
+    $("#veninde_red_sprite").hide();
+    $("#veninde_purple_sprite").hide();
+
     $("#valgeta").removeClass("valga");
+    $("#valgetb").removeClass("valgb");
+    $("#valgetc").removeClass("valgc");
+
+    $("#Laerer").addClass("laererDukkerOp");
 
 
 
 }
 
 function laererErKommetInd() {
+    // slet??
 
 
 
 }
 
 function KarinaSporgerLaerer() {
+    //lyd:lydHvadSkalJegGoreKarina
+    $("#")[0].play();
+
+
 
 
 
 }
 
 function laererSvarerKarina() {
+    // Spil lyd: lydKontaktPrivatSnak
+    $("#")[0].play();
+    //Start anim: privatSnakDukkerOp
+    //↺ Stop lyd: lydBaggrund
+    $("#")[0].pause();
+
+
 
 
 
@@ -304,7 +333,7 @@ function laererSvarerKarina() {
 function privatSnakPaaMobil() {
     console.log("valgetlaerer");
     $("#valgetc").removeClass("valgb");
-    $("#valgetc").addClass("puls");
+    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
 }
 //valg 2 (B)
