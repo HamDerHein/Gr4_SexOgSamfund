@@ -527,7 +527,7 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: steps(4);
 
-    > > > > > > > origin/master
+
 }
 
 /****** VENINDER START **********/
@@ -606,148 +606,142 @@ body {
     100% {
         background-position: -400% -100%;
     }
+}
 
 
-    .veninde_red_move {
+.veninde_red_move {
 
-        animation-name: veninde_red_move_kf;
-        animation-duration: 10s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+    animation-name: veninde_red_move_kf;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 
+}
+
+@keyframes veninde_red_move_kf {
+
+    0% {
+        right: -30vw;
     }
-
-    @keyframes veninde_red_move_kf {
-
-        0% {
-            right: -30vw;
-        }
-        100% {
-            right: 40vw;
-        }
+    100% {
+        right: 40vw;
     }
+}
 
-    .veninde_purple_move {
+.veninde_purple_move {
 
-        animation-name: veninde_purple_move_kf;
-        animation-duration: 10s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+    animation-name: veninde_purple_move_kf;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 
+}
+
+@keyframes veninde_purple_move_kf {
+
+    0% {
+        right: -40vw;
     }
-
-    @keyframes veninde_purple_move_kf {
-
-        0% {
-            right: -40vw;
-        }
-        100% {
-            right: 30vw;
-        }
+    100% {
+        right: 30vw;
     }
+}
+
+/****** LAERER START ******/
+
+.laererDukkerOp {
+
+    background-image: url(img/skolelaerer-01.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 80vw;
+    height: 160vw;
+    background-size: 100%;
+    z-index: 99;
+    top: -110vw;
+    right: -17vw;
+    animation: fadeinout 4s linear forwards;
+
+}
 
 
-
-
-
-
-
-
-
-    /****** LAERER START ******/
-    .laererDukkerOp {
-
-        background-image: url(img/skolelaerer-01.svg);
-        background-repeat: no-repeat;
-        position: relative;
-        width: 80vw;
-        height: 160vw;
-        background-size: 100%;
-        z-index: 99;
-        top: -110vw;
-        right: -17vw;
-        animation: fadeinout 4s linear forwards;
-
+@keyframes fadeinout {
+    0% {
+        opacity: 0;
     }
-
-
-    @keyframes fadeinout {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
+    100% {
+        opacity: 1;
     }
+}
 
 
-    .valga {
+.valga {
 
-        background-image: url(/img/mobber_valg_laerer-01.svg);
-        position: relative;
-        background-repeat: no-repeat;
-        width: 31vw;
-        height: 46vw;
-        background-size: 100%;
-        top: -100%;
-        right: -10%;
-        z-index: 99;
-
-
-    }
+    background-image: url(/img/mobber_valg_laerer-01.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 31vw;
+    height: 46vw;
+    background-size: 100%;
+    top: -100%;
+    right: -10%;
+    z-index: 99;
 
 
-
-    .valgb {
-        background-image: url(/img/mobber_valg_privatsnak-03.svg);
-        position: relative;
-        background-repeat: no-repeat;
-        width: 12vw;
-        height: 21vw;
-        background-size: 100%;
-        top: -80%;
-        right: -70%;
-        z-index: 99;
-        cursor: pointer;
-    }
-
-    .valgc {
-        background-image: url(/img/mobber_valg_undskyld-02.svg);
-        position: relative;
-        background-repeat: no-repeat;
-        width: 22vw;
-        height: 6vw;
-        background-size: 100%;
-        top: -70%;
-        right: -70%;
-        z-index: 99;
-        cursor: pointer;
-    }
+}
 
 
-    .valgsofiaa {
-        background-image: url(valg%202.png);
-        position: relative;
-        background-repeat: no-repeat;
-        width: 22vw;
-        height: 6vw;
-        background-size: 100%;
-        top: -70%;
-        right: -70%;
-        z-index: 99;
 
-    }
+.valgb {
+    background-image: url(/img/mobber_valg_privatsnak-03.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 12vw;
+    height: 21vw;
+    background-size: 100%;
+    top: -80%;
+    right: -70%;
+    z-index: 99;
+    cursor: pointer;
+}
 
-    .valgsofiab {
-        background-image: url(valg%202.png);
-        position: relative;
-        background-repeat: no-repeat;
-        width: 22vw;
-        height: 6vw;
-        background-size: 100%;
-        top: -70%;
-        right: -70%;
-        z-index: 99;
-    }
+.valgc {
+    background-image: url(/img/mobber_valg_undskyld-02.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 6vw;
+    background-size: 100%;
+    top: -70%;
+    right: -70%;
+    z-index: 99;
+    cursor: pointer;
+}
+
+
+.valgsofiaa {
+    background-image: url(valg%202.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 6vw;
+    background-size: 100%;
+    top: -70%;
+    right: -70%;
+    z-index: 99;
+
+}
+
+.valgsofiab {
+    background-image: url(valg%202.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 6vw;
+    background-size: 100%;
+    top: -70%;
+    right: -70%;
+    z-index: 99;
+}
