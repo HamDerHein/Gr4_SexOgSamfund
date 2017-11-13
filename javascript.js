@@ -282,6 +282,7 @@ function laererSvarerKarina() {
 function privatSnakPaaMobil() {
     console.log("valgetlaerer");
     $("#valgetc").removeClass("valgb");
+    $("#valgetc").addClass("puls");
 
 }
 //valg 2 (B)
@@ -289,6 +290,7 @@ function privatSnakPaaMobil() {
 function karinaHenTilSofia() {
     console.log("valgetlaerer");
     $("#valgetb").removeClass("valgb");
+    $("#valgetb").addClass("puls");
 
 
 
@@ -323,6 +325,16 @@ function sofiaKontaktPrivatSnak() {
 //
 
 function sofiaValget() {
+    console.log("valgetsofia");
+    $("#valgeta").addClass("valgsofiaa");
+    $("#valgeta").addClass("puls");
+
+    $(".valga").on("click", karinaKontakteLaerer);
+
+
+    $("#valgetb").addClass("valgsofiab");
+    $("#valgetb").addClass("puls");
+    $("valga").on("click", privatSnakPaaMobil);
 
 
 
