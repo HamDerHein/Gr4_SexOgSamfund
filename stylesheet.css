@@ -565,3 +565,29 @@ body {
 
 
 }
+
+
+.valga {
+    background-image: url(valg%202.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 6vw;
+    background-size: 100%;
+    top: -70%;
+    right: -70%;
+    z-index: 99;
+
+
+}
+
+
+.valgb {
+    background-image: url(valg%202.png);
+    background-repeat: no-repeat;
+}
+
+.valgc {
+    background-image: url(valg%202.png);
+    background-repeat: no-repeat;
+}

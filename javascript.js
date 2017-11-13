@@ -182,7 +182,7 @@ function graeder() {
     $("#offer_sprite").addClass("offer_graeder");
 
     //dette er er for at teste
-
+    setTimeout(karinaValget1, 1000)
 
 }
 
