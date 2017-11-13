@@ -1,6 +1,6 @@
 body {
 
-    margin: 0;
+	margin: 0;
 }
 
 
@@ -8,59 +8,59 @@ body {
 
 #scene {
 
-    height: 56.25vw;
-    width: 100vw;
-    position: relative;
-    /*    overflow: hidden;*/
+	height: 56.25vw;
+	width: 100vw;
+	position: relative;
+	/*    overflow: hidden;*/
 }
 
 #baggrund {
 
-    background-image: url(img/titel-01.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 56.25vw;
-    background-size: cover;
+	background-image: url(img/titel-01.svg);
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 56.25vw;
+	background-size: cover;
 }
 
 #gangen {
-    background-image: url(img/gang.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 56.25vw;
+	background-image: url(img/gang.svg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 56.25vw;
 }
 
 
 #plakat {
 
-    background-image: url(img/plakat.jpg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 12vw;
-    height: 15vw;
-    background-size: 100%;
-    top: 10%;
-    right: -70%;
+	background-image: url(img/plakat.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 12vw;
+	height: 15vw;
+	background-size: 100%;
+	top: 10%;
+	right: -70%;
 
 }
 
 .puls {
-    animation: puls_kf 0.5s infinite alternate linear;
+	animation: puls_kf 0.5s infinite alternate linear;
 }
 
 @keyframes puls_kf {
-    0% {
-        transform: scale();
-    }
-    100% {
-        transform: scale(1.1);
-    }
+	0% {
+		transform: scale();
+	}
+	100% {
+		transform: scale(1.1);
+	}
 }
 
 .hide {
-    display: none;
+	display: none;
 }
 
 
@@ -68,15 +68,15 @@ body {
 
 .start {
 
-    background-image: url("img/start_knap.svg");
-    background-repeat: no-repeat;
+	background-image: url("img/start_knap.svg");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: absolute;
+	height: 7vw;
+	width: 17vw;
 
-    position: absolute;
-    height: 7vw;
-    width: 17vw;
-
-    top: 25vw;
-    left: 65vw;
+	top: 25vw;
+	left: 65vw;
 
 }
 
@@ -88,10 +88,10 @@ body {
 
 .graa_baggrund {
 
-    background-image: url(img/offer_mobil_baggrund-01.svg);
-    position: absolute;
-    height: 56.25vw;
-    width: 100vw;
+	background-image: url(img/offer_mobil_baggrund-01.svg);
+	position: absolute;
+	height: 56.25vw;
+	width: 100vw;
 
 
 }
@@ -102,105 +102,104 @@ body {
 
 #offer_container {
 
-    position: absolute;
-
+	position: absolute;
+	cursor: pointer;
 
 }
 
 #offer_sprite {
 
-    background-image: url(img/offer_spritesheet.svg);
-    background-size: 900% 300%;
-    width: 20vw;
-    height: 40vw;
-    z-index: 9;
-
+	background-image: url(img/offer_spritesheet.svg);
+	background-size: 900% 300%;
+	width: 20vw;
+	height: 40vw;
+	z-index: 9;
 
 }
 
 .offer_position {
-    top: 10vw;
-    right: -10vw;
+	top: 10vw;
+	right: -10vw;
 }
 
 .postionOffer1 {
-    right: 68%;
-    top: 25vw;
+	right: 68%;
+	top: 25vw;
 }
 
 .postionOffer2 {
-    background-position: 0% 0%;
-    transform: scale(0.5)
+	background-position: 0% 0%;
+	transform: scale(0.5)
 }
 
 .offer_walkcycle {
-    animation-name: offer_walkcycle_kf;
-    animation-duration: 1s;
-    animation-timing-function: steps(5);
-    animation-iteration-count: infinite;
+	animation-name: offer_walkcycle_kf;
+	animation-duration: 1s;
+	animation-timing-function: steps(5);
+	animation-iteration-count: infinite;
 
 }
 
 @keyframes offer_walkcycle_kf {
-    0% {
-        background-position: 0% -200%;
-    }
-    100% {
-        background-position: -500% -200%;
-    }
+	0% {
+		background-position: 0% -200%;
+	}
+	100% {
+		background-position: -500% -200%;
+	}
 }
 
 
 .gaa_til_venstre {
 
-    animation-name: gaa_til_venstre_kf;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+	animation-name: gaa_til_venstre_kf;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
 
 }
 
 
 @keyframes gaa_til_venstre_kf {
 
-    0% {
-        right: -10vw;
-    }
-    100% {
+	0% {
+		right: -10vw;
+	}
+	100% {
 
-        right: 66vw;
-    }
+		right: 66vw;
+	}
 }
 
 
 .offer_bloder {
 
-    animation-name: offer_bloder_kf;
-    animation-duration: 2s;
-    animation-timing-function: steps(8);
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+	animation-name: offer_bloder_kf;
+	animation-duration: 2s;
+	animation-timing-function: steps(8);
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 @keyframes offer_bloder_kf {
 
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: -800% 0%;
-    }
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: -800% 0%;
+	}
 
 
 }
 
 .offer_graeder {
 
-    animation-name: offer_graeder_kf;
-    animation-duration: 2s;
-    animation-timing-function: steps(2);
-    animation-iteration-count: infinite;
+	animation-name: offer_graeder_kf;
+	animation-duration: 2s;
+	animation-timing-function: steps(2);
+	animation-iteration-count: infinite;
 
 }
 
@@ -208,13 +207,13 @@ body {
 
 @keyframes offer_graeder_kf {
 
-    0% {
-        background-position: 00% -100%;
-    }
-    100% {
-        background-position: -200% -100%;
+	0% {
+		background-position: 00% -100%;
+	}
+	100% {
+		background-position: -200% -100%;
 
-    }
+	}
 }
 
 .offer_hvad_gor_jeg {}
@@ -225,54 +224,55 @@ body {
 
 #mobber_container {
 
-    position: absolute;
-    z-index: 2;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
 }
 
 #mobber_sprite {
 
-    background-image: url(img/mobber_walkcycle-02.svg);
-    background-size: 400% 200%;
-    z-index: 11;
-    width: 22vw;
-    height: 44vw;
+	background-image: url(img/mobber_walkcycle-02.svg);
+	background-size: 400% 200%;
+	z-index: 11;
+	width: 22vw;
+	height: 44vw;
 
 }
 
 .mobber_position {
 
-    top: 9vw;
-    left: 80vw;
+	top: 9vw;
+	left: 80vw;
 }
 
 .mobber_gaa {
-    animation-name: gaa_mobber_kf;
-    animation-duration: 1.5s;
-    animation-timing-function: steps(3);
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
+	animation-name: gaa_mobber_kf;
+	animation-duration: 1.5s;
+	animation-timing-function: steps(3);
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
 
 }
 
 @keyframes gaa_mobber_kf {
-    0% {
-        background-position: 0% -100%;
-    }
-    100% {
-        background-position: -300% -100%;
-    }
+	0% {
+		background-position: 0% -100%;
+	}
+	100% {
+		background-position: -300% -100%;
+	}
 
 }
 
 .postion1 {
-    background-position: 500% 0%;
-    transform: scale(0.5);
+	background-position: 500% 0%;
+	transform: scale(0.5);
 
 }
 
 .postion2 {
-    right: 10%;
-    top: 23vw;
+	right: 10%;
+	top: 23vw;
 }
 
 
@@ -280,47 +280,47 @@ body {
 
 .mobber_gaa_til_venstre {
 
-    animation-name: mobber_gaa_til_venstre_kf;
-    animation-duration: 6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-    animation-timing-function: linear;
+	animation-name: mobber_gaa_til_venstre_kf;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
 
 }
 
 
 @keyframes mobber_gaa_til_venstre_kf {
 
-    0% {
-        left: 120vw;
-    }
-    100% {
+	0% {
+		left: 120vw;
+	}
+	100% {
 
-        left: 35vw;
-    }
+		left: 35vw;
+	}
 }
 
 .mobberStaaStille {
 
-    background-position: 500% 0%;
+	background-position: 500% 0%;
 
 }
 
 
 #mobber_mobil_container {
 
-    position: absolute;
-    top: 2vw;
-    right: -40vw;
-    z-index: 12;
+	position: absolute;
+	top: 2vw;
+	right: -40vw;
+	z-index: 12;
 }
 
 #mobber_mobil_sprite {
 
-    background-image: url(img/mobber_mobil_total_final@4x.png);
-    background-size: 500% 300%;
-    width: 40vw;
-    height: 80vw;
+	background-image: url(img/mobber_mobil_total_final@4x.png);
+	background-size: 500% 300%;
+	width: 40vw;
+	height: 80vw;
 }
 
 
@@ -331,177 +331,177 @@ body {
 
 
 .mobber_mobil_walkcycle {
-    animation-name: mobber_mobil_walkcycle_kf;
-    animation-duration: 4s;
-    animation-timing-function: steps(3);
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
+	animation-name: mobber_mobil_walkcycle_kf;
+	animation-duration: 4s;
+	animation-timing-function: steps(3);
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
 
 }
 
 @keyframes mobber_mobil_walkcycle_kf {
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: -300% 0%;
-    }
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: -300% 0%;
+	}
 }
 
 .mobber_mobil_ind {
-    animation-name: mobber_mobil_ind_kf;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+	animation-name: mobber_mobil_ind_kf;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 @keyframes mobber_mobil_ind_kf {
-    0% {
-        right: -40vw;
-    }
-    100% {
-        right: 10vw;
-    }
+	0% {
+		right: -40vw;
+	}
+	100% {
+		right: 10vw;
+	}
 }
 
 .mobber_mobil_ud {
-    animation-name: mobber_mobil_ud_kf;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+	animation-name: mobber_mobil_ud_kf;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 @keyframes mobber_mobil_ud_kf {
-    0% {
-        right: 10vw;
-    }
-    100% {
-        right: -40vw;
-    }
+	0% {
+		right: 10vw;
+	}
+	100% {
+		right: -40vw;
+	}
 }
 
 /****** OFFER MOBIL START **********/
 
 #offer_mobil_container {
 
-    position: absolute;
-    bottom: -38vw;
-    right: 0vw;
-    z-index: 12;
+	position: absolute;
+	bottom: -38vw;
+	right: 0vw;
+	z-index: 12;
 }
 
 #offer_mobil_sprite {
 
-    background-image: url(img/offer_mobil_final@4x.png);
-    background-size: 800% 400%;
-    width: 70vw;
-    height: 140vw;
+	background-image: url(img/offer_mobil_final@4x.png);
+	background-size: 800% 400%;
+	width: 70vw;
+	height: 140vw;
 }
 
 .offer_faar_notifikation {
-    background-position: 0% -100%;
+	background-position: 0% -100%;
 }
 
 .offer_luk_notifikation {
 
-    animation-name: offer_luk_notifikation_kf;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: steps(2);
+	animation-name: offer_luk_notifikation_kf;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-timing-function: steps(2);
 }
 
 @keyframes offer_luk_notifikation_kf {
 
-    0% {
-        background-position: 0% -200%;
-    }
-    100% {
-        background-position: -200% -200%;
-    }
+	0% {
+		background-position: 0% -200%;
+	}
+	100% {
+		background-position: -200% -200%;
+	}
 }
 
 .offer_sofia_gor_jeg {
 
-    animation-name: offer_sofia_gor_jeg_kf;
-    animation-duration: 8s;
-    animation-iteration-count: 1;
-    animation-timing-function: steps(7);
-    animation-fill-mode: both;
+	animation-name: offer_sofia_gor_jeg_kf;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+	animation-timing-function: steps(7);
+	animation-fill-mode: both;
 }
 
 @keyframes offer_sofia_gor_jeg_kf {
 
-    0% {
-        background-position: 0% -300%;
-    }
-    100% {
-        background-position: -700% -300%;
-    }
+	0% {
+		background-position: 0% -300%;
+	}
+	100% {
+		background-position: -700% -300%;
+	}
 }
 
 #offer_valgA {
 
-    position: absolute;
-    top: 7vw;
-    right: 39.5vw;
-    z-index: 12;
+	position: absolute;
+	top: 7vw;
+	right: 39.5vw;
+	z-index: 12;
 
 }
 
 #offer_valgB {
 
-    position: absolute;
-    top: 19vw;
-    right: 40vw;
-    z-index: 12;
+	position: absolute;
+	top: 19vw;
+	right: 40vw;
+	z-index: 12;
 
 }
 
 .offer_valget_laerer {
 
-    background-image: url(img/offer_valg_laerer-01.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 22.15vw;
-    height: 15vw;
-    background-size: 100%;
-    top: 10%;
-    right: -70%;
+	background-image: url(img/offer_valg_laerer-01.svg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 22.15vw;
+	height: 15vw;
+	background-size: 100%;
+	top: 10%;
+	right: -70%;
 
 }
 
 .offer_valget_privatsnak {
 
-    background-image: url(img/offer_valg_privatsnak-02.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 21.15vw;
-    height: 15vw;
-    background-size: 100%;
-    top: 10%;
-    right: -70%;
+	background-image: url(img/offer_valg_privatsnak-02.svg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 21.15vw;
+	height: 15vw;
+	background-size: 100%;
+	top: 10%;
+	right: -70%;
 }
 
 #graa_baggrund {
 
-    background-image: url(img/offer_mobil_baggrund-01.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vw;
-    top: 0;
-    left: 0;
+	background-image: url(img/offer_mobil_baggrund-01.svg);
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vw;
+	top: 0;
+	left: 0;
 
 }
 
 
 .offer_mobil_baggrund {
 
-    background-image: url(img/offer_mobil_baggrund-01.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vw;
+	background-image: url(img/offer_mobil_baggrund-01.svg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vw;
 
 }
 
@@ -509,115 +509,115 @@ body {
 
 #veninde_red_container {
 
-    position: absolute;
-    top: 10vw;
-    right: -30vw;
+	position: absolute;
+	top: 10vw;
+	right: -30vw;
 
 }
 
 #veninde_purple_container {
 
-    position: absolute;
-    top: 10vw;
-    right: -40vw;
+	position: absolute;
+	top: 10vw;
+	right: -40vw;
 }
 
 #veninde_purple_sprite {
 
-    background-image: url(img/veninde_purple.svg);
-    background-size: 400% 100%;
-    width: 20vw;
-    height: 40vw;
+	background-image: url(img/veninde_purple.svg);
+	background-size: 400% 100%;
+	width: 20vw;
+	height: 40vw;
 }
 
 #veninde_red_sprite {
 
-    background-image: url(img/veninde_red.svg);
-    background-size: 400% 100%;
-    width: 20vw;
-    height: 40vw;
+	background-image: url(img/veninde_red.svg);
+	background-size: 400% 100%;
+	width: 20vw;
+	height: 40vw;
 }
 
 
 .veninde_purple_ind_walkcycle {
 
-    animation-name: veninde_purple_ind_walkcycle_kf;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: steps(4);
+	animation-name: veninde_purple_ind_walkcycle_kf;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(4);
 }
 
 
 @keyframes veninde_purple_ind_walkcycle_kf {
 
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: -400% 0%;
-    }
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: -400% 0%;
+	}
 }
 
 .veninde_red_ind_walkcycle {
 
-    animation-name: veninde_red_ind_walkcycle_kf;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: steps(4);
-    animation-direction: reverse;
+	animation-name: veninde_red_ind_walkcycle_kf;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(4);
+	animation-direction: reverse;
 
 }
 
 @keyframes veninde_red_ind_walkcycle_kf {
 
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: -400% 0%;
-    }
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: -400% 0%;
+	}
 
 
 }
 
 .veninde_red_move {
 
-    animation-name: veninde_red_move_kf;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+	animation-name: veninde_red_move_kf;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 
 
 }
 
 @keyframes veninde_red_move_kf {
 
-    0% {
-        right: -30vw;
-    }
-    100% {
-        right: 40vw;
-    }
+	0% {
+		right: -30vw;
+	}
+	100% {
+		right: 40vw;
+	}
 }
 
 .veninde_purple_move {
 
-    animation-name: veninde_purple_move_kf;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+	animation-name: veninde_purple_move_kf;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 
 
 }
 
 @keyframes veninde_purple_move_kf {
 
-    0% {
-        right: -40vw;
-    }
-    100% {
-        right: 30vw;
-    }
+	0% {
+		right: -40vw;
+	}
+	100% {
+		right: 30vw;
+	}
 }
 
 
@@ -632,16 +632,16 @@ body {
 
 .laererDukkerOp {
 
-    background-image: url(img/skolelaerer-01.svg);
-    background-repeat: no-repeat;
-    position: relative;
-    width: 25vw;
-    height: 50vw;
-    background-size: 100%;
-    z-index: 99;
-    top: -120%;
-    right: -50%;
-    animation: fadeinout 4s linear forwards;
+	background-image: url(img/skolelaerer-01.svg);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 25vw;
+	height: 50vw;
+	background-size: 100%;
+	z-index: 99;
+	top: -120%;
+	right: -50%;
+	animation: fadeinout 4s linear forwards;
 
 
 
@@ -649,26 +649,26 @@ body {
 
 
 @keyframes fadeinout {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 
 .valga {
-    background-image: url(/img/offer_valg_laerer-01.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 21vw;
-    height: 11vw;
-    background-size: 100%;
-    top: -80%;
-    right: -70%;
-    z-index: 99;
-
+	background-image: url(/img/offer_valg_laerer-01.svg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 21vw;
+	height: 11vw;
+	background-size: 100%;
+	top: -80%;
+	right: -70%;
+	z-index: 99;
+	cursor: pointer;
 
 
 }
@@ -676,50 +676,52 @@ body {
 
 
 .valgb {
-    background-image: url(/img/mobber_valg_privatsnak-03.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 12vw;
-    height: 21vw;
-    background-size: 100%;
-    top: -80%;
-    right: -70%;
-    z-index: 99;
+	background-image: url(/img/mobber_valg_privatsnak-03.svg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 12vw;
+	height: 21vw;
+	background-size: 100%;
+	top: -80%;
+	right: -70%;
+	z-index: 99;
+	cursor: pointer;
 }
 
 .valgc {
-    background-image: url(/img/mobber_valg_undskyld-02.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 6vw;
-    background-size: 100%;
-    top: -70%;
-    right: -70%;
-    z-index: 99;
+	background-image: url(/img/mobber_valg_undskyld-02.svg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 22vw;
+	height: 6vw;
+	background-size: 100%;
+	top: -70%;
+	right: -70%;
+	z-index: 99;
+	cursor: pointer;
 }
 
 .valgsofiaa {
-    background-image: url(valg%202.png);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 6vw;
-    background-size: 100%;
-    top: -70%;
-    right: -70%;
-    z-index: 99;
+	background-image: url(valg%202.png);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 22vw;
+	height: 6vw;
+	background-size: 100%;
+	top: -70%;
+	right: -70%;
+	z-index: 99;
 
 }
 
 .valgsofiab {
-    background-image: url(valg%202.png);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 6vw;
-    background-size: 100%;
-    top: -70%;
-    right: -70%;
-    z-index: 99;
+	background-image: url(valg%202.png);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 22vw;
+	height: 6vw;
+	background-size: 100%;
+	top: -70%;
+	right: -70%;
+	z-index: 99;
 }
