@@ -11,7 +11,8 @@ body {
     height: 56.25vw;
     width: 100vw;
     position: relative;
-        overflow: hidden;}
+    overflow: hidden;
+}
 
 #baggrund {
 
@@ -481,6 +482,26 @@ body {
     right: -70%;
 }
 
+.offer_mobil_PrivatSnak {
+
+    animation-name: offer_mobil_PrivatSnak_kf;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(4);
+    /*    animation-fill-mode: both;*/
+}
+
+@keyframes offer_mobil_PrivatSnak_kf {
+
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -400% 0%;
+    }
+}
+
+
 #graa_baggrund {
 
     background-image: url(img/offer_mobil_baggrund-01.svg);
@@ -524,7 +545,7 @@ body {
 #veninde_purple_sprite {
 
     background-image: url(img/veninde_purple.svg);
-    background-size: 400% 100%;
+    background-size: 400% 200%;
     width: 20vw;
     height: 40vw;
 }
@@ -532,7 +553,7 @@ body {
 #veninde_red_sprite {
 
     background-image: url(img/veninde_red.svg);
-    background-size: 400% 100%;
+    background-size: 400% 200%;
     width: 20vw;
     height: 40vw;
 }
@@ -550,10 +571,10 @@ body {
 @keyframes veninde_purple_ind_walkcycle_kf {
 
     0% {
-        background-position: 0% 0%;
+        background-position: 0% -100%;
     }
     100% {
-        background-position: -400% 0%;
+        background-position: -400% -100%;
     }
 }
 
@@ -570,10 +591,10 @@ body {
 @keyframes veninde_red_ind_walkcycle_kf {
 
     0% {
-        background-position: 0% 0%;
+        background-position: 0% -100%;
     }
     100% {
-        background-position: -400% 0%;
+        background-position: -400% -100%;
     }
 
 

@@ -459,6 +459,7 @@ function sofiaMobilInd() {
     $("#veninde_red_container").hide();
     $("#offer_valgB").hide();
     $("#offer_valgA").hide();
+    $("#offer_mobil_sprite").addClass("offer_mobil_PrivatSnak");
 
 
 
