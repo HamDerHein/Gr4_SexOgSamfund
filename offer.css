@@ -1,0 +1,34 @@
+#offer_mobil_container {
+
+    position: absolute;
+    bottom: -38vw;
+    right: 0vw;
+    z-index: 12;
+}
+
+#offer_mobil_sprite {
+
+    background-image: url(img/offer_mobil_final@4x.png);
+    background-size: 800%;
+    width: 70vw;
+    height: 140vw;
+}
+
+.offer_sofia_gor_jeg {
+
+    animation-name: offer_sofia_gor_jeg_kf;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(7);
+    animation-fill-mode: both;
+}
+
+@keyframes offer_sofia_gor_jeg_kf {
+
+    0% {
+        background-position: 0% -300%;
+    }
+    100% {
+        background-position: -700% -300%;
+    }
+}

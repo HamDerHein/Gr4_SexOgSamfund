@@ -187,6 +187,7 @@ function SofiaHarFaaetNotifikation() {
 
 }
 
+
 function graeder() {
     console.log("graeder");
 
@@ -194,7 +195,17 @@ function graeder() {
     $("#offer_sprite").addClass("offer_graeder");
 
     //dette er er for at teste
-    setTimeout(sofiaValget, 1000)
+    setTimeout(sofiaLukkerNotifikation, 1000)
+
+}
+
+function sofiaLukkerNotifikation() {
+
+    console.log("sofia lukker notifikation")
+    $("#offer_mobil_sprite").removeClass("offer_faar_notifikation");
+    $("#offer_mobil_sprite").addClass("offer_luk_notifikation");
+
+    $("#offer_mobil_sprite").on("animationend", sofiaValget);
 
 }
 
@@ -333,19 +344,8 @@ function sofiaKontaktPrivatSnak() {
 
 function sofiaValget() {
     console.log("valgetsofia");
-    $("#valgeta").addClass("valgsofiaa");
-    $("#valgeta").addClass("puls");
 
-    $(".valga").on("click", karinaKontakteLaerer);
-
-
-    $("#valgetb").addClass("valgsofiab");
-    $("#valgetb").addClass("puls");
-    $("valga").on("click", privatSnakPaaMobil);
-
-
-
-
+    $("#offer_mobil_sprite").addClass("offer_sofia_gor_jeg");
 
 
 }

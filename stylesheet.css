@@ -406,11 +406,39 @@ body {
 
     animation-name: offer_luk_notifikation_kf;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: steps(4);
-
-
+    animation-iteration-count: 1;
+    animation-timing-function: steps(2);
 }
+
+@keyframes offer_luk_notifikation_kf {
+
+    0% {
+        background-position: 0% -200%;
+    }
+    100% {
+        background-position: -200% -200%;
+    }
+}
+
+.offer_sofia_gor_jeg {
+
+    animation-name: offer_sofia_gor_jeg_kf;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(7);
+    animation-fill-mode: both;
+}
+
+@keyframes offer_sofia_gor_jeg_kf {
+
+    0% {
+        background-position: 0% -300%;
+    }
+    100% {
+        background-position: -700% -300%;
+    }
+}
+
 
 /****** VENINDER START **********/
 
