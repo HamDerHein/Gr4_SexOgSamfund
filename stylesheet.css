@@ -11,7 +11,7 @@ body {
     height: 56.25vw;
     width: 100vw;
     position: relative;
-    /*    overflow: hidden;*/
+    overflow: hidden;
 }
 
 #baggrund {
@@ -406,102 +406,9 @@ body {
 
     animation-name: offer_luk_notifikation_kf;
     animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: steps(2);
-}
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(4);
 
-@keyframes offer_luk_notifikation_kf {
-
-    0% {
-        background-position: 0% -200%;
-    }
-    100% {
-        background-position: -200% -200%;
-    }
-}
-
-.offer_sofia_gor_jeg {
-
-    animation-name: offer_sofia_gor_jeg_kf;
-    animation-duration: 8s;
-    animation-iteration-count: 1;
-    animation-timing-function: steps(7);
-    animation-fill-mode: both;
-}
-
-@keyframes offer_sofia_gor_jeg_kf {
-
-    0% {
-        background-position: 0% -300%;
-    }
-    100% {
-        background-position: -700% -300%;
-    }
-}
-
-#offer_valgA {
-
-    position: absolute;
-    top: 7vw;
-    right: 39.5vw;
-    z-index: 12;
-
-}
-
-#offer_valgB {
-
-    position: absolute;
-    top: 19vw;
-    right: 40vw;
-    z-index: 12;
-
-}
-
-.offer_valget_laerer {
-
-    background-image: url(img/offer_valg_laerer-01.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 22.15vw;
-    height: 15vw;
-    background-size: 100%;
-    top: 10%;
-    right: -70%;
-
-}
-
-.offer_valget_privatsnak {
-
-    background-image: url(img/offer_valg_privatsnak-02.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 21.15vw;
-    height: 15vw;
-    background-size: 100%;
-    top: 10%;
-    right: -70%;
-}
-
-#graa_baggrund {
-
-    background-image: url(img/offer_mobil_baggrund-01.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vw;
-    top: 0;
-    left: 0;
-
-}
-
-
-.offer_mobil_baggrund {
-
-    background-image: url(img/offer_mobil_baggrund-01.svg);
-    position: relative;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vw;
 
 }
 
@@ -659,14 +566,14 @@ body {
 
 
 .valga {
-    background-image: url(/img/offer_valg_laerer-01.svg);
+    background-image: url(/img/mobber_valg_laerer-01.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 21vw;
-    height: 11vw;
+    width: 31vw;
+    height: 46vw;
     background-size: 100%;
-    top: -80%;
-    right: -70%;
+    top: -100%;
+    right: -10%;
     z-index: 99;
 
 
@@ -679,11 +586,11 @@ body {
     background-image: url(/img/mobber_valg_privatsnak-03.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 12vw;
-    height: 21vw;
+    width: 30vw;
+    height: 46vw;
     background-size: 100%;
-    top: -80%;
-    right: -70%;
+    top: -182%;
+    right: -40%;
     z-index: 99;
 }
 
@@ -691,11 +598,11 @@ body {
     background-image: url(/img/mobber_valg_undskyld-02.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 22vw;
-    height: 6vw;
+    width: 30vw;
+    height: 60vw;
     background-size: 100%;
-    top: -70%;
-    right: -70%;
+    top: -150%;
+    right: -50%;
     z-index: 99;
 }
 
