@@ -8,6 +8,7 @@ body {
 
 #scene {
 
+
 	height: 56.25vw;
 	width: 100vw;
 	position: relative;
@@ -404,6 +405,7 @@ body {
 
 .offer_luk_notifikation {
 
+
 	animation-name: offer_luk_notifikation_kf;
 	animation-duration: 5s;
 	animation-iteration-count: 1;
@@ -502,7 +504,12 @@ body {
 	background-repeat: no-repeat;
 	width: 100vw;
 	height: 100vw;
+	=======animation-name: offer_luk_notifikation_kf;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(4);
 
+	> > > > > > > origin/master
 }
 
 /****** VENINDER START **********/
@@ -659,16 +666,16 @@ body {
 
 
 .valga {
-	background-image: url(/img/offer_valg_laerer-01.svg);
+
+	background-image: url(/img/mobber_valg_laerer-01.svg);
 	position: relative;
 	background-repeat: no-repeat;
-	width: 21vw;
-	height: 11vw;
+	width: 31vw;
+	height: 46vw;
 	background-size: 100%;
-	top: -80%;
-	right: -70%;
+	top: -100%;
+	right: -10%;
 	z-index: 99;
-	cursor: pointer;
 
 
 }
@@ -700,6 +707,7 @@ body {
 	z-index: 99;
 	cursor: pointer;
 }
+
 
 .valgsofiaa {
 	background-image: url(valg%202.png);
