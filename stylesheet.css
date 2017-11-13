@@ -11,7 +11,7 @@ body {
     height: 56.25vw;
     width: 100vw;
     position: relative;
-    overflow: hidden;
+    /*    overflow: hidden;*/
 }
 
 #baggrund {
@@ -438,6 +438,50 @@ body {
         background-position: -700% -300%;
     }
 }
+
+#offer_valgA {
+
+    position: absolute;
+    top: 7vw;
+    right: 39.5vw;
+    z-index: 12;
+
+}
+
+#offer_valgB {
+
+    position: absolute;
+    top: 19vw;
+    right: 40vw;
+    z-index: 12;
+
+}
+
+.offer_valget_laerer {
+
+    background-image: url(img/offer_valg_laerer-01.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 22.15vw;
+    height: 15vw;
+    background-size: 100%;
+    top: 10%;
+    right: -70%;
+
+}
+
+.offer_valget_privatsnak {
+
+    background-image: url(img/offer_valg_privatsnak-02.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 21.15vw;
+    height: 15vw;
+    background-size: 100%;
+    top: 10%;
+    right: -70%;
+}
+
 
 
 /****** VENINDER START **********/

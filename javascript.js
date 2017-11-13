@@ -347,10 +347,28 @@ function sofiaValget() {
 
     $("#offer_mobil_sprite").addClass("offer_sofia_gor_jeg");
 
+    $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem1);
+    $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem2);
 
 }
 
+function sofiavaelgemellem1() {
+
+    $("#offer_valgB").addClass("offer_valget_privatsnak");
+
+
+}
+
+function sofiavaelgemellem2() {
+
+    $("#offer_valgA").addClass("offer_valget_laerer");
+
+
+}
+
+
 function sofiaKontakteLaerer() {
+
 
 
 
