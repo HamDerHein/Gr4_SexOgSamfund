@@ -194,6 +194,7 @@ function graeder() {
     $("#offer_sprite").addClass("offer_graeder");
 
     //dette er er for at teste
+    setTimeout(sofiaValget, 1000)
 
 }
 

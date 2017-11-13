@@ -36,13 +36,14 @@ body {
 #plakat {
 
     background-image: url(img/plakat.jpg);
-    position: absolute;
+    position: relative;
     background-repeat: no-repeat;
     width: 12vw;
     height: 15vw;
     background-size: 100%;
     top: 10%;
     right: -70%;
+
 }
 
 .puls {
@@ -316,7 +317,7 @@ body {
 
 #mobber_mobil_sprite {
 
-    background-image: url(img/mobber_mobil_final@4x.png);
+    background-image: url(img/mobber_mobil_total_final@4x.png);
     background-size: 500% 300%;
     width: 40vw;
     height: 80vw;
@@ -397,18 +398,18 @@ body {
     height: 140vw;
 }
 
-.offer_mobil_notifikation_frame {}
-
-.offer_mobil_ind {
-
-    animation-name: mobber_mobil_ind_kf;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
 .offer_faar_notifikation {
     background-position: 0% -100%;
+}
+
+.offer_luk_notifikation {
+
+    animation-name: offer_luk_notifikation_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(4);
+
+
 }
 
 /****** VENINDER START **********/
