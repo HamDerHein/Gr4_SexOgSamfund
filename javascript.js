@@ -1,5 +1,8 @@
 //starten
 
+var valgtKarakter = "";
+
+
 $(window).on("load", skolegaarden);
 
 
@@ -40,13 +43,25 @@ function valgAfKarakter() {
 
 
 
-    $("#mobber_container").on("click", gangen);
-    $("#offer_container").on("click", gangen);
+    $("#mobber_container").on("click", mobber);
+    $("#offer_container").on("click", offer);
 
     console.log("valg Af Karakter");
 
 
 }
+
+function mobber() {
+    valgtKarakter = "karina";
+    gangen();
+}
+
+function offer() {
+    valgtKarakter = "sofia";
+    gangen();
+}
+
+
 
 function gangen() {
 
@@ -145,8 +160,12 @@ function karinaOgVeninderFniser() {
     $("#mobber_sprite").removeClass("mobber_gaa");
     $("#veninde_red_sprite").removeClass("veninde_red_ind_walkcycle");
     $("#mobber_sprite").addClass("mobberStaaStille");
-
-    setTimeout(SofiaHarFaaetNotifikation, 1500);
+    if (valgtKarakter == "sofia") {
+        setTimeout(SofiaHarFaaetNotifikation, 1500);
+    }
+    if (valgtKarakter == "karina") {
+        setTimeout(karinaValget1, 1500);
+    }
 }
 
 function lydStopper() {
