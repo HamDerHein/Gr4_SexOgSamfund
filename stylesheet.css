@@ -568,10 +568,10 @@ body {
     background-image: url(/img/offer_valg_laerer-01.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 22vw;
-    height: 6vw;
+    width: 21vw;
+    height: 11vw;
     background-size: 100%;
-    top: -70%;
+    top: -80%;
     right: -70%;
     z-index: 99;
 
@@ -582,19 +582,19 @@ body {
 
 
 .valgb {
-    background-image: url(valg%202.png);
+    background-image: url(/img/mobber_valg_privatsnak-03.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 22vw;
-    height: 6vw;
+    width: 12vw;
+    height: 21vw;
     background-size: 100%;
-    top: -70%;
+    top: -80%;
     right: -70%;
     z-index: 99;
 }
 
 .valgc {
-    background-image: url(valg%202.png);
+    background-image: url(/img/mobber_valg_undskyld-02.svg);
     position: relative;
     background-repeat: no-repeat;
     width: 22vw;

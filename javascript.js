@@ -206,12 +206,16 @@ function karinaValget1() {
     $(".valga").on("click", karinaKontakteLaerer);
 
 
+
     $("#valgetb").addClass("valgb");
-    $("valga").on("click", privatSnakPaaMobil);
+    $("#valgetb").addClass("puls");
+    $(".valgb").on("click", privatSnakPaaMobil);
+
 
 
     $("#valgetc").addClass("valgc");
-    $("#valgetc").on("click", karinaHenTilSofia);
+    $("#valgetc").addClass("puls");
+    $(".valgc").on("click", karinaHenTilSofia);
 
 
 
@@ -313,7 +317,7 @@ function laererSvarerKarina() {
 function privatSnakPaaMobil() {
     console.log("valgetlaerer");
     $("#valgetc").removeClass("valgb");
-    $("#valgetc").addClass("puls");
+    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
 }
 //valg 2 (B)
