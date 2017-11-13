@@ -184,29 +184,6 @@ body {
 
 }
 
-.offer_graeder {
-
-    animation-name: offer_graeder_kf;
-    animation-duration: 2s;
-    animation-timing-function: steps(2);
-    animation-iteration-count: infinite;
-
-}
-
-
-
-@keyframes offer_graeder_kf {
-
-    0%{
-        background-position: 00% -100%;
-    }
-    100%{
-        background-position: -200% -100%;
-
-    }
-}
-
-
 /******* OFFER SLUT *******/
 
 /****** MOBBER START ******/
@@ -372,7 +349,7 @@ body {
     }
 }
 
-/****** OFFER MOBIL START **********/
+/****** OFFER START **********/
 
 #offer_mobil_container {
 
@@ -390,7 +367,9 @@ body {
     height: 80vw;
 }
 
-.offer_mobil_notifikation_frame {}
+.offer_mobil_notifikation_frame {
+    background-position: -100% 0%;
+}
 
 .offer_mobil_ind {
 
@@ -399,8 +378,6 @@ body {
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
-
 }
 
 @keyframes mobber_mobil_ind_kf {
@@ -412,28 +389,6 @@ body {
     }
 }
 
-
-.offer_faar_notifikation {
-
-    /*
-    animation-name: offer_faar_notifikation_kf;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-*/
-    background-position: 0% -100%;
-
-
-}
-
-
-
-
-
-
-
-
-}
 
 /****** VENINDER START **********/
 
@@ -568,4 +523,29 @@ body {
     position: absolute;
 
 
+}
+
+.valga {
+    background-image: url(valg%202.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 6vw;
+    background-size: 100%;
+    top: -70%;
+    right: -70%;
+    z-index: 99;
+
+
+}
+
+
+.valgb {
+    background-image: url(valg%202.png);
+    background-repeat: no-repeat;
+}
+
+.valgc {
+    background-image: url(valg%202.png);
+    background-repeat: no-repeat;
 }

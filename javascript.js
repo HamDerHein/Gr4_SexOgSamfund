@@ -7,7 +7,6 @@ function skolegaarden() {
 
     console.log("start");
 
-
     $(".knap").addClass("start");
     $(".start").addClass("puls");
     $("#offer_container").hide();
@@ -177,8 +176,13 @@ function SofiaHarFaaetNotifikation() {
 }
 
 function graeder() {
+    console.log("graeder");
 
-$("#offer_sprite").addClass("offer_graeder");
+
+    $("#offer_sprite").addClass("offer_graeder");
+
+    //dette er er for at teste
+
 
 }
 
@@ -188,7 +192,25 @@ function zoomMobil() {
 
 }
 
-function karinaValget() {
+function karinaValget1() {
+    console.log("valget");
+    $("#valgeta").addClass("valga");
+    $("#valgeta").addClass("puls");
+
+    $(".valga").on("click", karinaKontakteLaerer);
+
+
+    $("#valgetb").addClass("valgb");
+    $("valga").on("click", privatSnakPaaMobil);
+
+
+    $("#valgetc").addClass("valgc");
+    $("#valgetc").on("click", karinaKontakteLaerer);
+
+
+
+
+
 
 
 
@@ -226,6 +248,8 @@ function karinaValget() {
 
 
 function karinaKontakteLaerer() {
+    console.log("valgetlaerer");
+    $("#valgeta").removeClass("valga");
 
 
 
@@ -256,6 +280,9 @@ function laererSvarerKarina() {
 // HER SKAL mobilInd genbruges igen
 
 function privatSnakPaaMobil() {
+    console.log("valgetlaerer");
+    $("#valgeta").removeClass("valgb");
+
 
 
 
