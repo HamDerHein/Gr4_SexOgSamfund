@@ -8,26 +8,26 @@ $(window).on("load", skolegaarden);
 
 function skolegaarden() {
 
-    console.log("start");
-    $("#graa_baggrund").hide();
-    $(".knap").addClass("start");
-    $(".start").addClass("puls");
-    $("#offer_container").hide();
-    $("#offer_mobil_container").hide();
+	console.log("start");
+	$("#graa_baggrund").hide();
+	$(".knap").addClass("start");
+	$(".start").addClass("puls");
+	$("#offer_container").hide();
+	$("#offer_mobil_container").hide();
 
-    $(".snak")[0].play();
-    $(".snak").animate({
-        volume: .7
-    }, 30000);
-    $(".snak")[0].volume = 0.4;
-    $(".snak")[0].loop = true;
+	$(".snak")[0].play();
+	$(".snak").animate({
+		volume: .7
+	}, 30000);
+	$(".snak")[0].volume = 0.4;
+	$(".snak")[0].loop = true;
 
-    //    $("#offer_sprite").addClass("gaa");
-    //    $("#offer_container").addClass("gaa_til_venstre");
+	//    $("#offer_sprite").addClass("gaa");
+	//    $("#offer_container").addClass("gaa_til_venstre");
 
-    $("#gangen").addClass("hide");
+	$("#gangen").addClass("hide");
 
-    $(".knap").on("click", valgAfKarakter);
+	$(".knap").on("click", valgAfKarakter);
 
 }
 //$("#valgkarakter").on("click", valgAfKarakter);
@@ -35,153 +35,153 @@ function skolegaarden() {
 function valgAfKarakter() {
 
 
-    console.log("valg");
-    $(".knap").hide();
-    $("#mobber_container").removeClass();
-    $("#offer_container").show();
-    $("#offer_sprite").removeClass();
+	console.log("valg");
+	$(".knap").hide();
+	$("#mobber_container").removeClass();
+	$("#offer_container").show();
+	$("#offer_sprite").removeClass();
 
 
-    $("#offer_sprite").addClass("postionOffer2");
-    $("#offer_container").addClass("postionOffer1");
-    $("#offer_container").addClass("puls2");
-
-
-
-    $("#mobber_sprite").addClass("postion1");
-    $("#mobber_container").addClass("postion2");
-    $("#mobber_container").addClass("puls");
+	$("#offer_sprite").addClass("postionOffer2");
+	$("#offer_container").addClass("postionOffer1");
+	$("#offer_container").addClass("puls2");
 
 
 
-    $("#mobber_container").on("click", mobber);
-    $("#offer_container").on("click", offer);
+	$("#mobber_sprite").addClass("postion1");
+	$("#mobber_container").addClass("postion2");
+	$("#mobber_container").addClass("puls");
 
-    console.log("valg Af Karakter");
+
+
+	$("#mobber_container").on("click", mobber);
+	$("#offer_container").on("click", offer);
+
+	console.log("valg Af Karakter");
 
 
 }
 
 function mobber() {
-    valgtKarakter = "karina";
-    gangen();
+	valgtKarakter = "karina";
+	gangen();
 }
 
 function offer() {
-    valgtKarakter = "sofia";
-    gangen();
+	valgtKarakter = "sofia";
+	gangen();
 }
 
 
 
 function gangen() {
 
-    console.log("gangen")
-    $(".snak")[0].pause();
+	console.log("gangen")
+	$(".snak")[0].pause();
 
 
-    $("#mobber_container").off("click", mobber);
-    $("#offer_container").off("click", offer);
+	$("#mobber_container").off("click", mobber);
+	$("#offer_container").off("click", offer);
 
-    $("#offer_sprite").removeClass("postionOffer2");
-    $("#offer_container").removeClass("postionOffer1");
+	$("#offer_sprite").removeClass("postionOffer2");
+	$("#offer_container").removeClass("postionOffer1");
 
 
-    $("#mobber_sprite").removeClass("postion1");
-    $("#mobber_container").removeClass("postion2");
+	$("#mobber_sprite").removeClass("postion1");
+	$("#mobber_container").removeClass("postion2");
 
-    $("#baggrund").addClass("hide")
-    $("#gangen").show();
+	$("#baggrund").addClass("hide")
+	$("#gangen").show();
 
-    $("#offer_container").hide();
-    setTimeout(sofiaKommerInd, 2000);
+	$("#offer_container").hide();
+	setTimeout(sofiaKommerInd, 2000);
 
 }
 
 function sofiaKommerInd() {
 
 
-    $("#offer_container").show();
+	$("#offer_container").show();
 
-    $(".offer_gaa")[0].play();
+	$(".offer_gaa")[0].play();
 
-    $("#offer_sprite").addClass("offer_walkcycle");
-    $("#offer_container").addClass("gaa_til_venstre");
-    $("#offer_container").addClass("offer_position");
+	$("#offer_sprite").addClass("offer_walkcycle");
+	$("#offer_container").addClass("gaa_til_venstre");
+	$("#offer_container").addClass("offer_position");
 
 
-    $("#offer_container").on("animationend", sofiaBloeder);
+	$("#offer_container").on("animationend", sofiaBloeder);
 }
 
 function sofiaBloeder() {
 
 
-    console.log("Sofia Bløder");
-    $(".offer_gaa")[0].pause();
-    $("#offer_container").off("animationend", sofiaBloeder);
+	console.log("Sofia Bløder");
+	$(".offer_gaa")[0].pause();
+	$("#offer_container").off("animationend", sofiaBloeder);
 
 
-    $("#offer_sprite").removeClass("offer_walkcycle");
+	$("#offer_sprite").removeClass("offer_walkcycle");
 
-    $("#offer_sprite").addClass("offer_bloder");
+	$("#offer_sprite").addClass("offer_bloder");
 
-    $("#offer_container").on("animationend", mobilInd);
+	$("#offer_container").on("animationend", mobilInd);
 
 }
 
 function mobilInd() {
 
-    console.log("mobil ind");
-    $("#offer_container").off("animationend", mobilInd);
+	console.log("mobil ind");
+	$("#offer_container").off("animationend", mobilInd);
 
-    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
+	$("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
-    setTimeout(shutter, 6000);
-    $("#mobber_mobil_container").on("animationend", tagerBilledet);
+	setTimeout(shutter, 6000);
+	$("#mobber_mobil_container").on("animationend", tagerBilledet);
 }
 
 function shutter() {
-    console.log("shutter lyd");
-    $(".shutter")[0].play();
-    $(".shutter")[0].volume = 0.4;
+	console.log("shutter lyd");
+	$(".shutter")[0].play();
+	$(".shutter")[0].volume = 0.4;
 }
 
 function tagerBilledet() {
-    console.log("Tager billedet");
-    $("#mobber_mobil_container").off("animationend", tagerBilledet);
+	console.log("Tager billedet");
+	$("#mobber_mobil_container").off("animationend", tagerBilledet);
 
 
-    $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
+	$("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
 
-    $("#mobber_mobil_container").on("animationend", mobilUd);
+	$("#mobber_mobil_container").on("animationend", mobilUd);
 }
 
 function mobilUd() {
-    console.log("mobil ud");
-    $("#mobber_mobil_container").off("animationend", mobilUd);
+	console.log("mobil ud");
+	$("#mobber_mobil_container").off("animationend", mobilUd);
 
-    $("#mobber_mobil_container").addClass("mobber_mobil_ud");
+	$("#mobber_mobil_container").addClass("mobber_mobil_ud");
 
-    setTimeout(karinaOgVeninderKommerInd, 1500);
+	setTimeout(karinaOgVeninderKommerInd, 1500);
 }
 
 function karinaOgVeninderKommerInd() {
-    $(".mobber_gaa")[0].play();
-    $(".veninder_gaa")[0].play();
+	$(".mobber_gaa")[0].play();
+	$(".veninder_gaa")[0].play();
 
-    $("#mobber_sprite").addClass("mobber_gaa");
-    $("#mobber_container").addClass("mobber_gaa_til_venstre");
-    $("#mobber_container").addClass("mobber_position");
+	$("#mobber_sprite").addClass("mobber_gaa");
+	$("#mobber_container").addClass("mobber_gaa_til_venstre");
+	$("#mobber_container").addClass("mobber_position");
 
-    $("#veninde_red_sprite").addClass("veninde_red_ind_walkcycle");
-    $("#veninde_red_container").addClass("veninde_red_move");
-    $("#veninde_purple_container").addClass("veninde_purple_move");
-    $("#veninde_purple_sprite").addClass("veninde_purple_ind_walkcycle");
-
-
+	$("#veninde_red_sprite").addClass("veninde_red_ind_walkcycle");
+	$("#veninde_red_container").addClass("veninde_red_move");
+	$("#veninde_purple_container").addClass("veninde_purple_move");
+	$("#veninde_purple_sprite").addClass("veninde_purple_ind_walkcycle");
 
 
-    $("#mobber_container").on("animationend", karinaOgVeninderFniser);
+
+
+	$("#mobber_container").on("animationend", karinaOgVeninderFniser);
 
 
 }
@@ -190,22 +190,22 @@ function karinaOgVeninderKommerInd() {
 
 function karinaOgVeninderFniser() {
 
-    console.log("karina + veninder fniser");
-    $("#mobber_container").off("animationend", karinaOgVeninderFniser);
+	console.log("karina + veninder fniser");
+	$("#mobber_container").off("animationend", karinaOgVeninderFniser);
 
 
-    $("#veninde_purple_sprite").removeClass("veninde_purple_ind_walkcycle");
-    $("#mobber_sprite").removeClass("mobber_gaa");
-    $("#veninde_red_sprite").removeClass("veninde_red_ind_walkcycle");
-    $(".mobber_gaa")[0].pause();
-    $(".veninder_gaa")[0].pause();
-    $("#mobber_sprite").addClass("mobberStaaStille");
-    if (valgtKarakter == "sofia") {
-        setTimeout(SofiaHarFaaetNotifikation, 1500);
-    }
-    if (valgtKarakter == "karina") {
-        setTimeout(karinaValget1, 1500);
-    }
+	$("#veninde_purple_sprite").removeClass("veninde_purple_ind_walkcycle");
+	$("#mobber_sprite").removeClass("mobber_gaa");
+	$("#veninde_red_sprite").removeClass("veninde_red_ind_walkcycle");
+	$(".mobber_gaa")[0].pause();
+	$(".veninder_gaa")[0].pause();
+	$("#mobber_sprite").addClass("mobberStaaStille");
+	if (valgtKarakter == "sofia") {
+		setTimeout(SofiaHarFaaetNotifikation, 1500);
+	}
+	if (valgtKarakter == "karina") {
+		setTimeout(karinaValget1, 1500);
+	}
 
 }
 
@@ -220,84 +220,85 @@ function lydStopper() {
 function SofiaHarFaaetNotifikation() {
 
 
-    console.log("Sofie har fået notifikation");
+	console.log("Sofie har fået notifikation");
 
-    $(".notifikation")[0].play();
-    $(".notifikation")[0].playbackRate = 1.5;
-    setTimeout(grin, 3000);
-
-
-    $("#offer_mobil_container").show();
-    $("#offer_mobil_sprite").addClass("offer_faar_notifikation");
-    $("#graa_baggrund").show();
+	$(".notifikation")[0].play();
+	$(".notifikation")[0].playbackRate = 1.5;
+	setTimeout(grin, 3000);
 
 
+	$("#offer_mobil_container").show();
+	$("#offer_mobil_sprite").addClass("offer_faar_notifikation");
+	$("#graa_baggrund").show();
 
-    setTimeout(graeder, 2000);
+
+
+	setTimeout(graeder, 2000);
 
 }
 
 function grin() {
-    $(".grin")[0].play();
+	$(".grin")[0].play();
+	$(".grin")[0].loop = true;
 }
 
 
 function graeder() {
-    console.log("graeder");
+	console.log("graeder");
 
 
-    $(".cry")[0].play();
+	$(".cry")[0].play();
 
-    $("#offer_mobil_container").hide();
-    $("#graa_baggrund").hide();
-    $("#offer_sprite").addClass("offer_graeder");
+	$("#offer_mobil_container").hide();
+	$("#graa_baggrund").hide();
+	$("#offer_sprite").addClass("offer_graeder");
 
 
-    //dette er er for at teste
-    setTimeout(sofiaLukkerNotifikation, 4000)
+	//dette er er for at teste
+	setTimeout(sofiaLukkerNotifikation, 4000);
 
 
 }
 
 function sofiaLukkerNotifikation() {
 
-    console.log("sofia lukker notifikation")
+	console.log("sofia lukker notifikation")
 
 
-    $("#offer_mobil_container").show();
-    $("#graa_baggrund").show();
-    $("#offer_mobil_sprite").removeClass("offer_faar_notifikation");
-    $("#offer_mobil_sprite").addClass("offer_luk_notifikation");
+	$("#offer_mobil_container").show();
+	$("#graa_baggrund").show();
+	$("#offer_mobil_sprite").removeClass("offer_faar_notifikation");
+	$("#offer_mobil_sprite").addClass("offer_luk_notifikation");
 
 
-    $("#offer_mobil_sprite").on("animationend", sofiaValget);
+	$("#offer_mobil_sprite").on("animationend", sofiaValget);
 
 }
 
 
 function karinaValget1() {
 
-    console.log("valget");
+	console.log("valget");
 
-    $(".mobber")[0].play();
+	$(".mobber")[0].play();
 
-    $("#valgeta").addClass("valga");
-    $("#valgeta").addClass("puls");
-
-
-    $(".valga").on("click", karinaKontakteLaerer);
+	$("#valgeta").addClass("valga");
+	$("#valgeta").addClass("puls");
 
 
-
-    $("#valgetb").addClass("valgb");
-    $("#valgetb").addClass("puls");
-    $(".valgb").on("click", privatSnakPaaMobil);
+	$(".valga").on("click", karinaKontakteLaerer);
 
 
 
-    $("#valgetc").addClass("valgc");
-    $("#valgetc").addClass("puls");
-    $(".valgc").on("click", karinaHenTilSofia);
+	$("#valgetb").addClass("valgb");
+	$("#valgetb").addClass("puls");
+	$(".valgb").on("click", privatSnakPaaMobil);
+
+
+
+	$("#valgetc").addClass("valgc");
+	$("#valgetc").addClass("puls");
+	$(".valgc").on("click", karinaHenTilSofia);
 
 
 
@@ -341,28 +342,28 @@ function karinaValget() {
 
 function karinaKontakteLaerer() {
 
-    console.log("valgetlaerer");
-    $(".mobber")[0].pause();
-    $("#offer_container").hide();
-    $("#offer_mobil_container").hide();
+	console.log("valgetlaerer");
+	$(".mobber")[0].pause();
+	$("#offer_container").hide();
+	$("#offer_mobil_container").hide();
 
 
-    $("#mobber_sprite").hide();
-    $("#mobber_container").hide();
+	$("#mobber_sprite").hide();
+	$("#mobber_container").hide();
 
-    $("#veninde_red_sprite").hide();
-    $("#veninde_purple_sprite").hide();
+	$("#veninde_red_sprite").hide();
+	$("#veninde_purple_sprite").hide();
 
-    $("#valgeta").removeClass("valga");
-    $("#valgetb").removeClass("valgb");
-    $("#valgetc").removeClass("valgc");
-
-
-    $("#Laerer").addClass("laererDukkerOp");
-    setTimeout(laerer, 2000);
+	$("#valgeta").removeClass("valga");
+	$("#valgetb").removeClass("valgb");
+	$("#valgetc").removeClass("valgc");
 
 
-    $("#Laerer").addClass("laererDukkerOp");
+	$("#Laerer").addClass("laererDukkerOp");
+	setTimeout(laerer, 2000);
+
+
+	$("#Laerer").addClass("laererDukkerOp");
 
 
 
@@ -370,19 +371,19 @@ function karinaKontakteLaerer() {
 }
 
 function laerer() {
-    $(".laerer")[0].play();
+	$(".laerer")[0].play();
 }
 
 function laererErKommetInd() {
-    // slet??
+	// slet??
 
 
 
 }
 
 function KarinaSporgerLaerer() {
-    //lyd:lydHvadSkalJegGoreKarina
-    $("#")[0].play();
+	//lyd:lydHvadSkalJegGoreKarina
+	$("#")[0].play();
 
 
 
@@ -392,11 +393,11 @@ function KarinaSporgerLaerer() {
 
 function laererSvarerKarina() {
 
-    // Spil lyd: lydKontaktPrivatSnak
+	// Spil lyd: lydKontaktPrivatSnak
 
-    //Start anim: privatSnakDukkerOp
-    //↺ Stop lyd: lydBaggrund
-    $("#")[0].pause();
+	//Start anim: privatSnakDukkerOp
+	//↺ Stop lyd: lydBaggrund
+	$("#")[0].pause();
 
 
 
@@ -413,77 +414,77 @@ function laererSvarerKarina() {
 
 function privatSnakPaaMobil() {
 
-    console.log("snakpåmobil");
-    $("#valgeta").removeClass("valga");
-    $("#valgetb").removeClass("valgb");
-    $("#valgetc").removeClass("valgc");
-    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
+	console.log("snakpåmobil");
+	$("#valgeta").removeClass("valga");
+	$("#valgetb").removeClass("valgb");
+	$("#valgetc").removeClass("valgc");
+	$("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
 
-    $("#mobber_mobil_container").removeClass("mobber_mobil_ind");
+	$("#mobber_mobil_container").removeClass("mobber_mobil_ind");
 
-    $("#mobber_mobil_container").removeClass("mobber_mobil_ud");
+	$("#mobber_mobil_container").removeClass("mobber_mobil_ud");
 
-    $("#mobber_mobil_container").addClass("mobber_mobil_privat");
+	$("#mobber_mobil_container").addClass("mobber_mobil_privat");
 
 
-    $("#mobber_mobil_container").on("animationend", privat);
-    $("#mobber_mobil_sprite").removeClass("mobber_mobil_walkcycle");
-    $("#mobber_mobil_sprite").addClass("mobber_mobil_start");
+	$("#mobber_mobil_container").on("animationend", privat);
+	$("#mobber_mobil_sprite").removeClass("mobber_mobil_walkcycle");
+	$("#mobber_mobil_sprite").addClass("mobber_mobil_start");
 }
 
 function privat() {
-    console.log("privat");
+	console.log("privat");
 
 
 
-    $("#mobber_mobil_sprite").removeClass("mobber_mobil_start");
+	$("#mobber_mobil_sprite").removeClass("mobber_mobil_start");
 
 
-    $("#mobber_mobil_container").off("animationend", privat);
-    $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle_privat");
+	$("#mobber_mobil_container").off("animationend", privat);
+	$("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle_privat");
 
-    $("#mobber_mobil_container").on("animationend", privatlogo);
+	$("#mobber_mobil_container").on("animationend", privatlogo);
 }
 
 function privatlogo() {
-    console.log("logo");
-    $("#mobber_mobil_sprite").off("animationend", privatlogo);
+	console.log("logo");
+	$("#mobber_mobil_sprite").off("animationend", privatlogo);
 
-    $("#privatsnak").addClass("privatlogo")
-    $("#privatsnak").addClass("puls")
+	$("#privatsnak").addClass("privatlogo")
+	$("#privatsnak").addClass("puls")
 
 
-    $("#offer_container").hide();
-    $("#offer_mobil_container").hide();
+	$("#offer_container").hide();
+	$("#offer_mobil_container").hide();
 
-    $("#mobber_sprite").hide();
-    $("#mobber_container").hide();
+	$("#mobber_sprite").hide();
+	$("#mobber_container").hide();
 
-    $("#veninde_red_sprite").hide();
-    $("#veninde_purple_sprite").hide();
-    $("#privatsnak").on("click", privatSnakPaaM)
+	$("#veninde_red_sprite").hide();
+	$("#veninde_purple_sprite").hide();
+	$("#privatsnak").on("click", privatSnakPaaM)
 
 
 }
 
 function privatSnakPaaM() {
 
-    console.log("link til privatsnak");
+	console.log("link til privatsnak");
 
-    window.location.href = "http://privatsnak.dk/";
+	window.location.href = "http://privatsnak.dk/";
 }
 
 //valg 2 (B)
 //undskyldTilSofia--->
 function karinaHenTilSofia() {
 
-    console.log("tilsofia");
-    $("#valgeta").removeClass("valga");
-    $("#valgetb").removeClass("valgb");
-    $("#valgetc").removeClass("valgc");
-    $("#valgetb").removeClass("valgb");
-    $("#valgetb").addClass("puls");
+	console.log("tilsofia");
+	$("#valgeta").removeClass("valga");
+	$("#valgetb").removeClass("valgb");
+	$("#valgetc").removeClass("valgc");
+	$("#valgetb").removeClass("valgb");
+	$("#valgetb").addClass("puls");
 
 
 
@@ -519,129 +520,129 @@ function sofiaKontaktPrivatSnak() {
 //
 
 function sofiaValget() {
-    console.log("valgetsofia");
+	console.log("valgetsofia");
+	$(".grin")[0].pause();
+	$("#graa_baggrund").show();
+	$("#offer_container").hide();
 
-    $("#graa_baggrund").show();
-    $("#offer_container").hide();
 
+	$("#offer_mobil_sprite").addClass("offer_sofia_gor_jeg");
 
-    $("#offer_mobil_sprite").addClass("offer_sofia_gor_jeg");
-
-    $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem1);
-    $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem2);
+	$("#offer_mobil_sprite").on("animationend", sofiavaelgemellem1);
+	$("#offer_mobil_sprite").on("animationend", sofiavaelgemellem2);
 
 }
 
 function sofiavaelgemellem1() {
 
 
-    $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem1);
-    $("#offer_valgB").addClass("offer_valget_privatsnak");
-    $("#offer_valgB").addClass("puls");
+	$("#offer_mobil_sprite").off("animationend", sofiavaelgemellem1);
+	$("#offer_valgB").addClass("offer_valget_privatsnak");
+	$("#offer_valgB").addClass("puls");
 
 
 
 
-    $("#offer_valgB").on("click", sofiaMobilInd);
+	$("#offer_valgB").on("click", sofiaMobilInd);
 }
 
 function sofiavaelgemellem2() {
-    $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem2);
+	$("#offer_mobil_sprite").off("animationend", sofiavaelgemellem2);
 
-    $(".laerer")[0].pause();
+	$(".laerer")[0].pause();
 
-    $("#offer_valgA").addClass("offer_valget_laerer");
-    $("#offer_valgA").addClass("puls");
+	$("#offer_valgA").addClass("offer_valget_laerer");
+	$("#offer_valgA").addClass("puls");
 
 
-    $("#offer_valgA").on("click", sofiaKontakteLaerer);
+	$("#offer_valgA").on("click", sofiaKontakteLaerer);
 }
 
 
 function sofiaKontakteLaerer() {
 
-    console.log("sofia kontakt lærer");
+	console.log("sofia kontakt lærer");
 
-    $("#graa_baggrund").hide();
-    $("#offer_valgA").removeClass("offer_valget_laerer");
-    $("#offer_valgB").removeClass("offer_valget_privatsnak");
-    $("#offer_mobil_container").hide();
-    $("#mobber_container").hide();
-    $("#veninde_red_container").hide();
-    $("#veninde_purple_container").hide();
-
-
-    $("#Laerer").addClass("laererDukkerOp");
-    $("#graa_baggrund").show();
+	$("#graa_baggrund").hide();
+	$("#offer_valgA").removeClass("offer_valget_laerer");
+	$("#offer_valgB").removeClass("offer_valget_privatsnak");
+	$("#offer_mobil_container").hide();
+	$("#mobber_container").hide();
+	$("#veninde_red_container").hide();
+	$("#veninde_purple_container").hide();
 
 
-    setTimeout(laererErKommetIndTilSofia, 2000);
+	$("#Laerer").addClass("laererDukkerOp");
+	$("#graa_baggrund").show();
+
+
+	setTimeout(laererErKommetIndTilSofia, 2000);
 
 
 }
 
 function laererErKommetIndTilSofia() {
 
-    console.log("Lærer kommer ind")
+	console.log("Lærer kommer ind")
 
-    $("#Laerer").addClass("laererDukkerOp");
+	$("#Laerer").addClass("laererDukkerOp");
 
-    $("#Laerer").on("animationend", sofiaSporgerLaerer);
+	$("#Laerer").on("animationend", sofiaSporgerLaerer);
 
 }
 
 function sofiaSporgerLaerer() {
 
 
-    // lyd ind
-    console.log("sofia spørger lærer");
+	// lyd ind
+	console.log("sofia spørger lærer");
 
 
-    setTimeout(laererSvarerSofia, 1000)
+	setTimeout(laererSvarerSofia, 1000)
 }
 
 function laererSvarerSofia() {
 
 
-    // lyd eller talebobel ind
-    console.log("læerer svarer sofia");
-    $("#offer_valgB").show();
-    $("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
+	// lyd eller talebobel ind
+	console.log("læerer svarer sofia");
+	$("#offer_valgB").show();
+	$("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
 
-    $("#privatSnak_container").on("click", privatSnakKlik)
+	$("#privatSnak_container").on("click", privatSnakKlik)
 }
 
 function privatSnakKlik() {
 
-    console.log("link til privatsnak");
+	console.log("link til privatsnak");
 
-    window.location.href = "http://privatsnak.dk/";
+	window.location.href = "http://privatsnak.dk/";
 }
 
 function sofiaMobilInd() {
 
-    console.log("sofia mobil ind igen")
-    $("#graa_baggrund").show();
-    $("#offer_mobil_container").show();
-    $("#veninde_purple_container").hide();
-    $("#mobber_container").hide();
-    $("#veninde_red_container").hide();
-    $("#offer_valgB").hide();
-    $("#offer_valgA").hide();
-    $("#offer_mobil_sprite").addClass("offer_mobil_PrivatSnak");
+	console.log("sofia mobil ind igen")
+	$("#graa_baggrund").show();
+	$("#offer_mobil_container").show();
+	$("#veninde_purple_container").hide();
+	$("#mobber_container").hide();
+	$("#veninde_red_container").hide();
+	$("#offer_valgB").hide();
+	$("#offer_valgA").hide();
+	$("#offer_mobil_sprite").addClass("offer_mobil_PrivatSnak");
 
 
 
 
 
-    $("#offer_mobil_container").on("click", privatSnakChatKlik);
+	$("#offer_mobil_container").on("click", privatSnakChatKlik);
 
 
 }
 
 function privatSnakChatKlik() {
 
-    window.location.href = "http://privatsnak.dk/13-15/chat/";
+	window.location.href = "http://privatsnak.dk/13-15/chat/";
 }
 
 function bogstavKommerInd() {
