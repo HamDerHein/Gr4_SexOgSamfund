@@ -682,11 +682,11 @@ body {
     background-image: url(/img/mobber_valg_laerer-01.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 31vw;
+    width: 30vw;
     height: 46vw;
     background-size: 100%;
     top: -100%;
-    right: -10%;
+    right: 0%;
     z-index: 99;
 
 
@@ -698,11 +698,11 @@ body {
     background-image: url(/img/mobber_valg_privatsnak-03.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 12vw;
-    height: 21vw;
+    width: 30vw;
+    height: 46vw;
     background-size: 100%;
-    top: -80%;
-    right: -70%;
+    top: -181%;
+    right: -36%;
     z-index: 99;
     cursor: pointer;
 }
@@ -711,10 +711,10 @@ body {
     background-image: url(/img/mobber_valg_undskyld-02.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 22vw;
-    height: 6vw;
+    width: 30vw;
+    height: 46vw;
     background-size: 100%;
-    top: -70%;
+    top: -263%;
     right: -70%;
     z-index: 99;
     cursor: pointer;
