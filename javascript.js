@@ -9,6 +9,7 @@ $(window).on("load", skolegaarden);
 function skolegaarden() {
 
     console.log("start");
+    $("#mobber_mobil_container").hide();
     $("#graa_baggrund").hide();
     $(".knap").addClass("start");
     $(".start").addClass("puls");
@@ -132,9 +133,13 @@ function sofiaBloeder() {
 function mobilInd() {
 
     console.log("mobil ind");
+
+    $("#mobber_mobil_container").show();
     $("#offer_container").off("animationend", mobilInd);
 
     $("#mobber_mobil_container").addClass("mobber_mobil_ind");
+    $("#mobber_mobil_container").addClass("position_mobil1");
+
 
     setTimeout(shutter, 6000);
     $("#mobber_mobil_container").on("animationend", tagerBilledet);
@@ -370,6 +375,9 @@ function karinaKontakteLaerer() {
 
 function laerer() {
     $(".laerer")[0].play();
+    $("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
+
+    $("#privatSnak_container").on("click", privatSnakKlik)
 }
 
 function laererErKommetInd() {
@@ -416,8 +424,13 @@ function privatSnakPaaMobil() {
     $("#valgeta").removeClass("valga");
     $("#valgetb").removeClass("valgb");
     $("#valgetc").removeClass("valgc");
-    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
+
+    $("#graa_baggrund").show();
+    $("#mobber_container").hide();
+    $("#mobber_sprite").hide();
+
+    $("#mobber_mobil_container").addClass("position_mobil2");
 
     $("#mobber_mobil_container").removeClass("mobber_mobil_ind");
 

@@ -337,9 +337,21 @@ body {
 #mobber_mobil_container {
 
     position: absolute;
+    z-index: 12;
+}
+
+.position_mobil1 {
+
     top: 2vw;
     right: -40vw;
-    z-index: 12;
+
+}
+
+.position_mobil2 {
+
+    top: -17vw;
+    right: -50vw;
+
 }
 
 #mobber_mobil_sprite {
@@ -382,6 +394,7 @@ body {
     animation-timing-function: steps(3);
     animation-iteration-count: 1;
     animation-fill-mode: both;
+    transform: scale(1.7);
 
 }
 
