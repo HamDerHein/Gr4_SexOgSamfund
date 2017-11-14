@@ -480,6 +480,21 @@ body {
     background-size: 100%;
     top: 10%;
     right: -70%;
+    cursor: pointer;
+}
+
+.offer_valget_privatsnak_laerer {
+
+    background-image: url(img/offer_valg_privatsnak-02.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 30.15vw;
+    height: 24vw;
+    background-size: 100%;
+    top: -193vw;
+    right: -65vw;
+    z-index: 10000;
+    cursor: pointer;
 }
 
 .offer_mobil_PrivatSnak {
@@ -487,8 +502,8 @@ body {
     animation-name: offer_mobil_PrivatSnak_kf;
     animation-duration: 4s;
     animation-iteration-count: 1;
-    animation-timing-function: steps(4);
-    /*    animation-fill-mode: both;*/
+    animation-timing-function: steps(3);
+    animation-fill-mode: both;
 }
 
 @keyframes offer_mobil_PrivatSnak_kf {
@@ -497,7 +512,7 @@ body {
         background-position: 0% 0%;
     }
     100% {
-        background-position: -400% 0%;
+        background-position: -300% 0%;
     }
 }
 
@@ -661,7 +676,7 @@ body {
     background-size: 100%;
     z-index: 99;
     top: -110vw;
-    right: -17vw;
+    right: -10vw;
     animation: fadeinout 4s linear forwards;
 
 }
