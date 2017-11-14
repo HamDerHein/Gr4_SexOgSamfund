@@ -372,7 +372,7 @@ function privat() {
 function privatlogo() {
     console.log("logo");
     $("#mobber_mobil_sprite").off("animationend", privatlogo);
-    $("#privatsnak").on("click", privatSnakPaaM)
+
     $("#privatsnak").addClass("privatlogo")
     $("#privatsnak").addClass("puls")
 
@@ -385,6 +385,7 @@ function privatlogo() {
 
     $("#veninde_red_sprite").hide();
     $("#veninde_purple_sprite").hide();
+    $("#privatsnak").on("click", privatSnakPaaM)
 
 
 }

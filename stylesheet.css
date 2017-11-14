@@ -299,19 +299,16 @@ body {
     }
 }
 
-#privatsnak {
+.privatlogo {
+    background-image: url(/img/offer_valg_privatsnak-02.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 12vw;
-    height: 15vw;
+    width: 40vw;
+    height: 36vw;
     background-size: 100%;
-    top: 10%;
-    right: -70%;
-
-}
-
-.privatlogo {
-    background-position: url(img/offer_valg_privatsnak-02.svg);
+    top: -100%;
+    right: -60%;
+    z-index: 99;
 }
 
 .mobberStaaStille {
