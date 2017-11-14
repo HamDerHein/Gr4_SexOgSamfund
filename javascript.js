@@ -427,7 +427,8 @@ function sofiaKontakteLaerer() {
     $("#veninde_purple_container").hide();
 
     $("#Laerer").addClass("laererDukkerOp");
-    $("#graa_baggrund").show();
+
+
 
 
     setTimeout(laererErKommetIndTilSofia, 2000);
@@ -441,17 +442,24 @@ function laererErKommetIndTilSofia() {
 
     $("#Laerer").addClass("laererDukkerOp");
 
+    $("#Laerer").on("animationend", sofiaSporgerLaerer);
+
 }
 
 function sofiaSporgerLaerer() {
 
     // lyd ind
+    console.log("sofia spørger lærer");
 
+    setTimeout(laererSvarerSofia, 1000)
 }
 
 function laererSvarerSofia() {
 
     // lyd eller talebobel ind
+    console.log("læerer svarer sofia")
+    $("#offer_valgB").addClass("offer_valget_privatsnak_laerer");
+
 
 }
 

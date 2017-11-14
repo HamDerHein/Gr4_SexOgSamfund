@@ -482,6 +482,18 @@ body {
     right: -70%;
 }
 
+.offer_valget_privatsnak_laerer {
+
+    background-image: url(img/offer_valg_privatsnak-02.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 21.15vw;
+    height: 15vw;
+    background-size: 100%;
+    top: 10%;
+    right: -70%;
+}
+
 .offer_mobil_PrivatSnak {
 
     animation-name: offer_mobil_PrivatSnak_kf;
@@ -661,7 +673,7 @@ body {
     background-size: 100%;
     z-index: 99;
     top: -110vw;
-    right: -17vw;
+    right: -10vw;
     animation: fadeinout 4s linear forwards;
 
 }
