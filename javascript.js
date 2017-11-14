@@ -357,13 +357,18 @@ function karinaKontakteLaerer() {
 
 
 	$("#Laerer").addClass("laererDukkerOp");
-	$(".laerer")[0].play();
+	setTimeout(laerer, 2000);
+
 
 	$("#Laerer").addClass("laererDukkerOp");
 
 
 
 
+}
+
+function laerer() {
+	$(".laerer")[0].play();
 }
 
 function laererErKommetInd() {
