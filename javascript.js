@@ -99,6 +99,9 @@ function gangen() {
 function sofiaKommerInd() {
 
 	$("#offer_container").show();
+
+	$(".offer_gaa")[0].play();
+
 	$("#offer_sprite").addClass("offer_walkcycle");
 	$("#offer_container").addClass("gaa_til_venstre");
 	$("#offer_container").addClass("offer_position");
@@ -109,6 +112,7 @@ function sofiaKommerInd() {
 function sofiaBloeder() {
 
 	console.log("Sofia Bløder");
+	$(".offer_gaa")[0].pause();
 	$("#offer_container").off("animationend", sofiaBloeder);
 
 	$("#offer_sprite").removeClass("offer_walkcycle");
@@ -156,8 +160,8 @@ function mobilUd() {
 }
 
 function karinaOgVeninderKommerInd() {
-
-
+	$(".mobber_gaa")[0].play();
+	$(".veninder_gaa")[0].play();
 
 	$("#mobber_sprite").addClass("mobber_gaa");
 	$("#mobber_container").addClass("mobber_gaa_til_venstre");
@@ -167,6 +171,8 @@ function karinaOgVeninderKommerInd() {
 	$("#veninde_red_container").addClass("veninde_red_move");
 	$("#veninde_purple_container").addClass("veninde_purple_move");
 	$("#veninde_purple_sprite").addClass("veninde_purple_ind_walkcycle");
+
+
 
 	$("#mobber_container").on("animationend", karinaOgVeninderFniser);
 
@@ -179,10 +185,11 @@ function karinaOgVeninderFniser() {
 	console.log("karina + veninder fniser");
 	$("#mobber_container").off("animationend", karinaOgVeninderFniser);
 
-
 	$("#veninde_purple_sprite").removeClass("veninde_purple_ind_walkcycle");
 	$("#mobber_sprite").removeClass("mobber_gaa");
 	$("#veninde_red_sprite").removeClass("veninde_red_ind_walkcycle");
+	$(".mobber_gaa")[0].pause();
+	$(".veninder_gaa")[0].pause();
 	$("#mobber_sprite").addClass("mobberStaaStille");
 	if (valgtKarakter == "sofia") {
 		setTimeout(SofiaHarFaaetNotifikation, 1500);
@@ -190,6 +197,7 @@ function karinaOgVeninderFniser() {
 	if (valgtKarakter == "karina") {
 		setTimeout(karinaValget1, 1500);
 	}
+
 }
 
 function lydStopper() {
@@ -202,21 +210,32 @@ function lydStopper() {
 
 function SofiaHarFaaetNotifikation() {
 
-	console.log("Sofie har fået notifikation")
+	console.log("Sofie har fået notifikation");
+
+	$(".notifikation")[0].play();
+	$(".notifikation")[0].playbackRate = 1.5;
+	setTimeout(grin, 3000);
+
 
 	$("#offer_mobil_container").show();
 	$("#offer_mobil_sprite").addClass("offer_faar_notifikation");
 	$("#graa_baggrund").show();
 
 
-	setTimeout(graeder, 2000)
+	setTimeout(graeder, 2000);
 
 
+}
+
+function grin() {
+	$(".grin")[0].play();
 }
 
 
 function graeder() {
 	console.log("graeder");
+
+	$(".cry")[0].play();
 
 	$("#offer_mobil_container").hide();
 	$("#graa_baggrund").hide();
@@ -246,6 +265,9 @@ function sofiaLukkerNotifikation() {
 
 function karinaValget1() {
 	console.log("valget");
+
+	$(".mobber")[0].play();
+
 	$("#valgeta").addClass("valga");
 	$("#valgeta").addClass("puls");
 
@@ -305,6 +327,7 @@ function karinaValget() {
 
 function karinaKontakteLaerer() {
 	console.log("valgetlaerer");
+	$(".mobber")[0].pause();
 	$("#offer_container").hide();
 	$("#offer_mobil_container").hide();
 
@@ -319,6 +342,8 @@ function karinaKontakteLaerer() {
 	$("#valgetc").removeClass("valgc");
 
 	$("#Laerer").addClass("laererDukkerOp");
+	$(".laerer")[0].play();
+	$(".laerer")[0].pause();
 
 
 
@@ -343,7 +368,7 @@ function KarinaSporgerLaerer() {
 
 function laererSvarerKarina() {
 	// Spil lyd: lydKontaktPrivatSnak
-	$("#")[0].play();
+
 	//Start anim: privatSnakDukkerOp
 	//↺ Stop lyd: lydBaggrund
 	$("#")[0].pause();
@@ -437,6 +462,7 @@ function sofiavaelgemellem1() {
 function sofiavaelgemellem2() {
 	$("#offer_mobil_sprite").off("animationend", sofiavaelgemellem2);
 
+	$(".laerer")[0].pause();
 
 	$("#offer_valgA").addClass("offer_valget_laerer");
 	$("#offer_valgA").addClass("puls");
