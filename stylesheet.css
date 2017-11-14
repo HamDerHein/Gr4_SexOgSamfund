@@ -249,14 +249,14 @@ body {
     background-image: url(img/mobber_walkcycle-02.svg);
     background-size: 400% 200%;
     z-index: 11;
-    width: 22vw;
-    height: 44vw;
+    width: 24vw;
+    height: 48vw;
 
 }
 
 .mobber_position {
 
-    top: 9vw;
+    top: 6vw;
     left: 80vw;
 }
 
@@ -286,8 +286,8 @@ body {
 }
 
 .postion2 {
-    right: 10%;
-    top: 23vw;
+    right: 10vw;
+    top: 20vw;
 }
 
 
@@ -534,6 +534,7 @@ body {
     background-size: 100%;
     top: 10%;
     right: -70%;
+    cursor: pointer;
 
 }
 
@@ -618,7 +619,7 @@ body {
 #veninde_red_container {
 
     position: absolute;
-    top: 10vw;
+    top: 5vw;
     right: -30vw;
 
 }
@@ -626,7 +627,7 @@ body {
 #veninde_purple_container {
 
     position: absolute;
-    top: 10vw;
+    top: 5vw;
     right: -40vw;
 }
 
@@ -635,8 +636,8 @@ body {
 
     background-image: url(img/veninde_purple.svg);
     background-size: 400% 200%;
-    width: 20vw;
-    height: 40vw;
+    width: 24vw;
+    height: 48vw;
 
 }
 
@@ -645,8 +646,8 @@ body {
 
     background-image: url(img/veninde_red.svg);
     background-size: 400% 200%;
-    width: 20vw;
-    height: 40vw;
+    width: 24vw;
+    height: 48vw;
 
 }
 

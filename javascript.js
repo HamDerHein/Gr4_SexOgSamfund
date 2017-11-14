@@ -220,7 +220,7 @@ function lydStopper() {
 function SofiaHarFaaetNotifikation() {
 
 
-    console.log("Sofie har fået notifikation");
+    console.log("Sofia har fået notifikation");
 
     $(".notifikation")[0].play();
     $(".notifikation")[0].playbackRate = 1.5;
@@ -233,7 +233,7 @@ function SofiaHarFaaetNotifikation() {
 
 
 
-    setTimeout(graeder, 2000);
+    setTimeout(graeder, 4000);
 
 }
 
