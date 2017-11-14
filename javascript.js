@@ -338,16 +338,68 @@ function laererSvarerKarina() {
 
 function privatSnakPaaMobil() {
     console.log("snakpåmobil");
+    $("#mobber_mobil_container").show();
     $("#valgeta").removeClass("valga");
     $("#valgetb").removeClass("valgb");
     $("#valgetc").removeClass("valgc");
-    $("#mobber_mobil_container").addClass("mobber_mobil_ind");
+
+    $("#mobber_mobil_container").removeClass("mobber_mobil_ind");
+
+    $("#mobber_mobil_container").removeClass("mobber_mobil_ud");
+
+    $("#mobber_mobil_container").addClass("mobber_mobil_privat");
+
+
+    $("#mobber_mobil_container").on("animationend", privat);
+    $("#mobber_mobil_sprite").removeClass("mobber_mobil_walkcycle");
+    $("#mobber_mobil_sprite").addClass("mobber_mobil_start");
+}
+
+function privat() {
+    console.log("privat");
+
+
+
+    $("#mobber_mobil_sprite").removeClass("mobber_mobil_start");
+
+
+    $("#mobber_mobil_container").off("animationend", privat);
+    $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle_privat");
+
+    $("#mobber_mobil_container").on("animationend", privatlogo);
+}
+
+function privatlogo() {
+    console.log("logo");
+    $("#mobber_mobil_sprite").off("animationend", privatlogo);
+    $("#privatsnak").on("click", privatSnakPaaM)
+    $("#privatsnak").addClass("privatlogo")
+    $("#privatsnak").addClass("puls")
+
+
+    $("#offer_container").hide();
+    $("#offer_mobil_container").hide();
+
+    $("#mobber_sprite").hide();
+    $("#mobber_container").hide();
+
+    $("#veninde_red_sprite").hide();
+    $("#veninde_purple_sprite").hide();
+
 
 }
+
+function privatSnakPaaM() {
+
+    console.log("link til privatsnak");
+
+    window.location.href = "http://privatsnak.dk/";
+}
+
 //valg 2 (B)
 //undskyldTilSofia--->
 function karinaHenTilSofia() {
-    console.log("valgetlaerer");
+    console.log("tilsofia");
     $("#valgeta").removeClass("valga");
     $("#valgetb").removeClass("valgb");
     $("#valgetc").removeClass("valgc");
