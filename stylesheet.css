@@ -391,7 +391,7 @@ body {
 
 #offer_mobil_sprite {
 
-    background-image: url(img/offer_mobil_final@4x.png);
+    background-image: url(img/offer_mobil_spritesheet_final.svg);
     background-size: 800% 400%;
     width: 70vw;
     height: 140vw;
