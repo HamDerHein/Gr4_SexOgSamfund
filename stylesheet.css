@@ -137,13 +137,13 @@ body {
 }
 
 .postionOffer1 {
-    right: 68%;
+    right: 69vw;
     top: 25vw;
 }
 
 .postionOffer2 {
     background-position: 0% 0%;
-    transform: scale(0.5);
+    transform: scale();
     z-index: 100;
 }
 
@@ -157,10 +157,10 @@ body {
 
 @keyframes offer_walkcycle_kf {
     0% {
-        background-position: 0% -200%;
+        background-position: 0% -300%;
     }
     100% {
-        background-position: -500% -200%;
+        background-position: -500% -300%;
     }
 }
 
@@ -183,7 +183,7 @@ body {
     }
     100% {
 
-        right: 66vw;
+        right: 65vw;
     }
 }
 
@@ -200,10 +200,10 @@ body {
 @keyframes offer_bloder_kf {
 
     0% {
-        background-position: 0% 0%;
+        background-position: 0% -100%;
     }
     100% {
-        background-position: -800% 0%;
+        background-position: -800% -100%;
     }
 
 
@@ -223,10 +223,10 @@ body {
 @keyframes offer_graeder_kf {
 
     0% {
-        background-position: 00% -100%;
+        background-position: 00% -200%;
     }
     100% {
-        background-position: -200% -100%;
+        background-position: -200% -200%;
 
     }
 }

@@ -42,7 +42,7 @@ function valgAfKarakter() {
     $("#offer_sprite").removeClass();
 
 
-    $("#offer_container").addClass("postionOffer2");
+    $("#offer_sprite").addClass("postionOffer2");
     $("#offer_container").addClass("postionOffer1");
     $("#offer_container").addClass("puls2");
 
@@ -416,6 +416,9 @@ function sofiaValget() {
     console.log("valgetsofia");
 
     $("#graa_baggrund").show();
+    $("#offer_container").hide();
+
+
     $("#offer_mobil_sprite").addClass("offer_sofia_gor_jeg");
 
     $("#offer_mobil_sprite").on("animationend", sofiavaelgemellem1);
