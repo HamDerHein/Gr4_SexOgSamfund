@@ -98,6 +98,7 @@ function gangen() {
 
 function sofiaKommerInd() {
 
+
 	$("#offer_container").show();
 
 	$(".offer_gaa")[0].play();
@@ -106,14 +107,17 @@ function sofiaKommerInd() {
 	$("#offer_container").addClass("gaa_til_venstre");
 	$("#offer_container").addClass("offer_position");
 
+
 	$("#offer_container").on("animationend", sofiaBloeder);
 }
 
 function sofiaBloeder() {
 
+
 	console.log("Sofia Bløder");
 	$(".offer_gaa")[0].pause();
 	$("#offer_container").off("animationend", sofiaBloeder);
+
 
 	$("#offer_sprite").removeClass("offer_walkcycle");
 
@@ -174,7 +178,9 @@ function karinaOgVeninderKommerInd() {
 
 
 
+
 	$("#mobber_container").on("animationend", karinaOgVeninderFniser);
+
 
 }
 
@@ -184,6 +190,7 @@ function karinaOgVeninderFniser() {
 
 	console.log("karina + veninder fniser");
 	$("#mobber_container").off("animationend", karinaOgVeninderFniser);
+
 
 	$("#veninde_purple_sprite").removeClass("veninde_purple_ind_walkcycle");
 	$("#mobber_sprite").removeClass("mobber_gaa");
@@ -210,6 +217,7 @@ function lydStopper() {
 
 function SofiaHarFaaetNotifikation() {
 
+
 	console.log("Sofie har fået notifikation");
 
 	$(".notifikation")[0].play();
@@ -222,8 +230,8 @@ function SofiaHarFaaetNotifikation() {
 	$("#graa_baggrund").show();
 
 
-	setTimeout(graeder, 2000);
 
+	setTimeout(graeder, 2000);
 
 }
 
@@ -235,11 +243,13 @@ function grin() {
 function graeder() {
 	console.log("graeder");
 
+
 	$(".cry")[0].play();
 
 	$("#offer_mobil_container").hide();
 	$("#graa_baggrund").hide();
 	$("#offer_sprite").addClass("offer_graeder");
+
 
 	//dette er er for at teste
 	setTimeout(sofiaLukkerNotifikation, 4000)
@@ -264,12 +274,14 @@ function sofiaLukkerNotifikation() {
 
 
 function karinaValget1() {
+
 	console.log("valget");
 
 	$(".mobber")[0].play();
 
 	$("#valgeta").addClass("valga");
 	$("#valgeta").addClass("puls");
+
 
 	$(".valga").on("click", karinaKontakteLaerer);
 
@@ -326,10 +338,12 @@ function karinaValget() {
 
 
 function karinaKontakteLaerer() {
+
 	console.log("valgetlaerer");
 	$(".mobber")[0].pause();
 	$("#offer_container").hide();
 	$("#offer_mobil_container").hide();
+
 
 	$("#mobber_sprite").hide();
 	$("#mobber_container").hide();
@@ -341,9 +355,12 @@ function karinaKontakteLaerer() {
 	$("#valgetb").removeClass("valgb");
 	$("#valgetc").removeClass("valgc");
 
+
 	$("#Laerer").addClass("laererDukkerOp");
 	$(".laerer")[0].play();
-	$(".laerer")[0].pause();
+
+	$("#Laerer").addClass("laererDukkerOp");
+
 
 
 
@@ -367,11 +384,13 @@ function KarinaSporgerLaerer() {
 }
 
 function laererSvarerKarina() {
+
 	// Spil lyd: lydKontaktPrivatSnak
 
 	//Start anim: privatSnakDukkerOp
 	//↺ Stop lyd: lydBaggrund
 	$("#")[0].pause();
+
 
 
 
@@ -484,6 +503,7 @@ function sofiaKontakteLaerer() {
 	$("#veninde_red_container").hide();
 	$("#veninde_purple_container").hide();
 
+
 	$("#Laerer").addClass("laererDukkerOp");
 	$("#graa_baggrund").show();
 
@@ -499,25 +519,43 @@ function laererErKommetIndTilSofia() {
 
 	$("#Laerer").addClass("laererDukkerOp");
 
+	$("#Laerer").on("animationend", sofiaSporgerLaerer);
+
 }
 
 function sofiaSporgerLaerer() {
 
-	// lyd ind
 
+	// lyd ind
+	console.log("sofia spørger lærer");
+
+
+	setTimeout(laererSvarerSofia, 1000)
 }
 
 function laererSvarerSofia() {
 
-	// lyd eller talebobel ind
 
+	// lyd eller talebobel ind
+	console.log("læerer svarer sofia");
+	$("#offer_valgB").show();
+	$("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
+
+	$("#privatSnak_container").on("click", privatSnakKlik)
+}
+
+function privatSnakKlik() {
+
+	console.log("link til privatsnak");
+
+	window.location.href = "http://privatsnak.dk/";
 }
 
 function sofiaMobilInd() {
 
 	console.log("sofia mobil ind igen")
 	$("#graa_baggrund").show();
-	$("#offer_mobil_container").hide();
+	$("#offer_mobil_container").show();
 	$("#veninde_purple_container").hide();
 	$("#mobber_container").hide();
 	$("#veninde_red_container").hide();
@@ -528,7 +566,14 @@ function sofiaMobilInd() {
 
 
 
+	$("#offer_mobil_container").on("click", privatSnakChatKlik);
 
+
+}
+
+function privatSnakChatKlik() {
+
+	window.location.href = "http://privatsnak.dk/13-15/chat/";
 }
 
 function bogstavKommerInd() {
