@@ -526,6 +526,7 @@ function sofiaMobilInd() {
 
 
 
+
     $("#offer_mobil_container").on("click", privatSnakChatKlik);
 
 

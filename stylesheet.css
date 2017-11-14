@@ -520,6 +520,7 @@ body {
     animation-iteration-count: 1;
     animation-timing-function: steps(3);
     animation-fill-mode: both;
+    cursor: pointer;
 }
 
 @keyframes offer_mobil_PrivatSnak_kf {
