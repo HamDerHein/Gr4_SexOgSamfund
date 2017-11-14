@@ -219,8 +219,8 @@ function lydStopper() {
 
 function SofiaHarFaaetNotifikation() {
 
-
     console.log("Sofia har fået notifikation");
+
 
     $(".notifikation")[0].play();
     $(".notifikation")[0].playbackRate = 1.5;
@@ -231,14 +231,13 @@ function SofiaHarFaaetNotifikation() {
     $("#offer_mobil_sprite").addClass("offer_faar_notifikation");
     $("#graa_baggrund").show();
 
-
-
     setTimeout(graeder, 4000);
 
 }
 
 function grin() {
     $(".grin")[0].play();
+    $(".grin")[0].loop = true;
 }
 
 
@@ -254,7 +253,7 @@ function graeder() {
 
 
     //dette er er for at teste
-    setTimeout(sofiaLukkerNotifikation, 4000)
+    setTimeout(sofiaLukkerNotifikation, 4000);
 
 
 }
@@ -520,7 +519,7 @@ function sofiaKontaktPrivatSnak() {
 
 function sofiaValget() {
     console.log("valgetsofia");
-
+    $(".grin")[0].pause();
     $("#graa_baggrund").show();
     $("#offer_container").hide();
 
