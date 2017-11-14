@@ -479,17 +479,26 @@ function privatSnakKlik() {
 function sofiaMobilInd() {
     console.log("sofia mobil ind igen")
     $("#graa_baggrund").show();
-    $("#offer_mobil_container").hide();
+    $("#offer_mobil_container").show();
     $("#veninde_purple_container").hide();
     $("#mobber_container").hide();
     $("#veninde_red_container").hide();
     $("#offer_valgB").hide();
     $("#offer_valgA").hide();
+
+
+    $("#offer_mobil_sprite").removeClass("offer_luk_notifikation offer_sofia_gor_jeg");
     $("#offer_mobil_sprite").addClass("offer_mobil_PrivatSnak");
 
 
+    $("#offer_mobil_container").on("click", privatSnakChatKlik);
 
 
+}
+
+function privatSnakChatKlik() {
+
+    window.location.href = "http://privatsnak.dk/13-15/chat/";
 }
 
 function bogstavKommerInd() {
