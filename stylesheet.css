@@ -763,14 +763,14 @@ body {
 
 .valga {
 
-    background-image: url(/img/mobber_valg_laerer-01.svg);
+    background-image: url(/img/mobber_valg_laerer.png);
     position: relative;
     background-repeat: no-repeat;
-    width: 30vw;
-    height: 46vw;
+    width: 25vw;
+    height: 41vw;
     background-size: 100%;
-    top: -100%;
-    right: 0%;
+    top: -94%;
+    right: -6%;
     z-index: 99;
 
 
@@ -779,26 +779,26 @@ body {
 
 
 .valgb {
-    background-image: url(/img/mobber_valg_privatsnak-03.svg);
+    background-image: url(/img/mobber_valg_privatsnak.png);
     position: relative;
     background-repeat: no-repeat;
-    width: 30vw;
-    height: 46vw;
+    width: 25vw;
+    height: 41vw;
     background-size: 100%;
-    top: -181%;
-    right: -36%;
+    top: -166%;
+    right: -38%;
     z-index: 99;
     cursor: pointer;
 }
 
 .valgc {
-    background-image: url(/img/mobber_valg_undskyld-02.svg);
+    background-image: url(/img/mobber_valg_undskyld.png);
     position: relative;
     background-repeat: no-repeat;
-    width: 30vw;
-    height: 46vw;
+    width: 25vw;
+    height: 41vw;
     background-size: 100%;
-    top: -263%;
+    top: -239%;
     right: -70%;
     z-index: 99;
     cursor: pointer;
