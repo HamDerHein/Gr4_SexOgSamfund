@@ -39,11 +39,13 @@ function valgAfKarakter() {
     $(".knap").hide();
     $("#mobber_container").removeClass();
     $("#offer_container").show();
+    $("#offer_sprite").removeClass();
 
 
-    $("#offer_sprite").addClass("postionOffer2");
+    $("#offer_container").addClass("postionOffer2");
     $("#offer_container").addClass("postionOffer1");
-    $("#offer_container").addClass("puls");
+    $("#offer_container").addClass("puls2");
+
 
 
     $("#mobber_sprite").addClass("postion1");

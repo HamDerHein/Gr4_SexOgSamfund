@@ -58,6 +58,21 @@ body {
     }
 }
 
+
+
+.puls2 {
+    animation: puls2_kf 0.5s infinite alternate linear;
+}
+
+@keyframes puls2_kf {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(0.55);
+    }
+}
+
 .hide {
     display: none;
 }
@@ -127,8 +142,10 @@ body {
 }
 
 .postionOffer2 {
-    background-position: 0% 0%;
-    transform: scale(0.5)
+    background-image: url(img/offer-01.svg);
+
+    transform: scale(0.5);
+    z-index: 100;
 }
 
 .offer_walkcycle {
