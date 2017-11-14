@@ -15,6 +15,12 @@ function skolegaarden() {
     $("#offer_container").hide();
     $("#offer_mobil_container").hide();
 
+    $(".snak")[0].play();
+    $(".snak").animate({
+        volume: .7
+    }, 30000);
+    $(".snak")[0].volume = 0.4;
+    $(".snak")[0].loop = true;
 
     //    $("#offer_sprite").addClass("gaa");
     //    $("#offer_container").addClass("gaa_til_venstre");
@@ -28,10 +34,12 @@ function skolegaarden() {
 
 function valgAfKarakter() {
 
+
     console.log("valg");
     $(".knap").hide();
     $("#mobber_container").removeClass();
     $("#offer_container").show();
+
 
     $("#offer_sprite").addClass("postionOffer2");
     $("#offer_container").addClass("postionOffer1");
@@ -67,12 +75,15 @@ function offer() {
 function gangen() {
 
     console.log("gangen")
+    $(".snak")[0].pause();
+
 
     $("#mobber_container").off("click", mobber);
     $("#offer_container").off("click", offer);
 
     $("#offer_sprite").removeClass("postionOffer2");
     $("#offer_container").removeClass("postionOffer1");
+
 
     $("#mobber_sprite").removeClass("postion1");
     $("#mobber_container").removeClass("postion2");
@@ -115,12 +126,21 @@ function mobilInd() {
 
     $("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
+    setTimeout(shutter, 6000);
     $("#mobber_mobil_container").on("animationend", tagerBilledet);
+}
+
+function shutter() {
+    console.log("shutter lyd");
+    $(".shutter")[0].play();
+    $(".shutter")[0].volume = 0.4;
 }
 
 function tagerBilledet() {
     console.log("Tager billedet");
     $("#mobber_mobil_container").off("animationend", tagerBilledet);
+
+
     $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
 
     $("#mobber_mobil_container").on("animationend", mobilUd);
@@ -191,6 +211,7 @@ function SofiaHarFaaetNotifikation() {
 
     setTimeout(graeder, 2000)
 
+
 }
 
 
@@ -204,16 +225,19 @@ function graeder() {
     //dette er er for at teste
     setTimeout(sofiaLukkerNotifikation, 4000)
 
+
 }
 
 function sofiaLukkerNotifikation() {
 
     console.log("sofia lukker notifikation")
 
+
     $("#offer_mobil_container").show();
     $("#graa_baggrund").show();
     $("#offer_mobil_sprite").removeClass("offer_faar_notifikation");
     $("#offer_mobil_sprite").addClass("offer_luk_notifikation");
+
 
     $("#offer_mobil_sprite").on("animationend", sofiaValget);
 
@@ -399,9 +423,11 @@ function sofiaValget() {
 
 function sofiavaelgemellem1() {
 
+
     $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem1);
     $("#offer_valgB").addClass("offer_valget_privatsnak");
     $("#offer_valgB").addClass("puls");
+
 
 
 
@@ -411,8 +437,10 @@ function sofiavaelgemellem1() {
 function sofiavaelgemellem2() {
     $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem2);
 
+
     $("#offer_valgA").addClass("offer_valget_laerer");
     $("#offer_valgA").addClass("puls");
+
 
     $("#offer_valgA").on("click", sofiaKontakteLaerer);
 }
@@ -430,9 +458,9 @@ function sofiaKontakteLaerer() {
     $("#veninde_red_container").hide();
     $("#veninde_purple_container").hide();
 
+
     $("#Laerer").addClass("laererDukkerOp");
-
-
+    $("#graa_baggrund").show();
 
 
     setTimeout(laererErKommetIndTilSofia, 2000);
@@ -452,13 +480,16 @@ function laererErKommetIndTilSofia() {
 
 function sofiaSporgerLaerer() {
 
+
     // lyd ind
     console.log("sofia spørger lærer");
+
 
     setTimeout(laererSvarerSofia, 1000)
 }
 
 function laererSvarerSofia() {
+
 
     // lyd eller talebobel ind
     console.log("læerer svarer sofia");
@@ -473,10 +504,10 @@ function privatSnakKlik() {
     console.log("link til privatsnak");
 
     window.location.href = "http://privatsnak.dk/";
-
 }
 
 function sofiaMobilInd() {
+
     console.log("sofia mobil ind igen")
     $("#graa_baggrund").show();
     $("#offer_mobil_container").show();
@@ -485,10 +516,9 @@ function sofiaMobilInd() {
     $("#veninde_red_container").hide();
     $("#offer_valgB").hide();
     $("#offer_valgA").hide();
-
-
-    $("#offer_mobil_sprite").removeClass("offer_luk_notifikation offer_sofia_gor_jeg");
     $("#offer_mobil_sprite").addClass("offer_mobil_PrivatSnak");
+
+
 
 
     $("#offer_mobil_container").on("click", privatSnakChatKlik);

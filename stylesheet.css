@@ -480,6 +480,7 @@ body {
     background-size: 100%;
     top: 10%;
     right: -70%;
+    cursor: pointer;
 }
 
 .offer_valget_privatsnak_laerer {
@@ -501,8 +502,8 @@ body {
     animation-name: offer_mobil_PrivatSnak_kf;
     animation-duration: 4s;
     animation-iteration-count: 1;
-    animation-timing-function: steps(4);
-    /*    animation-fill-mode: both;*/
+    animation-timing-function: steps(3);
+    animation-fill-mode: both;
 }
 
 @keyframes offer_mobil_PrivatSnak_kf {
@@ -511,7 +512,7 @@ body {
         background-position: 0% 0%;
     }
     100% {
-        background-position: -400% 0%;
+        background-position: -300% 0%;
     }
 }
 
