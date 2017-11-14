@@ -461,9 +461,18 @@ function sofiaSporgerLaerer() {
 function laererSvarerSofia() {
 
     // lyd eller talebobel ind
-    console.log("læerer svarer sofia")
-    $("#offer_valgB").addClass("offer_valget_privatsnak_laerer");
+    console.log("læerer svarer sofia");
+    $("#offer_valgB").show();
+    $("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
 
+    $("#privatSnak_container").on("click", privatSnakKlik)
+}
+
+function privatSnakKlik() {
+
+    console.log("link til privatsnak");
+
+    window.location.href = "http://privatsnak.dk/";
 
 }
 

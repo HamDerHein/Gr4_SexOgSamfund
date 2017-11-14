@@ -487,11 +487,13 @@ body {
     background-image: url(img/offer_valg_privatsnak-02.svg);
     position: relative;
     background-repeat: no-repeat;
-    width: 21.15vw;
-    height: 15vw;
+    width: 30.15vw;
+    height: 24vw;
     background-size: 100%;
-    top: 10%;
-    right: -70%;
+    top: -193vw;
+    right: -65vw;
+    z-index: 10000;
+    cursor: pointer;
 }
 
 .offer_mobil_PrivatSnak {
