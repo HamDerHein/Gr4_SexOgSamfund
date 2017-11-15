@@ -491,13 +491,13 @@ function privatSnakPaaM() {
 function karinaHenTilSofia() {
 
     console.log("tilsofia");
-
-    $(".mobber_gaa_kort")[0].play();
+    //$(".mobber_undskyld")[0].play(); denne gør at det ikke virker
     $("#valgeta").removeClass("valga");
     $("#valgetb").removeClass("valgb");
     $("#valgetc").removeClass("valgc");
     $("#valgetb").removeClass("valgb");
     $("#valgetb").addClass("puls");
+
 
     $("#mobber_sprite").removeClass("mobber_gaa");
 
@@ -508,15 +508,18 @@ function karinaHenTilSofia() {
 
     $("#mobber_container").addClass("mobber_position");
 
-    $("#mobber_container").addClass("mobber_gaa_til_venstre2");
 
     $("#mobber_container").on("animationend", mobber_gaa);
+
+
+    $(".veninder_gaa")[0].play();
 
 }
 
 function mobber_gaa() {
 
     console.log("mobber_gaa");
+
 
 
 
