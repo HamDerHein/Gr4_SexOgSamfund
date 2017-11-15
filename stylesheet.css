@@ -63,16 +63,16 @@ body {
 
 .hvemvaelgerdu {
 
-    background-image: url(skilte/skilt-01.svg);
+    background-image: url(img/vaelg_karakter-01.png);
     position: relative;
     background-repeat: no-repeat;
     width: 12vw;
-    height: 15vw;
+    height: 2vw;
     background-size: 100%;
-    top: 4vw;
-    right: -50vw;
+    top: -4vw;
+    right: -74vw;
     cursor: none;
-    transform: scale(1.2);
+    transform: scale(3.7);
 
 
 
