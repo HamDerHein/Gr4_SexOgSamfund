@@ -383,6 +383,7 @@ body {
     top: -100%;
     right: -60%;
     z-index: 99;
+    cursor: pointer;
 }
 
 .mobberStaaStille {

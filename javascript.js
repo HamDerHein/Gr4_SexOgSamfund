@@ -691,6 +691,8 @@ function laererSvarerSofia() {
     console.log("læerer svarer sofia");
     $("#offer_valgB").show();
     $("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
+
+    $("#privatSnak_container").on("click", privatSnakKlik)
 }
 
 function privatSnakKlik() {
