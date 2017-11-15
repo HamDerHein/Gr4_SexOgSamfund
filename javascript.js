@@ -149,7 +149,7 @@ function mobilInd() {
     $("#mobber_mobil_container").addClass("mobber_mobil_ind");
     $("#mobber_mobil_container").addClass("position_mobil1");
 
-    setTimeout(shutter, 6000);
+    setTimeout(shutter, 4000);
     $("#mobber_mobil_container").on("animationend", tagerBilledet);
 }
 
@@ -166,12 +166,25 @@ function tagerBilledet() {
 
     $("#mobber_mobil_sprite").addClass("mobber_mobil_walkcycle");
 
-    $("#mobber_mobil_container").on("animationend", mobilUd);
+    $("#mobber_mobil_container").on("animationend", delBilledet);
 }
 
+function delBilledet() {
+
+    $("#mobber_mobil_sprite").addClass("mobber_deler_billedet");
+
+
+    setTimeout(mobilUd, 4000)
+
+}
+
+
+
+
 function mobilUd() {
+    $("#mobber_mobil_sprite").removeClass("mobber_deler_billedet");
     console.log("mobil ud");
-    $("#mobber_mobil_container").off("animationend", mobilUd);
+    $("#mobber_mobil_container").off("animationend", delBilledet);
 
     $("#mobber_mobil_container").addClass("mobber_mobil_ud");
 
@@ -180,8 +193,8 @@ function mobilUd() {
 }
 
 function karinaOgVeninderKommerInd() {
-    $(".mobber_gaa")[0].play();
-    $(".veninder_gaa")[0].play();
+    //    $(".mobber_gaa")[0].play();
+    //    $(".veninder_gaa")[0].play();
 
     $("#mobber_sprite").addClass("mobber_gaa");
     $("#mobber_container").addClass("mobber_gaa_til_venstre");

@@ -517,6 +517,24 @@ body {
     }
 }
 
+.mobber_deler_billedet {
+
+    animation-name: mobber_deler_billedet_kf;
+    animation-duration: 4s;
+    animation-timing-function: steps(5);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mobber_deler_billedet_kf {
+    0% {
+        background-position: 0% -100%;
+    }
+    100% {
+        background-position: -500% -100%;
+    }
+}
+
 /****** OFFER MOBIL START **********/
 
 #offer_mobil_container {
