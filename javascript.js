@@ -9,6 +9,7 @@ $(window).on("load", skolegaarden);
 function skolegaarden() {
 
 	console.log("start");
+	$("#mobber_mobil_container").hide();
 	$("#graa_baggrund").hide();
 	$(".knap").addClass("start");
 	$(".start").addClass("puls");
@@ -132,9 +133,13 @@ function sofiaBloeder() {
 function mobilInd() {
 
 	console.log("mobil ind");
+
+	$("#mobber_mobil_container").show();
 	$("#offer_container").off("animationend", mobilInd);
 
 	$("#mobber_mobil_container").addClass("mobber_mobil_ind");
+	$("#mobber_mobil_container").addClass("position_mobil1");
+
 
 	setTimeout(shutter, 6000);
 	$("#mobber_mobil_container").on("animationend", tagerBilledet);
@@ -219,8 +224,8 @@ function lydStopper() {
 
 function SofiaHarFaaetNotifikation() {
 
+	console.log("Sofia har fået notifikation");
 
-	console.log("Sofie har fået notifikation");
 
 	$(".notifikation")[0].play();
 	$(".notifikation")[0].playbackRate = 1.5;
@@ -231,9 +236,7 @@ function SofiaHarFaaetNotifikation() {
 	$("#offer_mobil_sprite").addClass("offer_faar_notifikation");
 	$("#graa_baggrund").show();
 
-
-
-	setTimeout(graeder, 2000);
+	setTimeout(graeder, 4000);
 
 }
 
@@ -372,6 +375,9 @@ function karinaKontakteLaerer() {
 
 function laerer() {
 	$(".laerer")[0].play();
+	$("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
+
+	$("#privatSnak_container").on("click", privatSnakKlik)
 }
 
 function laererErKommetInd() {
@@ -418,8 +424,13 @@ function privatSnakPaaMobil() {
 	$("#valgeta").removeClass("valga");
 	$("#valgetb").removeClass("valgb");
 	$("#valgetc").removeClass("valgc");
-	$("#mobber_mobil_container").addClass("mobber_mobil_ind");
 
+
+	$("#graa_baggrund").show();
+	$("#mobber_container").hide();
+	$("#mobber_sprite").hide();
+
+	$("#mobber_mobil_container").addClass("position_mobil2");
 
 	$("#mobber_mobil_container").removeClass("mobber_mobil_ind");
 
@@ -479,6 +490,7 @@ function privatSnakPaaM() {
 //undskyldTilSofia--->
 function karinaHenTilSofia() {
 
+
 	console.log("tilsofia");
 	$(".mobber_undskyld")[0].play();
 	$("#valgeta").removeClass("valga");
@@ -488,29 +500,97 @@ function karinaHenTilSofia() {
 	$("#valgetb").addClass("puls");
 
 
+	$("#mobber_sprite").removeClass("mobber_gaa");
+
+	$("#mobber_container").removeClass("mobber_gaa_til_venstre");
+
+	$("#mobber_sprite").addClass("mobber_gaa");
+	$("#mobber_container").addClass("mobber_gaa_til_venstre2");
+
+	$("#mobber_container").addClass("mobber_position");
+
+	$("#mobber_container").addClass("mobber_gaa_til_venstre2");
+
+	$("#mobber_container").on("animationend", mobber_gaa);
+
+
+	$(".veninder_gaa")[0].play();
 
 
 }
 
+function mobber_gaa() {
+
+	console.log("mobber_gaa");
+
+
+
+
+	$("#mobber_container").removeClass("mobber_gaa_til_venstre2");
+
+	$("#mobber_container").removeClass("mobber_position");
+
+	$("#mobber_container").removeClass("mobber_gaa_til_venstre2");
+
+	$("#mobber_sprite").removeClass("mobber_gaa");
+	$("#mobber_sprite").removeClass("mobberStaaStille");
+
+	$("#mobber_container").removeClass("puls");
+
+	$("#mobber_sprite").addClass("mobberStaaStille");
+
+
+	$("#mobber_container").addClass("postion3");
+
+	setTimeout(sofiaGraeder, 2000);
+
+}
+
 function sofiaGraeder() {
+
+	$("#offer_sprite").addClass("offer_graeder");
+
+	setTimeout(karinaSporgerSofia, 4000);
+
+	$(".cry")[0].play();
+
+
+
+	//dette er er for at teste
+
+
 
 
 
 }
 
 function karinaSporgerSofia() {
+	console.log("karinaSporgerSofia");
+
+	setTimeout(sofiaDetVedJegIkke, 2000);
 
 
 
 }
 
 function sofiaDetVedJegIkke() {
+	console.log("sofiaDetVedJegIkke");
+	setTimeout(sofiaKontaktPrivatSnak, 2000);
 
 
 
 }
 
 function sofiaKontaktPrivatSnak() {
+	console.log("sofiaKontaktPrivatSnak");
+
+
+	$("#privatsnak").addClass("privatlogo");
+	$("#privatsnak").addClass("puls");
+
+
+	$("#privatsnak").on("click", privatSnakPaaM);
+
 
 
 
