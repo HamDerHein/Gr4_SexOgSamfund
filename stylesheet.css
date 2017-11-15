@@ -411,7 +411,7 @@ body {
 
 .mobber_mobil_walkcycle {
     animation-name: mobber_mobil_walkcycle_kf;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-timing-function: steps(3);
     animation-iteration-count: 1;
     animation-fill-mode: both;

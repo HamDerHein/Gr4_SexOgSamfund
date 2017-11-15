@@ -167,7 +167,7 @@ function mobilUd() {
 
     $("#mobber_mobil_container").addClass("mobber_mobil_ud");
 
-    setTimeout(karinaOgVeninderKommerInd, 1500);
+    setTimeout(karinaOgVeninderKommerInd, 2000);
 }
 
 function karinaOgVeninderKommerInd() {
