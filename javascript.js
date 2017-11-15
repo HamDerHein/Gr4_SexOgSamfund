@@ -15,6 +15,7 @@ function skolegaarden() {
     $(".start").addClass("puls");
     $("#offer_container").hide();
     $("#offer_mobil_container").hide();
+    $(".hvemvaelgerdu").hide();
 
     $(".snak")[0].play();
     $(".snak").animate({
@@ -37,6 +38,8 @@ function valgAfKarakter() {
 
 
     console.log("valg");
+
+    $(".hvemvaelgerdu").show();
     $(".knap").hide();
     $("#mobber_container").removeClass();
     $("#offer_container").show();
