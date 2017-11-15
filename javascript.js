@@ -124,6 +124,7 @@ function sofiaBloeder() {
 
     $("#offer_sprite").removeClass("offer_walkcycle");
 
+
     $("#offer_sprite").addClass("offer_bloder");
 
     $("#offer_container").on("animationend", mobilInd);
@@ -141,18 +142,19 @@ function mobilInd() {
     $("#mobber_mobil_container").addClass("position_mobil1");
 
 
-    setTimeout(shutter, 6000);
+    setTimeout(shutter, 4000);
     $("#mobber_mobil_container").on("animationend", tagerBilledet);
 }
 
 function shutter() {
     console.log("shutter lyd");
     $(".shutter")[0].play();
-    $(".shutter")[0].volume = 0.4;
+    $(".shutter")[0].volume = 0.5;
 }
 
 function tagerBilledet() {
     console.log("Tager billedet");
+
     $("#mobber_mobil_container").off("animationend", tagerBilledet);
 
 
@@ -548,6 +550,7 @@ function sofiavaelgemellem1() {
 
 
     $("#offer_mobil_sprite").off("animationend", sofiavaelgemellem1);
+
     $("#offer_valgB").addClass("offer_valget_privatsnak");
     $("#offer_valgB").addClass("puls");
 
@@ -584,7 +587,7 @@ function sofiaKontakteLaerer() {
 
 
     $("#Laerer").addClass("laererDukkerOp");
-    $("#graa_baggrund").show();
+
 
 
     setTimeout(laererErKommetIndTilSofia, 2000);
@@ -604,9 +607,10 @@ function laererErKommetIndTilSofia() {
 
 function sofiaSporgerLaerer() {
 
-
     // lyd ind
+
     console.log("sofia spørger lærer");
+
 
 
     setTimeout(laererSvarerSofia, 1000)
@@ -615,7 +619,7 @@ function sofiaSporgerLaerer() {
 function laererSvarerSofia() {
 
 
-    // lyd eller talebobel ind
+    $(".laerer")[0].play();
     console.log("læerer svarer sofia");
     $("#offer_valgB").show();
     $("#privatSnak_container").addClass("offer_valget_privatsnak_laerer");
