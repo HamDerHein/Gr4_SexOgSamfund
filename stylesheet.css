@@ -719,7 +719,7 @@ body {
 @keyframes veninde_red_move_kf {
 
     0% {
-        right: -30vw;
+        right: -40vw;
     }
     100% {
         right: 40vw;
