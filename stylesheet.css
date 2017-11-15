@@ -580,8 +580,8 @@ body {
 #offer_valgA {
 
     position: absolute;
-    top: 7vw;
-    right: 39.5vw;
+    top: 8vw;
+    right: 39vw;
     z-index: 12;
 
 }
@@ -589,7 +589,7 @@ body {
 #offer_valgB {
 
     position: absolute;
-    top: 19vw;
+    top: 20vw;
     right: 40vw;
     z-index: 12;
 
@@ -597,7 +597,7 @@ body {
 
 .offer_valget_laerer {
 
-    background-image: url(img/offer_valg_laerer-01.svg);
+    background-image: url(img/offer_valg_laerer.png);
     position: relative;
     background-repeat: no-repeat;
     width: 22.15vw;
