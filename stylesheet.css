@@ -45,6 +45,39 @@ body {
 
 }
 
+
+.privatSnakLogo {
+
+    background-image: url(img/offer_valg_privatsnak-02.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 12vw;
+    height: 15vw;
+    background-size: 100%;
+    top: 4vw;
+    right: -2vw;
+    cursor: none;
+    transform: scale(1.2);
+
+}
+
+.hvemvaelgerdu {
+
+    background-image: url(skilte/skilt-01.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 12vw;
+    height: 15vw;
+    background-size: 100%;
+    top: 4vw;
+    right: -50vw;
+    cursor: none;
+    transform: scale(1.2);
+
+
+
+}
+
 .puls {
     animation: puls_kf 0.5s infinite alternate linear;
 }

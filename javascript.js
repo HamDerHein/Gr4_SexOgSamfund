@@ -28,6 +28,9 @@ function skolegaarden() {
 
     $("#gangen").addClass("hide");
 
+
+
+
     $(".knap").on("click", valgAfKarakter);
 
 }
@@ -80,7 +83,7 @@ function gangen() {
     console.log("gangen")
     $(".snak")[0].pause();
 
-
+    $(".privatSnakLogo").hide();
     $("#mobber_container").off("click", mobber);
     $("#offer_container").off("click", offer);
 
@@ -91,7 +94,7 @@ function gangen() {
     $("#mobber_sprite").removeClass("postion1");
     $("#mobber_container").removeClass("postion2");
 
-    $("#baggrund").addClass("hide")
+    $("#baggrund").addClass("hide");
     $("#gangen").show();
 
     $("#offer_container").hide();
