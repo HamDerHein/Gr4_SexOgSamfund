@@ -491,6 +491,8 @@ function privatSnakPaaM() {
 function karinaHenTilSofia() {
 
     console.log("tilsofia");
+
+    $(".mobber_gaa_kort")[0].play();
     $("#valgeta").removeClass("valga");
     $("#valgetb").removeClass("valgb");
     $("#valgetc").removeClass("valgc");
@@ -509,10 +511,6 @@ function karinaHenTilSofia() {
     $("#mobber_container").addClass("mobber_gaa_til_venstre2");
 
     $("#mobber_container").on("animationend", mobber_gaa);
-
-
-    $(".veninder_gaa")[0].play();
-
 
 }
 
