@@ -709,7 +709,7 @@ body {
 .veninde_red_move {
 
     animation-name: veninde_red_move_kf;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
@@ -729,7 +729,7 @@ body {
 .veninde_purple_move {
 
     animation-name: veninde_purple_move_kf;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
