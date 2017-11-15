@@ -480,6 +480,7 @@ function privatSnakPaaM() {
 function karinaHenTilSofia() {
 
 	console.log("tilsofia");
+	$(".mobber_undskyld")[0].play();
 	$("#valgeta").removeClass("valga");
 	$("#valgetb").removeClass("valgb");
 	$("#valgetc").removeClass("valgc");
