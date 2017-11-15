@@ -290,7 +290,32 @@ body {
     top: 20vw;
 }
 
+.postion3 {
 
+    top: 4vw;
+    right: 53vw;
+}
+
+.mobber_gaa_til_venstre2 {
+    animation-name: mobber_gaa_til_venstre2_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes mobber_gaa_til_venstre2_kf {
+
+    0% {
+        left: 35vw;
+    }
+    100% {
+
+        left: 25vw;
+    }
+}
 
 
 .mobber_gaa_til_venstre {
